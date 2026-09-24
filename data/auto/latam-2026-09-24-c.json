@@ -1,0 +1,421 @@
+{
+  "tanda": "latam-2026-09-24",
+  "prospectos": [
+    {
+      "empresa": {
+        "nombre": "Yevo",
+        "segmento": "Fintech de crédito",
+        "web": "https://www.yevoapp.com",
+        "tamano": "Mediana-chica: más de 100.000 clientes activos y más de 150.000 créditos colocados entre jul-2024 y ene-2026 (PDCC, mar-2026); créditos de Q800 a Q12.000",
+        "region": "Guatemala — Ciudad de Guatemala (Edificio Piale, 16 calle 6-17, zona 10)",
+        "analisis": "Fintech guatemalteca lanzada en julio de 2024 que financia celulares Android y Apple, tablets y computadoras en cuotas sin tarjeta de crédito, solo con el DPI y con el equipo como garantía. Según la nota de marzo de 2026, aprueba el 90% de las solicitudes en 10 minutos, el plazo llega a 48 cuotas y lo más común son pagos quincenales a 6 meses; el 40% de los usuarios accede al crédito por primera vez. Es una cartera joven, masiva y de ticket chico que creció 285% en menos de dos años: la cosecha nueva todavía no maduró y la mora temprana va a pesar cada vez más. Flux puede ordenar la cola diaria de cobranza quincenal por probabilidad de pago y sugerir canal y horario.",
+        "score_fit": 88,
+        "score_justificacion": "Crédito de consumo en cuotas chicas, cartera propia y en fuerte crecimiento, clientes sin historial (más riesgo, más necesidad de priorizar). Empresa chica donde el gerente general decide. Resta que el volumen de mora no es público.",
+        "noticias": "05/03/2026 (PDCC / newsinamerica.com): más de 100.000 clientes activos, 150.000 créditos colocados entre julio de 2024 y enero de 2026 y crecimiento del 285%; declaraciones de Raúl Góchez (gerente general) y Claudia Santos (gerente de marketing). Jul-2024: lanzamiento como 'primera fintech 100% guatemalteca' de cuotas sin tarjeta (DPL News, República).",
+        "fuente": "https://newsinamerica.com/pdcc/noticias/economia/2026/mas-de-150-mil-creditos-impulsan-el-financiamiento-digital-en-guatemala/ ; https://dplnews.com/yevo-la-primera-fintech-100-guatemalteca-que-ofrece-cuotas-sin-tarjeta-de-credito/ ; https://www.yevoapp.com/terminos",
+        "pais": "Guatemala"
+      },
+      "nombre": "Raúl",
+      "apellido": "Góchez",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/ra%C3%BAl-g%C3%B3chez-5350948/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Ra%C3%BAl%20G%C3%B3chez%20Yevo",
+      "verificacion": "Por verificar",
+      "fuente": "Nota de PDCC del 05/03/2026 que lo cita como gerente general de Yevo; el snippet de LinkedIn en el buscador dice 'RAUL GOCHEZ - Gerente General y Comercial' con Yevo app. No abrí el perfil.",
+      "gancho": "En menos de dos años pasaron los 100.000 clientes activos con cuotas quincenales a 6 meses y un 40% de usuarios que toman crédito por primera vez.",
+      "mensajes": {
+        "invitacion": "Raúl, leí que Yevo ya pasó los 100.000 clientes activos con cuotas quincenales y mucha gente que toma crédito por primera vez. Lideré cobranzas en Cuotitas y Banco Columbia, y me interesa cómo lo gestionan. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Raúl. Con 150.000 créditos colocados en año y medio y un 40% de clientes sin historial, imagino que el desafío es decidir cada quincena a quién llamar, a quién mandarle solo un WhatsApp y a quién dejar que pague solo. En Flux Collect estimamos para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugerimos canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de una cosecha.",
+        "followup": "Raúl, una pregunta de colega: ¿miran aparte la mora de primera cuota de los clientes que nunca tuvieron crédito? En Cuotitas ese grupo tenía un roll rate de 30 a 60 bastante peor que el resto, pero curaba muy bien si el contacto llegaba en los primeros tres días. Con el equipo como garantía, ¿la cura temprana les viene alta o el bloqueo termina haciendo el trabajo?",
+        "cierre": "Raúl, no te escribo más. Si en algún momento querés comparar números de mora temprana, avisame y lo charlamos con un buen café de Antigua de por medio. Éxitos con el crecimiento de Yevo."
+      },
+      "pais": "Guatemala",
+      "ciudad": "Ciudad de Guatemala",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa COTONEB, R.L. (MICOOPE)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://cotonebrlesmicoope.com.gt",
+        "tamano": "Chica regional: 24 agentes en Nebaj, San Juan Cotzal, Chajul, Uspantán, Cunén y Sacapulas; cifras de cartera no públicas",
+        "region": "Guatemala — Nebaj, El Quiché (Cantón Vipila)",
+        "analisis": "Cooperativa de ahorro y crédito fundada en 1989 en Nebaj, en el área ixil, federada en FENACOAC y con marca MICOOPE desde 2009. Presta en seis líneas: consumo (educación, vehículos, electrodomésticos, gastos médicos), vivienda, negocio, servicios, agropecuario e industrial, casi todo con cuota mensual. Su cartera está repartida entre municipios rurales con ingresos estacionales y remesas, así que la puntualidad depende mucho del momento del mes y del canal. Flux puede anticipar quién se va a atrasar y cuándo conviene contactarlo, algo útil para un equipo de cobranza chico.",
+        "score_fit": 66,
+        "score_justificacion": "Cooperativa chica con crédito de consumo y cartera activa, poco conocida fuera del Quiché y con gerente general identificable. Resta que una parte importante de la cartera es agropecuaria y productiva y que no hay cifras públicas de mora.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. La web oficial está activa y publica convocatorias de empleo; la historia institucional llega hasta la afiliación a FENACOAC (22/10/2009).",
+        "fuente": "https://cotonebrlesmicoope.com.gt/nuestra-historia/ ; https://cotonebrlesmicoope.com.gt/prestamo/ ; https://cotonebrlesmicoope.com.gt/agentes-cotoneb-rl/",
+        "pais": "Guatemala"
+      },
+      "nombre": "Pedro",
+      "apellido": "Velasco",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/pedro-velasco-36178711a/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Pedro%20Velasco%20COTONEB",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Pedro Velasco - Gerente General - COTONEB', en el cargo desde agosto de 2009). No abrí el perfil ni encontré otra fuente que lo confirme.",
+      "gancho": "Cooperativa ixil de 1989, con crédito de consumo, vivienda y agro repartido en 24 agentes de seis municipios del Quiché.",
+      "mensajes": {
+        "invitacion": "Pedro, vi que estás al frente de COTONEB desde 2009 y que la cooperativa llega con 24 agentes a seis municipios del Quiché. Vengo de liderar cobranzas en Banco Columbia y me interesa cómo cobran las cooperativas rurales. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Pedro. En una cooperativa con asociados en Nebaj, Cotzal, Chajul o Uspantán, imagino que la cuota mensual depende mucho de la cosecha y de la remesa, y que el equipo no alcanza para visitar a todos los atrasados. Armé Flux Collect: estima la probabilidad de pago de cada asociado a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Pedro, una pregunta de colega: ¿separan la mora de los préstamos de consumo de la de los agropecuarios? En las carteras mixtas que vi, el crédito agro se atrasa por temporada pero cura solo después de la cosecha, mientras que el consumo que pasa los 30 días rara vez vuelve sin gestión. Mirarlos juntos suele esconder dónde está el riesgo de verdad.",
+        "cierre": "Pedro, no te escribo más. Si algún día querés comparar cómo se cobra en cooperativas de Argentina y de Guatemala, avisame y lo charlamos con un café de Huehue o un boxbol. Muchos éxitos a COTONEB."
+      },
+      "pais": "Guatemala",
+      "ciudad": "Nebaj",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Agencias Way, S.A.",
+        "segmento": "Retail con crédito",
+        "web": "https://agenciasway.com.gt",
+        "tamano": "Mediana-grande nacional: más de 120 tiendas en Guatemala y 15 en El Salvador según un perfil de empleado (otras fuentes dicen más de 90); crédito propio con cuotas quincenales o mensuales",
+        "region": "Guatemala — Ciudad de Guatemala, con tiendas en los 22 departamentos",
+        "analisis": "Cadena guatemalteca familiar de más de 85 años que vende electrodomésticos, muebles, tecnología y motos, con crédito propio: la web recibe solicitudes con DPI, consulta burós y habla de 'relación crediticia con Agencias Way' con cuotas quincenales o mensuales (desde 6 meses y Q1.000 regala consultas médicas a quien esté al día). Tiene además una tarjeta de marca compartida con Bantrab. Con cartera propia repartida en todo el país, la cobranza de tienda y la de call center tienen que decidir a diario a quién contactar primero. Flux puede priorizar esa lista por probabilidad de pago y sugerir canal y horario.",
+        "score_fit": 60,
+        "score_justificacion": "Crédito de consumo propio en cuotas y cartera activa, con cobertura nacional. Resta bastante: es una cadena grande y conocida en Guatemala (su presidente fue Gerente del Año 2023 de la AGG), parecida a las que Mauro descartó por grandes, y el contacto es comercial, no de cobranzas.",
+        "noticias": "2023: la Asociación de Gerentes de Guatemala nombró Gerente del Año 2023 a Roberto Way Menéndez, presidente de Agencias Way (Prensa Libre, Revista Gerencia). No encontré noticias de 2025-2026 sobre su cartera de crédito.",
+        "fuente": "https://agenciasway.com.gt/creditos/ ; https://www.prensalibre.com/economia/la-agg-otorga-el-galardon-gerente-del-ano-a-roberto-way-menendez-presidente-de-agencias-way/ ; https://revistagerencia.com.gt/gerente-del-ano-2023-roberto-way-menendez/",
+        "pais": "Guatemala"
+      },
+      "nombre": "Carlos",
+      "apellido": "Way",
+      "cargo": "Director Comercial",
+      "url_linkedin": "https://gt.linkedin.com/in/carlos-way-4aa71042",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Carlos%20Way%20Agencias%20Way",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Carlos Way - Director Comercial - Agencias Way'); la prensa lo menciona como director de la empresa y hermano del presidente Roberto Way Menéndez. No abrí el perfil. No encontré en fuentes públicas válidas a un responsable de créditos y cobros.",
+      "gancho": "Crédito propio con cuotas quincenales o mensuales en más de 90 tiendas, y consultas médicas gratis para quien mantenga las cuotas al día.",
+      "mensajes": {
+        "invitacion": "Carlos, me llamó la atención que Agencias Way premie con consultas médicas a quien mantiene sus cuotas al día. Vengo de cobranzas de retail y consumo (Cuotitas, hoy Moovitech) y me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Carlos. Un crédito propio repartido en tiendas de los 22 departamentos tiene un problema clásico: todos los atrasados parecen iguales y el equipo llama por orden de lista. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, así la tienda y el call center van primero a quien hace falta. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Carlos, una pregunta de colega: ¿la cobranza temprana la hace cada tienda o está centralizada? En Cuotitas vimos que el cliente que paga en tienda responde mucho mejor a un recordatorio del vendedor que lo conoce que a un llamado del call center, pero solo en los primeros 15 días. Después el orden se invierte. ¿Les pasa algo parecido?",
+        "cierre": "Carlos, no te molesto más. Si en algún momento quieren comparar cómo se cobra el crédito de tienda en Argentina y en Guatemala, avisame y lo charlamos con un shuco de por medio. Éxitos con la temporada."
+      },
+      "pais": "Guatemala",
+      "ciudad": "Ciudad de Guatemala",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Omnisport (Cadenas de Tiendas Omnisport, S.A. de C.V.)",
+        "segmento": "Retail con crédito",
+        "web": "https://www.omnisport.com",
+        "tamano": "Mediana nacional: 33 tiendas y 1 outlet en El Salvador, crédito propio de hasta 24 meses (página de empresa en LinkedIn, vía buscador); cartera no pública",
+        "region": "El Salvador — San Salvador",
+        "analisis": "Cadena salvadoreña fundada en 1951 que vende deportes, electrónica y electrodomésticos (relación de más de 50 años con Sony) y financia con crédito propio de hasta 24 meses, además de las cuotas sin intereses con tarjetas de bancos. Sus clientes con 'cuentas de crédito' pagan las cuotas por transferencia a ocho cuentas bancarias y mandan el comprobante por WhatsApp, y tiene un gerente de cobros dedicado. Es una cartera de consumo repartida en 33 tiendas con cobranza en parte manual: el punto es saber a quién recordarle antes del vencimiento y a quién llamar recién en mora. Flux puede ordenar esa cola por probabilidad de pago y sugerir canal y horario.",
+        "score_fit": 84,
+        "score_justificacion": "Crédito propio en cuotas con cartera activa y un gerente de cobros identificable, que es el contacto ideal. Mediana y conocida en El Salvador pero no una marca regional. Resta que el tamaño de la cartera no es público.",
+        "noticias": "No encontré noticias con fecha de 2025-2026 sobre su crédito propio. En abril de 2026 publicó una promoción de cuotas sin intereses con tarjetas Davivienda, Cuscatlán, Promerica, Agrícola y BAC (web oficial).",
+        "fuente": "https://www.omnisport.com/cuentas-omnisport ; https://www.omnisport.com/cuotas-sin-intereses ; https://www.omnisport.com/terminos-y-condiciones ; https://sv.linkedin.com/company/omnisport-el-salvador",
+        "pais": "El Salvador"
+      },
+      "nombre": "Mario",
+      "apellido": "Calito",
+      "cargo": "Gerente de Cobros",
+      "url_linkedin": "https://www.linkedin.com/in/mario-calito-741b8373/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mario%20Calito%20Omnisport",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Mario Calito - Gerente de Cobros - Omnisport El Salvador'); el snippet menciona experiencia previa en Puntual Panamá. No abrí el perfil.",
+      "gancho": "Crédito propio de hasta 24 meses en 33 tiendas, con cuotas que se pagan por transferencia y comprobante por WhatsApp.",
+      "mensajes": {
+        "invitacion": "Mario, vi que llevás la cobranza de Omnisport, con crédito propio en 33 tiendas. Yo lideré cobranzas en Cuotitas y Banco Columbia, en Argentina, y me interesa mucho cómo se gestiona el crédito de tienda en El Salvador. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Mario. Con cuentas de crédito de hasta 24 meses y pagos que llegan por transferencia y comprobante por WhatsApp, imagino que buena parte del día se va en conciliar y en llamar a gente que igual iba a pagar. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Mario, una pregunta de colega: ¿cuánto de la mora de 1 a 30 días es gente que pagó por transferencia y no mandó el comprobante a tiempo? En Cuotitas ese 'falso atraso' inflaba el tramo y hacía perder llamadas. Separado eso, el roll rate real a 60 días quedaba bastante más chico y el equipo se podía concentrar en los que de verdad no curan.",
+        "cierre": "Mario, no te molesto más. Si algún día querés comparar cómo se cobra el crédito de tienda en Argentina y en El Salvador, avisame y lo charlamos con unas pupusas de por medio. Éxitos con la cobranza."
+      },
+      "pais": "El Salvador",
+      "ciudad": "San Salvador",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "SAC MultiMoney (Sociedad de Ahorro y Crédito MultiMoney, S.A.)",
+        "segmento": "Financiera",
+        "web": "https://multimoney.com/sv",
+        "tamano": "Chica-mediana: una de las cuatro SAC supervisadas por la SSF; según Hoy (17/12/2025) reportó US$137,3 millones de colocación de crédito a octubre de 2025 (cifra tal como la publica la nota); el sistema de SAC suma US$405,4 millones de cartera",
+        "region": "El Salvador — San Salvador (Bambú City Center, San Benito)",
+        "analisis": "Sociedad de ahorro y crédito supervisada por la SSF que combina cuenta de ahorro digital con créditos personales, y que se presenta como un jugador de tecnología financiera (patrocinó el El Salvador Fintech Forum 2025). Las SAC son el segmento más dinámico del sistema, con una cartera que creció 30,8% en un año empujada por créditos personales, y MultiMoney proyecta seguir creciendo en 2026. Crecer rápido en consumo trae mora temprana que se acumula antes de que se note en el índice. Flux puede estimar la probabilidad de pago de cada deudor y ordenar la gestión por canal y horario.",
+        "score_fit": 80,
+        "score_justificacion": "Entidad regulada chica, enfocada en crédito personal y en crecimiento, con gerente de riesgos identificable. Resta que la marca MultiMoney también opera en Guatemala (Banco Multimoney), así que puede tener procesos regionales, y que no hay cifras públicas de mora.",
+        "noticias": "17/12/2025 (Hoy / hoy.com.sv): Oscar Díaz, gerente de MultiMoney, proyecta un 2026 de crecimiento del crédito; la nota da la cartera de las SAC en US$405,4 millones (+30,8%). 2025: patrocinador del El Salvador Fintech Forum (El Diario de Hoy).",
+        "fuente": "https://www.hoy.com.sv/empresariales/multimoney-proyecta-un-2026-de-crecimiento-para-el-credito-en-el-salvador/ ; https://ssf.gob.sv/sociedades-de-ahorro-y-credito/ ; https://www.elsalvador.com/h-noticias/h-gente-y-empresas/multimoney-tecnologia-financiera-patrocinador-fintech-forum/1225887/2025/",
+        "pais": "El Salvador"
+      },
+      "nombre": "Marcos",
+      "apellido": "Polanco",
+      "cargo": "Gerente de Riesgos",
+      "url_linkedin": "https://sv.linkedin.com/in/marcos-polanco-5726a1aa",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Marcos%20Polanco%20MultiMoney",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Marcos Polanco - Gerente de Riesgos - SAC MultiMoney'). No abrí el perfil. El gerente general según la SSF es Oscar Roberto Díaz Vela.",
+      "gancho": "Las SAC crecieron 30,8% en un año empujadas por crédito personal y MultiMoney proyecta seguir creciendo en 2026.",
+      "mensajes": {
+        "invitacion": "Marcos, vi que llevás riesgos en MultiMoney, justo cuando las SAC crecen más de 30% al año con crédito personal. Vengo de liderar cobranzas y riesgo de consumo en Cuotitas y Banco Columbia. Me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Marcos. Cuando la cartera personal crece tan rápido, la mora de las cosechas nuevas aparece tarde en el índice y para entonces ya está en el tramo caro. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto, así cobranza actúa antes sobre quien de verdad se va a caer. Si te interesa, te hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Marcos, una pregunta de colega: ¿siguen el roll rate por cosecha o por cartera total? Con crecimientos de 30% anual, el índice total se ve sano porque el denominador crece, pero la cosecha de hace seis meses puede estar rodando de 30 a 60 bastante más rápido. En Banco Columbia fue ahí donde aparecieron las sorpresas.",
+        "cierre": "Marcos, no te escribo más. Si más adelante querés comparar curvas de mora entre Argentina y El Salvador, avisame y lo vemos con un café y unas pupusas revueltas. Éxitos con el cierre del año."
+      },
+      "pais": "El Salvador",
+      "ciudad": "San Salvador",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Monifai El Salvador, S.A. de C.V.",
+        "segmento": "Fintech de crédito",
+        "web": "https://monifai.com/sv/",
+        "tamano": "Chica: más de 19.000 clientes y US$35 millones en financiamiento personal entre Costa Rica y El Salvador (Delfino, oct-2025); préstamos de US$500 a US$15.000 a 24-60 meses",
+        "region": "El Salvador — San Salvador (Paseo General Escalón 3675)",
+        "analisis": "Fintech de origen costarricense (grupo YNV) que opera en El Salvador desde marzo de 2023 con crédito personal, de consolidación, educativo y PYME 100% digital, sin fiador, a tasas de entre 29,5% y 79% anual y plazos de 24 a 60 meses. Tiene oficina en Escalón, puntos en Galerías y Millennium Plaza y kioscos. Apunta a personas no bancarizadas y a MYPE, y en 2026 anunció expansión a Guatemala, Honduras, Panamá y República Dominicana. Con plazos largos y clientes sin historial, identificar temprano a quién va a rodar es clave; Flux puede ordenar la cobranza por probabilidad de pago.",
+        "score_fit": 78,
+        "score_justificacion": "Fintech chica de crédito de consumo, con cartera activa y una gerente de crédito y riesgo identificable. Resta que es una operación de un grupo costarricense (algunas decisiones pueden tomarse en Costa Rica) y que no hay datos públicos de mora.",
+        "noticias": "02/09/2026 (Revista Summa / Crevolution): prepara su expansión a Guatemala, Honduras, Panamá y República Dominicana; lleva unos US$35 millones colocados en crédito personal en Costa Rica y El Salvador. 03/10/2025 (Delfino.cr): aniversario en ambos países, nuevo CEO Patrick Zarzar, más de 19.000 clientes.",
+        "fuente": "https://monifai.com/sv/ ; https://delfino.cr/2025/10/monifai-celebra-aniversario-en-costa-rica-y-el-salvador-con-nuevos-liderazgos-y-una-vision-de-expansion-regional ; https://crevolutionmagazine.com/2026/09/02/monifai-amplia-las-fronteras-del-credito-digital/ ; https://www.elsalvador.com/h-destacados/monifai-inaugura-operaciones-elsalvador-/1047549/2023/",
+        "pais": "El Salvador"
+      },
+      "nombre": "Ana María",
+      "apellido": "Rodríguez",
+      "cargo": "Gerente de Crédito y Riesgo",
+      "url_linkedin": "https://sv.linkedin.com/in/ana-mar%C3%ADa-rodr%C3%ADguez-9b74381a1",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Ana%20Mar%C3%ADa%20Rodr%C3%ADguez%20Monifai",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Ana María Rodríguez - Gerente de Crédito y Riesgo - Monifai', perfil de El Salvador). No abrí el perfil.",
+      "gancho": "Crédito personal digital de hasta US$15.000 a 60 meses para no bancarizados, y expansión anunciada a cuatro países más en 2026.",
+      "mensajes": {
+        "invitacion": "Ana María, vi que llevás crédito y riesgo en Monifai, justo cuando anuncian la expansión a cuatro países. Trabajo hace años en cobranzas de consumo (Cuotitas, Banco Columbia, hoy Moovitech) y me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Ana María. Con plazos de 24 a 60 meses y clientes que llegan sin historial bancario, el deterioro se ve tarde, y cuando aparece conviene saber quién cura solo y quién necesita gestión ya. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Antes de la expansión, te puedo hacer un diagnóstico gratis con un Excel anonimizado de la cartera salvadoreña.",
+        "followup": "Ana María, una pregunta de colega: en créditos a 48 o 60 meses, ¿ven que la mora aparezca en las primeras cuotas o más bien después del mes 12? En Cuotitas, con plazos más cortos, la curva era muy temprana; en carteras largas vi que las promesas de pago incumplidas del primer año anticipan bastante bien quién va a terminar en castigo.",
+        "cierre": "Ana María, no te escribo más. Si con la expansión querés comparar cómo se comporta la mora en cada país, avisame y lo charlamos con unas pupusas de loroco de por medio. Éxitos con el crecimiento."
+      },
+      "pais": "El Salvador",
+      "ciudad": "San Salvador",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "SAC Credicomer (Sociedad de Ahorro y Crédito Credicomer, S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.credicomer.com.sv",
+        "tamano": "Mediana: cartera de US$154,4 millones y activos de US$196,1 millones a dic-2023 (Zumma Ratings, abr-2024)",
+        "region": "El Salvador — San Salvador (Torre Millennium Plaza, Colonia Escalón)",
+        "analisis": "Primera sociedad de ahorro y crédito autorizada por la SSF (opera desde 2009), enfocada en MYPE y en créditos personales, incluido crédito para gastos o consolidación de deudas. Zumma Ratings señaló en 2024 que la entidad crece en segmentos 'más propensos a impagos (MYPEs y consumo)', con un índice de mora de 3,6% a dic-2023 (4,3% a jun-2023), por encima del promedio de las SAC (2,7%), y cobertura de reservas del 93,8%, bajo el mínimo prudencial de 100%. Es exactamente el tipo de cartera donde priorizar la cobranza temprana mueve la aguja. Flux puede estimar la probabilidad de pago de cada deudor y sugerir canal y horario.",
+        "score_fit": 74,
+        "score_justificacion": "Entidad regulada mediana con consumo y MYPE, mora por encima del promedio y presión sobre reservas: dolor claro. Resta que el contacto es el gerente general (no encontré al responsable actual de cobros) y que parte de la cartera es empresarial.",
+        "noticias": "2026 (El Diario de Hoy, contenido patrocinado): promoción 'Credicomer Regalón' con sorteos para clientes. 2025: reinauguración de su centro de negocios en Santa Ana. 22/04/2024: Zumma Ratings mantuvo la calificación EA-.sv con perspectiva estable.",
+        "fuente": "https://ssf.gob.sv/sociedades-de-ahorro-y-credito/ ; https://www.zummaratings.com/web/get_attachments/token/9c4e9220-e67c-416b-933a-0709ac4b5445 ; https://www.elsalvador.com/dinero-y-negocios/vision-empresarial/credicomer-contenido-patrocinado-sorteos/1273040/2026/ ; https://www.credicomer.com.sv/personas/creditos/credito-personal-para-gastos-o-consolidacion-de-deudas",
+        "pais": "El Salvador"
+      },
+      "nombre": "Federico",
+      "apellido": "Castellón Vivas",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Federico%20Castell%C3%B3n%20Credicomer",
+      "verificacion": "Por verificar",
+      "fuente": "Ficha de SAC Credicomer en la web de la Superintendencia del Sistema Financiero, que lo lista como gerente general. No encontré su perfil de LinkedIn. En el buscador aparecen perfiles de gestores y especialistas de cobros de Credicomer, pero el ex subgerente de cobros (Byron Rogel) ya figura en otra empresa.",
+      "gancho": "Zumma marcó en 2024 una mora de 3,6% contra 2,7% del promedio de las SAC y reservas por debajo del 100% exigido, mientras crece en MYPE y consumo.",
+      "mensajes": {
+        "invitacion": "Federico, leí el informe de Zumma sobre Credicomer y cómo están creciendo en MYPE y consumo. Vengo de liderar cobranzas en Banco Columbia y Cuotitas, en Argentina, y me interesa mucho el mundo de las SAC. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Federico. Cuando una SAC apuesta por MYPE y consumo, la mora temprana sube primero y las reservas quedan justas, como marcaba Zumma. Ahí la diferencia la hace a quién llama primero el equipo de cobros. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado de la cartera de consumo.",
+        "followup": "Federico, una pregunta de colega: ¿miran por separado la cura de los refinanciados? Zumma mostraba que con ellos la cobertura bajaba mucho. En Banco Columbia aprendimos que un refinanciado que falla la segunda cuota casi no cura, y que convenía gestionarlo distinto desde el primer día de atraso, en vez de esperar al tramo de 30.",
+        "cierre": "Federico, no te escribo más para no molestar. Si más adelante quieren comparar números de mora de consumo, avisame y lo charlamos con unas pupusas en Escalón. Éxitos a todo el equipo de Credicomer."
+      },
+      "pais": "El Salvador",
+      "ciudad": "San Salvador",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "CrediClick (Redwood Inversiones, S.A. de C.V.)",
+        "segmento": "Fintech de crédito",
+        "web": "https://credi-click.com",
+        "tamano": "Chica: préstamos de US$500 a US$5.000 (hasta US$10.000 según perfil), hasta 36 meses para empleados y 18 meses para receptores de remesas; cartera no pública (calculo: chica)",
+        "region": "El Salvador — San Salvador",
+        "analisis": "Fintech salvadoreña del Grupo Redwood (Redwood Inversiones), que ofrece crédito 100% digital sin fiador ni garantía a empleados y a personas que reciben remesas, con respuesta en menos de 30 minutos. El grupo también presta servicios de call center y BPO a bancos y fintechs de la región, así que conoce la cobranza telefónica, pero el crédito a receptores de remesas tiene un patrón de pago muy distinto al de un asalariado: depende de cuándo llega el envío. Flux puede estimar esa probabilidad de pago por cliente y ajustar canal y horario a su ciclo de ingresos.",
+        "score_fit": 62,
+        "score_justificacion": "Crédito de consumo digital chico, con un segmento (receptores de remesas) donde la priorización vale mucho. Resta que no encontré responsables identificables ni noticias con fecha y que el grupo hace cobranza para terceros, así que puede ver a Flux como competencia o como herramienta.",
+        "noticias": "No encontré noticias con fecha. La web de CrediClick está activa y el grupo publica búsquedas de ejecutivos de créditos y cobros (Tecoloco).",
+        "fuente": "https://credi-click.com/ ; https://gruporedwood.com/ ; https://www.tecoloco.com.sv/944767/asesor-de-credito.aspx?r=1-job-listing ; https://www.facebook.com/gruporedwood/",
+        "pais": "El Salvador"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente de créditos y cobros (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=CrediClick%20Redwood%20El%20Salvador",
+      "verificacion": "Sin perfil",
+      "fuente": "No encontré en la web oficial ni en resultados públicos de LinkedIn a un responsable de CrediClick o de Redwood Inversiones.",
+      "gancho": "Crédito digital sin fiador para receptores de remesas a 18 meses, un segmento que paga al ritmo del envío.",
+      "mensajes": {
+        "invitacion": "Hola, vi que CrediClick presta 100% digital a asalariados y a quienes reciben remesas, sin fiador. Lideré cobranzas en Cuotitas y Banco Columbia, en Argentina, y me interesa mucho cómo se cobra ese segmento. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar. Con créditos a receptores de remesas, el día de pago real no es el del calendario sino el de llegada del envío, y llamar antes es gastar gestiones. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere el canal y el horario con más chance de respuesta. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado de la cartera, sin integraciones.",
+        "followup": "Una pregunta de colega: ¿ven diferencias de cura entre asalariados y receptores de remesas en el tramo de 1 a 30? Mi intuición es que el de remesas se atrasa más pero cura solo cuando llega el envío, así que una promesa de pago atada a esa fecha rinde más que tres llamadas seguidas. ¿Les pasa así?",
+        "cierre": "No les escribo más. Si en algún momento quieren comparar cómo se cobra el crédito digital en Argentina y en El Salvador, avísenme y lo charlamos con unas pupusas de por medio. Éxitos con CrediClick."
+      },
+      "pais": "El Salvador",
+      "ciudad": "San Salvador",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "CREDIDEMO (Credi-Demo)",
+        "segmento": "Automotor",
+        "web": "https://www.credidemo.hn",
+        "tamano": "Mediana-chica: más de 26 puntos de venta de motos a crédito y 200 a 300 unidades por mes según un perfil de empleado en LinkedIn (snippet); más de 5 años de operación",
+        "region": "Honduras — Tegucigalpa, Francisco Morazán",
+        "analisis": "Financiera hondureña de nicho que da crédito para motos Honda nuevas y usadas (CREDI-HONDA, CREDI-MOTO) y para vehículos (CREDI-F1), en alianza con DIDEMO, el distribuidor oficial de Honda en el país. Pide constancia de ingresos, croquis del domicilio y del trabajo, e instala GPS en las motos del Plan Star; tiene app propia y un portal de pagos. Es cartera prendaria de ticket chico y cliente de ingresos medios-bajos (mucha moto de trabajo), con equipo de cobros propio que incluye gestores, cobro legal y subgerencia. Flux puede decidir a quién llamar antes de que haga falta ir a buscar la moto.",
+        "score_fit": 86,
+        "score_justificacion": "Crédito en cuotas chicas con cartera activa y creciente, empresa poco conocida fuera de Honduras, con gerente general identificado en prensa y equipo de cobranza armado. Resta que el tamaño de la cartera no es público.",
+        "noticias": "10/06/2025 (El Libertador): lanzamiento del Plan Star de CREDI-DEMO con Didemo (GPS gratis, gestión de licencia y certificado de L500 para taller), con declaraciones de Edwin Flores como gerente general.",
+        "fuente": "https://www.credidemo.hn/ ; https://didemo.hn/credidemo/ ; https://ellibertador.hn/2025/06/10/plan-star-de-credi-demo-es-buena-honda-hondurenos-pueden-adquirir-mas-beneficios/ ; https://www.credidemo.hn/service/credi-honda/",
+        "pais": "Honduras"
+      },
+      "nombre": "Edwin",
+      "apellido": "Flores",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/edwin-jos%C3%A9-flores-hernandez-27202444/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Edwin%20Flores%20Credidemo",
+      "verificacion": "Por verificar",
+      "fuente": "El Libertador (10/06/2025) lo cita como gerente general de CREDI-DEMO. En el buscador aparece el perfil 'Edwin José Flores Hernandez - CREDIDEMO' y el snippet lo describe al frente de la empresa. No abrí el perfil.",
+      "gancho": "Financian motos Honda de trabajo con GPS incluido en el Plan Star, y tienen cobro legal y gestores propios.",
+      "mensajes": {
+        "invitacion": "Edwin, vi el lanzamiento del Plan Star de CREDI-DEMO con GPS incluido en cada moto. Vengo de liderar cobranzas en Cuotitas y Banco Columbia, y hoy trabajo en Moovitech. Me interesa mucho el crédito prendario de motos. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Edwin. En crédito de motos de trabajo, la cobranza temprana decide todo: si el cliente se atrasa dos cuotas, la moto ya está en la calle y recuperarla cuesta caro. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, para que los gestores vayan primero a quien de verdad se va a caer. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Edwin, una pregunta de colega: ¿el GPS lo usan solo para recuperar o también como señal de riesgo? En motos de trabajo, un cliente que deja de moverse en su ruta habitual suele atrasarse a las pocas semanas. Cruzar eso con las promesas de pago incumplidas da una alerta muy temprana, antes de que el roll a 60 días obligue a mandar al cobro legal.",
+        "cierre": "Edwin, no te molesto más. Si en algún momento querés comparar cómo se cobra el crédito de motos en Argentina y en Honduras, avisame y lo charlamos con unas baleadas de por medio. Éxitos con el Plan Star."
+      },
+      "pais": "Honduras",
+      "ciudad": "Tegucigalpa",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "COFISA (Compañía Financiera, S.A.)",
+        "segmento": "Financiera",
+        "web": "https://cofisa.hn",
+        "tamano": "Mediana: segunda sociedad financiera de Honduras por activos y créditos, pero con menos del 0,8% del sistema financiero; 61% de la cartera en consumo con garantía vehicular y 23% MYPE (Moody's Local, mar-2026); 22 agencias (La Prensa, ene-2024)",
+        "region": "Honduras — San Pedro Sula, Cortés (7 Ave. y 8 Calle, Barrio Guamilito)",
+        "analisis": "Financiera regulada por la CNBS desde 1983, con modelo de nicho en consumo con garantía vehicular para clientes del quintil de ingresos más bajo, que los bancos suelen rechazar. Según Moody's Local (31/03/2026), la cartera creció 26% entre 2023 y 2025 y la morosidad a más de 90 días fue de 3,7% a setiembre de 2025, contra 2,7% del promedio de financieras, con cobertura de 144% y ROE de 17%. Crecer rápido con clientes de riesgo alto es justo el caso donde priorizar la cobranza temprana cuida el margen. Flux puede estimar la probabilidad de pago de cada deudor y sugerir canal y horario.",
+        "score_fit": 82,
+        "score_justificacion": "Crédito de consumo prendario en cuotas, cartera activa y en crecimiento, mora por encima del promedio y cliente de bajos ingresos: dolor claro. Es relevante en su nicho, pero chica en el sistema. Resta que el contacto es el gerente general y no encontré su LinkedIn.",
+        "noticias": "31/03/2026: Moody's Local Honduras asigna BBB+.hn con perspectiva estable a su programa de bonos corporativos. 30/01/2024: inaugura su agencia 22, la quinta en San Pedro Sula (La Prensa).",
+        "fuente": "https://moodyslocal.com.hn/wp-content/uploads/2026/03/NUEVO-1.2_MLHN_Informe_Programa-COFISA_31032026_Final.pdf ; https://www.laprensa.hn/economia/marketingempresas/cofisa-un-amigo-que-si-responde-inaugura-su-agencia-numero-22-KB17251649 ; https://cofisa.hn/quienes-somos/",
+        "pais": "Honduras"
+      },
+      "nombre": "Roger Mauricio",
+      "apellido": "Valladares",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Roger%20Valladares%20COFISA",
+      "verificacion": "Por verificar",
+      "fuente": "La Prensa (30/01/2024) lo cita como gerente general de Cofisa en la apertura de la agencia 22. En el buscador aparecen varios perfiles 'Roger Valladares' vinculados a la UTH y ninguno confirma el cargo en Cofisa, así que dejé la URL vacía.",
+      "gancho": "Moody's Local marcó en marzo de 2026 una mora de 3,7% contra 2,7% del promedio de financieras, con la cartera creciendo 26% y 61% en consumo con garantía de vehículo.",
+      "mensajes": {
+        "invitacion": "Roger, leí el informe de Moody's Local sobre Cofisa y el nicho de consumo con garantía vehicular que atienden. Vengo de liderar cobranzas en Banco Columbia y Cuotitas, en Argentina, y me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Roger. Con la cartera creciendo 26% y una mora de 3,7% contra 2,7% del promedio de financieras, imagino que el desafío es sostener el ritmo sin que la cosecha nueva se deteriore. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, así cobranza actúa antes de llegar al tramo de 90. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Roger, una pregunta de colega: con casi toda la cartera respaldada por vehículos, ¿cuánto de lo que pasa los 30 días termina en recuperación del bien y cuánto cura con una promesa de pago? En Banco Columbia vimos que una promesa cumplida en el tramo 31-60 anticipaba muy bien la cura, y que ahí convenía más insistir que ejecutar.",
+        "cierre": "Roger, no te escribo más. Si más adelante quieren comparar números de mora de crédito prendario, avisame y lo charlamos con unas baleadas en San Pedro. Éxitos con la emisión de bonos."
+      },
+      "pais": "Honduras",
+      "ciudad": "San Pedro Sula",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Credibroker, S. de R.L.",
+        "segmento": "Automotor",
+        "web": "https://credibroker.com",
+        "tamano": "Chica: oficinas en Tegucigalpa (Torre Mayab) y San Pedro Sula; financia motos a hasta 48 meses, mototaxis y autos; cartera no pública (calculo: chica)",
+        "region": "Honduras — Tegucigalpa, Francisco Morazán (Lomas del Mayab), con oficina en San Pedro Sula",
+        "analisis": "Empresa hondureña de crédito para compra de motos, mototaxis y autos, con plazos de hasta 48 meses en motos, sin fiador y sin penalidad por pago anticipado; los clientes pagan por Banco Atlántida y la billetera Tengo. En sus redes dice llevar 25 años. Una cartera de motos y mototaxis es de trabajo: el ingreso del deudor es diario y variable, y un atraso corto puede ser solo una mala semana o el principio del abandono. Flux puede distinguir esos casos por probabilidad de pago y sugerir el canal y la hora con más chance de respuesta.",
+        "score_fit": 74,
+        "score_justificacion": "Crédito prendario de ticket chico, empresa poco conocida y con gerente de créditos identificable. Resta que el tamaño y la mora no son públicos y que no encontré noticias con fecha.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. La web y las redes están activas; en publicaciones recientes de redes dice llevar 25 años 'construyendo confianza'.",
+        "fuente": "https://credibroker.com/ ; https://credibroker.com/financiamiento-de-motocicleta/ ; https://credibroker.com/contactenos/ ; https://www.facebook.com/credibroker/",
+        "pais": "Honduras"
+      },
+      "nombre": "Rosalinda",
+      "apellido": "Flores",
+      "cargo": "Gerente Depto. de Créditos",
+      "url_linkedin": "https://www.linkedin.com/in/rosalinda-flores-3783b863/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Rosalinda%20Flores%20Credibroker",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('ROSALINDA FLORES - Gerente Depto. creditos - CREDIBROKER'). No abrí el perfil.",
+      "gancho": "Financian motos y mototaxis a hasta 48 meses sin fiador, con cobro por Banco Atlántida y Tengo.",
+      "mensajes": {
+        "invitacion": "Rosalinda, vi que llevás el área de créditos de Credibroker, con motos y mototaxis a hasta 48 meses. Vengo de cobranzas de consumo en Cuotitas y Banco Columbia, y me interesa cómo se cobra el crédito de motos en Honduras. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Rosalinda. En motos y mototaxis de trabajo, el cliente cobra por día y un atraso corto puede ser una mala semana o el principio del abandono; distinguirlos a tiempo ahorra muchas recuperaciones. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Rosalinda, una pregunta de colega: ¿los mototaxis se comportan distinto que las motos particulares en mora temprana? En Argentina vi que el que trabaja con la moto se atrasa más seguido pero cura rápido si se le ofrece pagar en partes chicas, mientras que el particular que no paga la segunda cuota rara vez vuelve sin gestión fuerte.",
+        "cierre": "Rosalinda, no te molesto más. Si algún día querés comparar cómo se cobra el crédito de motos en Argentina y en Honduras, avisame y lo charlamos con unas baleadas de por medio. Éxitos con la cartera."
+      },
+      "pais": "Honduras",
+      "ciudad": "Tegucigalpa",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Ahorro y Crédito Sagrada Familia",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://sagradafamilia.hn",
+        "tamano": "Mediana (calculo): más de 55 años de operación y una línea de crédito muy amplia; no publica cantidad de afiliados ni cartera",
+        "region": "Honduras — Tegucigalpa (sede en 6ta Avenida, Comayagüela)",
+        "analisis": "Cooperativa fundada en 1968-1969 en la parroquia Sagrada Familia de Comayagüela por tres sacerdotes canadienses, hoy supervisada por CONSUCOOP. Tiene una línea de consumo muy variada: crédito automático sobre ahorros, fiduciario con avales, Credi OK y Plan 13/14 por planilla, Rapicoop sobre prestaciones, vehículos y educación, además de vivienda, PYME y microcrédito. Mucho de ese consumo se descuenta por planilla, pero el fiduciario y el de afiliados independientes dependen de la gestión de cobro. Flux puede priorizar a qué afiliado contactar primero y por qué canal.",
+        "score_fit": 70,
+        "score_justificacion": "Cooperativa con crédito de consumo en cuotas y cartera activa, con gerente general identificable. Resta que puede ser grande para el perfil (no hay cifras para confirmarlo), que parte del consumo es por planilla (menos dolor de cobranza) y que no hay cifras públicas.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. La web oficial está activa y en Tecoloco publica búsquedas de personal.",
+        "fuente": "https://sagradafamilia.hn/quienes-somos/ ; https://sagradafamilia.hn/creditos/ ; https://consucoop.hn/sagrada-familia/",
+        "pais": "Honduras"
+      },
+      "nombre": "Roberto",
+      "apellido": "Ortega García",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/roberto-ortega-garcia-7825b589/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Roberto%20Ortega%20Garcia%20Cooperativa%20Sagrada%20Familia",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Roberto Ortega Garcia - Gerente general - Cooperativa Sagrada Familia'). No abrí el perfil ni encontré otra fuente con fecha que lo confirme.",
+      "gancho": "Una línea de consumo muy variada, del Credi OK por planilla al fiduciario con avales, en una cooperativa de Comayagüela con más de 55 años.",
+      "mensajes": {
+        "invitacion": "Roberto, vi que estás al frente de la Cooperativa Sagrada Familia, con una línea de consumo que va del Credi OK al fiduciario con avales. Lideré cobranzas en Banco Columbia y Cuotitas, en Argentina. Me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Roberto. En una cooperativa con tantos afiliados, lo que se descuenta por planilla se cobra solo, pero el fiduciario y los independientes dependen de que alguien llame a tiempo, y el equipo nunca alcanza para todos. Armé Flux Collect: estima para cada afiliado la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Roberto, una pregunta de colega: en los fiduciarios, ¿contactan al aval desde el primer atraso o recién después de los 30 días? En las cooperativas que vi, avisarle temprano al aval mejora mucho la cura del tramo de 1 a 30, pero si se hace con todos se gasta la relación. Por eso conviene hacerlo solo con los de menor probabilidad de pago.",
+        "cierre": "Roberto, no te escribo más. Si algún día querés comparar cómo cobran las cooperativas en Argentina y en Honduras, avisame y lo charlamos con unas baleadas y un café de Marcala. Éxitos a toda la cooperativa."
+      },
+      "pais": "Honduras",
+      "ciudad": "Tegucigalpa",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Ahorro y Crédito Taulabé Ltda.",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://cooperativataulabe.hn",
+        "tamano": "Mediana regional: entre las 10 cooperativas más grandes de Honduras por activos (L1.339 millones en 2016, La Prensa); filiales en Comayagua, Siguatepeque, El Rosario, El Progreso y oficina de negocios en Tegucigalpa",
+        "region": "Honduras — Comayagua (sede en Barrio Torondón); nacida en Taulabé",
+        "analisis": "Cooperativa fundada en 1969-1970 en Taulabé, hoy con sede en Comayagua, federada en FACACH y supervisada por CONSUCOOP. Ofrece crédito automático con CDP, CrediYa para nuevos negocios, préstamos de vivienda y consumo, y sigue abriendo filiales (El Progreso en 2024, reinauguración de El Rosario en 2025). Con una red que se expande fuera de su zona de origen, los nuevos afiliados no tienen historia en la cooperativa y la gestión de mora pesa más. Flux puede ordenar esa gestión por probabilidad de pago.",
+        "score_fit": 58,
+        "score_justificacion": "Cooperativa mediana con crédito en cuotas y cartera activa, poco conocida fuera de la zona central. Resta que no encontré a nadie identificable (un perfil que se presenta como gerente general parece ser de talento humano) y que la cifra de activos disponible es de 2016.",
+        "noticias": "30/09/2025: reinauguración de la filial El Rosario, Comayagua. 20/06/2025: celebración del 55 aniversario. 30/03/2025: LV Asamblea General Ordinaria. 12/01/2024: inauguración en El Progreso (web oficial, sección Noticias).",
+        "fuente": "https://cooperativataulabe.hn/noticias ; http://www.cooperativataulabe.hn/nosotros ; https://cooperativataulabe.hn/crediya ; https://www.laprensa.hn/economia/cooperativasde-honduras-DCLP1079785",
+        "pais": "Honduras"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente de créditos y cobros (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Cooperativa%20Taulab%C3%A9%20cr%C3%A9ditos%20cobros",
+      "verificacion": "Sin perfil",
+      "fuente": "No encontré en la web oficial ni en resultados públicos de LinkedIn a un responsable de créditos o cobros. El perfil 'FERNADO RIVERA - Gerente General - Cooperativa Taulabe' aparece en el buscador, pero el snippet lo describe como gerente de talento humano, así que no lo usé.",
+      "gancho": "Sigue abriendo filiales fuera de su zona de origen: El Progreso en 2024 y la reinauguración de El Rosario en septiembre de 2025.",
+      "mensajes": {
+        "invitacion": "Hola, vi que la Cooperativa Taulabé cumplió 55 años y sigue abriendo filiales, de El Progreso a El Rosario. Lideré cobranzas en Cuotitas y Banco Columbia, en Argentina, y me interesa cómo cobran las cooperativas en Honduras. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar. Cuando una cooperativa abre filiales nuevas, entran afiliados sin historia en la casa, y la mora temprana de esos préstamos es la más difícil de leer. Armé Flux Collect: estima para cada afiliado la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, así el equipo va primero a quien de verdad lo necesita. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Una pregunta de colega: ¿la mora de las filiales nuevas se comporta distinto que la de Comayagua y Siguatepeque? En las carteras que vi, los afiliados nuevos se atrasan en las primeras cuotas pero curan bien si los contacta alguien de la filial y no un número desconocido. Después del primer año, la diferencia desaparece.",
+        "cierre": "No les escribo más. Si en algún momento quieren comparar cómo cobran las cooperativas en Argentina y en Honduras, avísenme y lo charlamos con unas baleadas de por medio. Felicitaciones por los 55 años."
+      },
+      "pais": "Honduras",
+      "ciudad": "Comayagua",
+      "origen": "latam-2026-09-24"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "tanda": "latam-2026-09-24",
+  "prospectos": [
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Ahorro y Crédito 15 de Abril Ltda.",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.coop15abril.fin.ec",
+        "tamano": "Mediana: cartera bruta de USD 86,65 millones, 11.869 prestatarios y 44.144 socios activos a sep-2025; matriz en Portoviejo y 5 sucursales, con operaciones en 18 provincias",
+        "region": "Ecuador — Portoviejo, Manabí",
+        "analisis": "Una de las cooperativas más grandes de Manabí (61 años), en el segmento 1 de la SEPS. La calidad de cartera es su punto débil: cartera improductiva de 10,88% a sep-2025 (con tendencia a bajar), 4,70% de cartera reestructurada y refinanciada, cobertura de apenas 103% y rentabilidad casi nula (ROA 0,00%). MFR la califica BB y marca que el monitoreo del riesgo de crédito es 'moderado'. Con 12.000 prestatarios y un crédito promedio de unos USD 7.300, priorizar a quién gestionar cada día pesa directo en provisiones y resultado.",
+        "score_fit": 84,
+        "score_justificacion": "Mora de dos dígitos, cartera y cantidad de prestatarios manejables, resultados en cero que obligan a mejorar la cobranza, y gerencia identificable. Resta que el contacto sea la gerencia general y que no esté confirmado que siga en el cargo.",
+        "noticias": "22/12/2025: MFR mantiene la calificación BB con perspectiva Estable (corte sep-2025), vigente hasta el 31/05/2026; cartera improductiva 10,88%.",
+        "fuente": "https://www.coop15abril.fin.ec/images/docquince/Certificado_de_Calificaci%C3%B3n_Sep25_v2.pdf ; https://www.coop15abril.fin.ec",
+        "pais": "Ecuador"
+      },
+      "nombre": "Miriam",
+      "apellido": "Vera",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/miriam-vera-3b6602ba/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Miriam%20Vera%20Cooperativa%2015%20de%20Abril",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Miriam Vera - GERENTE GENERAL - COOPERATIVA 15 DE ABRIL'); no abrí el perfil. Ojo: en 2021 la gerente general era Verónica Mendoza Cevallos (cuenta oficial en X) y aparece otro perfil, 'Miriam Vera Zambrano', con base en Chone; conviene confirmar.",
+      "gancho": "El informe de MFR (dic-2025) muestra cartera improductiva de 10,88%, 4,70% reestructurada y ROA en 0,00% con 11.869 prestatarios.",
+      "mensajes": {
+        "invitacion": "Miriam, leí el informe de MFR sobre la 15 de Abril: bajar la cartera improductiva a 10,88% en Manabí no es menor. Yo lideré cobranzas en Cuotitas y Banco Columbia, en Argentina. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Miriam. Con casi 12.000 prestatarios y la mora en torno al 11%, cada punto que se cura antes de los 30 días se ve en provisiones y en el resultado del año. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, para que los gestores vayan primero donde rinde. Si le sirve a la cooperativa, hacemos un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Miriam, una de colega: la cartera reestructurada y refinanciada está en 4,70%. ¿Siguen aparte cómo se comportan esos créditos después de reestructurar? En Banco Columbia vimos que el roll a 60 días de los refinanciados era mucho peor si no se los contactaba en la primera semana del vencimiento.",
+        "cierre": "Miriam, no te molesto más. Si más adelante quieren revisar la cura temprana por sucursal, escribime y lo conversamos con un viche manabita de por medio. Muchos éxitos a la 15 de Abril."
+      },
+      "pais": "Ecuador",
+      "ciudad": "Portoviejo",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Ahorro y Crédito Kullki Wasi Ltda.",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://kullkiwasi.com.ec",
+        "tamano": "Mediana: cooperativa del segmento 1 de la SEPS (activos de más de USD 80 millones), con matriz en Ambato y agencias en Sierra, Costa, Oriente y Galápagos. No encontré cifras oficiales de cartera de 2025-2026.",
+        "region": "Ecuador — Ambato, Tungurahua",
+        "analisis": "Cooperativa fundada en 2002 por dirigentes de los pueblos Chibuleo, Salasaca y Pilahuín, hoy en el segmento 1. Una tesis de maestría de la PUCE (jul-2025) sobre su riesgo crediticio reporta una morosidad de cartera total de 9,84% en 2024, la más alta del período 2019-2024, y un impacto directo en la rentabilidad (ROE de 0,80%). Con mora cerca del 10% y rentabilidad fina, la priorización de la cobranza temprana es de las palancas más rápidas que tiene.",
+        "score_fit": 80,
+        "score_justificacion": "Mora cercana al 10% documentada, rentabilidad baja y tamaño medio, con gerente general identificado en fuente oficial de 2026 y en LinkedIn. Resta que la cifra de mora venga de una tesis y no de un informe de calificación reciente.",
+        "noticias": "13/08/2026: ficha de la cooperativa en el Foro 2026 de la Red de Instituciones Financieras de Desarrollo (RFD), que confirma que está en el segmento 1 y que la gerencia general es de Juan Andagana. Jul-2025: tesis PUCE con morosidad 2024 de 9,84%.",
+        "fuente": "https://foro2026.rfd.org.ec/2026/08/13/cooperativa-kullki-wasi/ ; https://repositorio.puce.edu.ec/server/api/core/bitstreams/e294801a-2c82-4d45-aed2-9d7b4007bd66/content",
+        "pais": "Ecuador"
+      },
+      "nombre": "Juan",
+      "apellido": "Andagana",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://ec.linkedin.com/in/juan-andagana-g-b296bb68",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Juan%20Andagana%20Kullki%20Wasi",
+      "verificacion": "Por verificar",
+      "fuente": "Ficha oficial del Foro RFD 2026 (13/08/2026) lo nombra gerente general. Snippet de LinkedIn en un buscador ('Juan Andagana G. - GERENTE - COOP. KULLKI WASI'); hay un segundo perfil con el mismo nombre y cargo (juan-andagana-72173879). No abrí ninguno.",
+      "gancho": "La morosidad de Kullki Wasi llegó a 9,84% en 2024, la más alta desde 2019 según una tesis de la PUCE (jul-2025) que la vincula con su ROE de 0,80%.",
+      "mensajes": {
+        "invitacion": "Juan, vi la ficha de Kullki Wasi en el Foro 2026 de la RFD y me interesó mucho cómo crecieron desde Ambato a todo el país. Yo vengo de liderar cobranzas en Cuotitas y Banco Columbia. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Juan. Leí un estudio de la PUCE que ubica la morosidad de Kullki Wasi en 9,84% en 2024 y la vincula con la rentabilidad. Con agencias en Sierra, Costa y Oriente, decidir a quién visitar o llamar cada día es difícil. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, hacemos un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Juan, una pregunta de colega: ¿la mora se comporta igual en las agencias de la Sierra que en las de la Costa y el Oriente? En Banco Columbia la cura del tramo 1-30 cambiaba mucho por zona y por horario de contacto, y ajustar eso bajaba el roll a 60 días sin sumar asesores.",
+        "cierre": "Juan, no te molesto más. Si más adelante quieren revisar la cobranza temprana por agencia, escribime y lo conversamos en Ambato, con pan de Pinllo y un café. Muchos éxitos a Kullki Wasi."
+      },
+      "pais": "Ecuador",
+      "ciudad": "Ambato",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Ahorro y Crédito Fernando Daquilema Ltda.",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.coopdaquilema.com",
+        "tamano": "Mediana-grande: activos de USD 837,88 millones (IntelliCoop con datos SEPS, ago-2026); a dic-2024, 173.233 socios, 44.457 prestatarios y cartera bruta de USD 472,89 millones",
+        "region": "Ecuador — Riobamba, Chimborazo (operaciones en las 24 provincias)",
+        "analisis": "Cooperativa de origen indígena de Riobamba, del segmento 1, con cartera 66% microcrédito y 29% consumo. La mora está sobre el umbral de la SEPS: 6,49% según IntelliCoop (ago-2026) y 6,52% a feb-2025 según MFR. MFR cuenta que fortalecieron la mora temprana con comités semanales, automatizaron la gestión de cobranza, sumaron gestores con más experiencia y asesores externos, y trasladaron cartera a un fideicomiso para bajar el indicador. Es una cobranza en plena reforma, con volumen para que un modelo de priorización se note.",
+        "score_fit": 74,
+        "score_justificacion": "Mora sobre el umbral regulatorio, reforma de cobranza en curso y gerente general visible. Resta el tamaño (casi USD 840 millones de activos), el peso del microcrédito sobre el consumo y que no encontré al responsable de cobranzas.",
+        "noticias": "Ago-2026: IntelliCoop (datos SEPS) muestra mora de 6,49% y capitalización de 8,89%, bajo el 9% exigido. Jun-2025: informe MFR con corte dic-2024 sobre las medidas de cobranza.",
+        "fuente": "https://intellicoop.lat/cooperativa/0691706710001/ ; https://www.mfrcalificadora.ec/wp-content/uploads/2025/06/Informe-de-Calificacion-de-Riesgos-COAC-Fernando-Daquilema-Dic-24.pdf ; https://www.coopdaquilema.com/tag/pedro-khipo/",
+        "pais": "Ecuador"
+      },
+      "nombre": "Pedro",
+      "apellido": "Khipo",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Pedro%20Khipo%20Daquilema",
+      "verificacion": "Por verificar",
+      "fuente": "Publicaciones oficiales de la cooperativa (Facebook y web, etiqueta 'Pedro Khipo') y una entrevista en YouTube lo presentan como gerente general; el informe PCR de 2022 lo lista como gerente y presidente del comité ALCO. No encontré su perfil de LinkedIn en buscadores.",
+      "gancho": "MFR cuenta que Daquilema armó comités semanales de mora temprana, automatizó la cobranza y sumó gestores y asesores externos; la mora sigue sobre 6%.",
+      "mensajes": {
+        "invitacion": "Pedro, leí en el informe de MFR cómo reforzaron en Daquilema la mora temprana, con comités semanales y cobranza automatizada. Yo lideré cobranzas en Cuotitas y Banco Columbia. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Pedro. Con 44.000 prestatarios en todo el país y la mora cerca de 6,5%, los comités semanales necesitan saber a quién mirar primero, y ahí se va mucho tiempo. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, para que los gestores vayan donde rinde. Si te sirve, hacemos un diagnóstico gratis con un Excel anonimizado de una o dos agencias.",
+        "followup": "Pedro, una de colega: MFR marca que la Costa tiene más cartera improductiva que la Sierra. ¿La cura del tramo 1-30 también es distinta por región, o se pierde más en el paso de 30 a 60? En Banco Columbia separar el roll por zona nos cambió el horario y el canal de contacto.",
+        "cierre": "Pedro, no te molesto más. Si más adelante quieren comparar la cura por agencia, escribime y lo conversamos en Riobamba con un hornado de por medio. Muchos éxitos a la Daquilema."
+      },
+      "pais": "Ecuador",
+      "ciudad": "Riobamba",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Ahorro y Crédito 29 de Octubre Ltda.",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.29deoctubre.fin.ec",
+        "tamano": "Grande para Ecuador: quinta del segmento 1 por activos (4,82%), 342.433 socios y 34 agencias en 20 provincias a sep-2025; cartera en riesgo de USD 83,51 millones",
+        "region": "Ecuador — Quito, Pichincha",
+        "analisis": "Cooperativa de 56 años con cartera 70,5% de consumo, lo que la hace de las más volcadas al consumo del segmento 1. La morosidad subió a 9,65% en sep-2025 (9,00% en junio), por encima del promedio del segmento (8,34%), con consumo en 8,59%; en nov-2024 armaron un fideicomiso de cartera vencida por USD 22,83 millones. GlobalRatings la ubica en el rango de riesgo 'alto' de su propia semaforización. Mucha cartera de consumo con mora en alza es el caso central de Flux, pero es una entidad grande y la venta sería más larga.",
+        "score_fit": 62,
+        "score_justificacion": "Cartera mayoritariamente de consumo, mora en alza y sobre el promedio del segmento, y gerencia identificada en la web oficial. Resta mucho el tamaño (342.000 socios) y que no encontré al responsable de cobranzas; el director de riesgos que figura en la web parece haberse ido a otro banco según LinkedIn.",
+        "noticias": "26/12/2025: GlobalRatings emite informe con corte sep-2025 (morosidad 9,65%, cobertura 109,82%). En ago-2024 se designó a Ángel Fabián Cruz Alvear como gerente, con Juan Carlos Basantez Gaona como gerente subrogante; la web oficial hoy muestra a Basantez como gerente.",
+        "fuente": "https://globalratings.com.ec/wp-content/uploads/037-COAC-2025-INFORMEFINAL-COAC-29_DE_OCTUBRE-DIC.pdf ; https://www.29deoctubre.fin.ec/conoce-la-29",
+        "pais": "Ecuador"
+      },
+      "nombre": "Juan Carlos",
+      "apellido": "Basantez",
+      "cargo": "Gerente",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Juan%20Carlos%20Basantez%2029%20de%20Octubre",
+      "verificacion": "Por verificar",
+      "fuente": "La página 'Conoce la 29' de la web oficial lo lista como Gerente; el informe de GlobalRatings (dic-2025) lo nombraba gerente subrogante. No encontré su perfil de LinkedIn en buscadores.",
+      "gancho": "El 70% de la cartera de la 29 de Octubre es consumo y la morosidad subió a 9,65% en sep-2025, por encima del 8,34% del segmento 1.",
+      "mensajes": {
+        "invitacion": "Juan Carlos, leí el informe de GlobalRatings sobre la 29 de Octubre: con 70% de la cartera en consumo, el trabajo de cobranza pesa mucho. Yo lideré cobranzas de consumo en Cuotitas y Banco Columbia. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Juan Carlos. Con la mora de consumo en 8,6% y 34 agencias, el desafío suele ser que todo atrasado recibe la misma gestión, cuando una parte cura sola y otra se pierde si no se la llama en la primera semana. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, hacemos un diagnóstico gratis con un Excel anonimizado de una cosecha de consumo.",
+        "followup": "Juan Carlos, una de colega: ¿la cartera que pasó al fideicomiso de vencida en 2024 venía de cosechas puntuales o estaba repartida? En Banco Columbia vimos que dos o tres cosechas explicaban la mayor parte del roll a 90 días, y atacarlas con otro guion en la mora temprana bajaba mucho lo que después había que castigar.",
+        "cierre": "Juan Carlos, no te molesto más. Si más adelante quieren comparar la cura temprana entre agencias, escribime y lo conversamos en Quito con un canelazo. Muchos éxitos a la 29."
+      },
+      "pais": "Ecuador",
+      "ciudad": "Quito",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Financiera Paraguayo Japonesa S.A.E.C.A. (FPJ)",
+        "segmento": "Financiera",
+        "web": "https://www.fpj.com.py",
+        "tamano": "Mediana: cartera de créditos de Gs. 1.766.312 millones a dic-2025 (unos USD 230 millones, calculo), primera de las cuatro financieras del sistema con el 38,12% del mercado; banca personas ≈40% de la cartera",
+        "region": "Paraguay — Asunción (sucursales en Encarnación, Santa Rita, Villarrica, San Lorenzo, Luque, Mariano Roque Alonso y Acceso Sur)",
+        "analisis": "Financiera regulada por el BCP con dos bancas: empresas (≈60% de la cartera) y personas (≈40%: préstamos personales, FIADO, tarjetas). La mora creció: vencidos de Gs. 81.801 a 107.711 millones en 2025, morosidad 6,10% explicada sobre todo por préstamos personales, cartera 2R +127% y desafectación por venta y cesión a fideicomiso del 11,46% de la cartera. Según la calificadora, en 2025 movieron la cobranza de la mora tardía a la temprana: segmentación, redistribución de clientes por gestor, mensajería preventiva y 'fechas probables de pago'. Justo lo que Flux estima deudor por deudor, así que la conversación arranca en su propio idioma.",
+        "score_fit": 84,
+        "score_justificacion": "Cartera de consumo con mora en alza y un proceso de cobranza temprana en plena reforma, documentado públicamente. Hay jefa de cobranzas identificada. Resta que la mitad larga de la cartera sea corporativa y que sea la financiera más grande de Paraguay (aunque el segmento es chico).",
+        "noticias": "Abr-2026: Solventa&Riskmétrica mantiene la calificación Apy con tendencia Estable (corte dic-2025). No encontré notas de prensa con fecha de 2026 fuera del informe.",
+        "fuente": "https://www.bolsadevalores.com.py/wp-content/uploads/2026/04/Informe-de-calificacion-FPJ-Dic25.pdf ; https://finanzas.com.py/financieras/",
+        "pais": "Paraguay"
+      },
+      "nombre": "Sara Carolina",
+      "apellido": "Ruiz De Sosa",
+      "cargo": "Jefa de Cobranzas",
+      "url_linkedin": "https://www.linkedin.com/in/sara-carolina-ruiz-de-sosa-588250180/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Sara%20Carolina%20Ruiz%20De%20Sosa%20Financiera%20Paraguayo%20Japonesa",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Sara Carolina Ruiz De Sosa - Jefa de Cobranzas - Financiera Paraguayo Japonesa'); no abrí el perfil.",
+      "gancho": "El informe de calificación de dic-2025 cuenta que FPJ pasó a atacar la mora temprana, rebalanceó clientes por gestor y empezó a identificar 'fechas probables de pago'.",
+      "mensajes": {
+        "invitacion": "Sara, leí en el informe de Solventa que en FPJ movieron el foco de la cobranza a la mora temprana y empezaron a trabajar fechas probables de pago. Lideré cobranzas en Cuotitas y Banco Columbia. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Sara. Me quedé con lo de las fechas probables de pago: cuando la mora de préstamos personales sube, estimar a mano quién paga y cuándo se vuelve el cuello de botella de cada gestor. Flux Collect calcula para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de una cartera de personas y lo comparamos con tus fechas.",
+        "followup": "Sara, una de colega: con la mensajería preventiva que reforzaron, ¿miden la cura del tramo 1-30 separando a quien pagó después del mensaje de quien pagó recién con la llamada del gestor? Cuando lo abrimos así en Cuotitas, un tercio de las llamadas se iba en gente que curaba sola, y ese tiempo rendía mucho más en el roll de 31 a 60.",
+        "cierre": "Sara, no te molesto más. Si algún día querés comparar números de mora temprana, escribime y lo charlamos con un tereré de por medio. Muchos éxitos con la cobranza en FPJ."
+      },
+      "pais": "Paraguay",
+      "ciudad": "Asunción",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Financiera FIC S.A.E.C.A.",
+        "segmento": "Financiera",
+        "web": "https://fic.com.py",
+        "tamano": "Mediana-chica: cartera total de Gs. 1.067.130 millones a sep-2025 (unos USD 140 millones, calculo); casa central en Av. Mariscal López y 6 sucursales",
+        "region": "Paraguay — Asunción",
+        "analisis": "Financiera del Grupo MAO que presta a empresas y a personas (préstamos, tarjetas). En 2025 la cartera vencida se triplicó: de Gs. 14.579 millones en dic-2024 a Gs. 44.809 millones en sep-2025, con la morosidad pasando de 1,54% a 4,20%, y la rentabilidad sigue baja por previsiones. En paralelo separaron Cobranzas de Créditos y crearon una Gerencia de Cobranzas independiente, además de un motor de decisión y desembolso digital. Un área recién armada, con la mora subiendo, es el momento en que un modelo que ordena la cola por probabilidad de pago tiene más valor.",
+        "score_fit": 80,
+        "score_justificacion": "Mora que se triplicó en nueve meses, gerencia de cobranzas nueva con su titular identificado en la web oficial y presión en resultados por previsiones. Resta que parte relevante de la cartera sea de empresas.",
+        "noticias": "26/11/2025: Solventa&Riskmétrica mantiene A-py con tendencia Estable (corte sep-2025) y destaca la creación de la Gerencia de Cobranzas como unidad independiente y el convenio con Red Digital (Wepa) para terminales de autoservicio.",
+        "fuente": "https://fic.com.py/wp-content/uploads/2025/12/Informe-Solventa-Set.pdf ; https://fic.com.py/fic/nosotros/ ; https://finanzas.com.py/financieras/",
+        "pais": "Paraguay"
+      },
+      "nombre": "Alex",
+      "apellido": "Brizuela",
+      "cargo": "Gerente de Cobranzas y Recuperaciones",
+      "url_linkedin": "https://py.linkedin.com/in/alex-brizuela-987202176",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Alex%20Brizuela%20FIC",
+      "verificacion": "Por verificar",
+      "fuente": "La plana ejecutiva de la web oficial (fic.com.py/fic/nosotros) lo lista como Gerente de Cobranzas y Recuperaciones. El snippet de LinkedIn en un buscador dice 'Alex Brizuela - Gerente de Cobranzas y Recuperación' sin nombrar la empresa; no abrí el perfil.",
+      "gancho": "FIC acaba de crear una Gerencia de Cobranzas independiente mientras la morosidad pasó de 1,54% a 4,20% entre dic-2024 y sep-2025.",
+      "mensajes": {
+        "invitacion": "Alex, vi que en FIC separaron Cobranzas de Créditos y que la gerencia nueva quedó a tu cargo. Yo lideré cobranzas en Banco Columbia y hoy estoy en Moovitech. Me gustaría conectar y seguir tu trabajo.",
+        "mensaje_1": "Gracias por aceptar, Alex. Armar una gerencia de cobranzas justo cuando la mora pasa de 1,5% a 4,2% en nueve meses no es poca cosa: todo entra a la cola al mismo tiempo y hay que decidir a quién llamar primero. Flux Collect estima, cliente por cliente, la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si querés, te hago un diagnóstico gratis con un Excel anonimizado de la cartera de personas.",
+        "followup": "Una pregunta de colega: ¿ya separan la mora nueva (la que entró este año) de la que viene rolando de antes? En Banco Columbia vimos que el roll rate de 30 a 60 de la mora nueva era casi el doble, y que tratarla con otro guion y otro horario cambiaba bastante la cura.",
+        "cierre": "Alex, no te molesto más. Si más adelante querés comparar cómo evoluciona la cura con la gerencia nueva, escribime y lo vemos con una chipa y un café. Éxitos con el armado del área."
+      },
+      "pais": "Paraguay",
+      "ciudad": "Asunción",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Inverfin S.A.E.C.A.",
+        "segmento": "Retail con crédito",
+        "web": "https://inverfin.com.py",
+        "tamano": "Mediana-grande local: ingresos de Gs. 1.031.642 millones en 2024 (unos USD 135 millones, calculo) y Gs. 564.328 millones en el 1S-2025 (+31,3%); red de sucursales en todo el país y planta de motos en Mariano Roque Alonso",
+        "region": "Paraguay — Asunción (casa central en Av. Artigas 3968; sucursales en todo el país)",
+        "analisis": "Importa y vende en cuotas mensuales motos, electrodomésticos, muebles y tecnología, con financiación propia; las motos y TV & audio empujaron el crecimiento de 2025. Feller Rate atribuye la mejora de la calidad de cartera a ajustes en la política crediticia y la marca como variable a seguir, junto con la gestión de inventario. Es una cartera masiva de ticket chico cobrada en sucursales y bocas de cobranza, con varias gerencias de cobranza (hay un perfil de 'mora tardía, prejudicial y judicial'). Flux puede ordenar la mora temprana antes de que llegue a esas etapas.",
+        "score_fit": 78,
+        "score_justificacion": "Crédito propio en cuotas para motos y electro, volumen alto y cobranza propia con gerentes identificables. Resta el tamaño: es de las casas de venta en cuotas más grandes de Paraguay, y el crédito es un negocio complementario al comercial.",
+        "noticias": "10/11/2025: Feller Rate califica en A+py (tendencia Estable) los nuevos programas de bonos de Inverfin; ingresos del 1S-2025 +31,3% interanual.",
+        "fuente": "https://www.feller-rate.com/comunicado-pdf/11324/19328/nueva-inverfin ; https://www.paraguay-directorio.com/1037-inverfin-inversora-y-comercial-saeca ; https://inverfin.com.py/pages/sucursales",
+        "pais": "Paraguay"
+      },
+      "nombre": "Victor",
+      "apellido": "Roa",
+      "cargo": "Gerente de Cobranzas",
+      "url_linkedin": "https://www.linkedin.com/in/victor-roa-7a789a123/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Victor%20Roa%20Inverfin",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Victor Roa - Gerente de Cobranzas - Inverfin S.A.E.C.A.'); no abrí el perfil. ZoomInfo lo ubica en el cargo desde 2021 (antes gerente regional) y lista también a otros gerentes de cobranzas y de créditos y cobranzas, así que conviene confirmar su área.",
+      "gancho": "Inverfin vende motos y electro en cuotas con financiación propia; Feller Rate (nov-2025) atribuye la mejora de cartera a ajustes de política crediticia y la marca como punto a vigilar.",
+      "mensajes": {
+        "invitacion": "Victor, vi que llevás la cobranza en Inverfin, con una cartera en cuotas de motos y electro repartida por todo Paraguay. Vengo de liderar cobranzas en Cuotitas, que también financiaba en cuotas. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Victor. Con ventas de motos creciendo fuerte en 2025, imagino que la mora temprana se reparte entre muchas sucursales y bocas de cobranza, y cuesta decidir cada mañana a quién llamar primero. Flux Collect estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te preparo un diagnóstico gratis con un Excel anonimizado de una cosecha de motos.",
+        "followup": "Victor, una de colega: en motos, ¿la mora de primera cuota se comporta distinto de la de electro? En Cuotitas vimos que el first payment default de algunos productos tenía un roll a 60 días mucho peor, y convenía atacarlo con otro guion y en los primeros cinco días. ¿Les pasa algo parecido?",
+        "cierre": "Victor, no te molesto más. Si algún día querés comparar números de cura entre motos y electro, escribime y lo charlamos con una sopa paraguaya de por medio. Éxitos con la cobranza."
+      },
+      "pais": "Paraguay",
+      "ciudad": "Asunción",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "TU Financiera S.A.E.C.A.",
+        "segmento": "Financiera",
+        "web": "https://tu.com.py",
+        "tamano": "Mediana-chica: en 2016 tenía 10 sucursales, 350 empleados y más de 50.000 clientes activos (InfoNegocios); en 2021 unos 70.000 clientes y un crédito promedio de Gs. 4 millones. No encontré cifras de cartera de 2025-2026.",
+        "region": "Paraguay — Asunción (Alberdi 446; sucursales en Gran Asunción, Caaguazú y Ciudad del Este)",
+        "analisis": "Financiera nacida en 2011 con foco en crédito de consumo a personas (préstamos de ticket chico, tarjetas) y en los últimos años también mipymes. En 2021 su presidenta reconocía que la cobranza seguía siendo difícil y que los clientes se habían pasado a pagar por medios digitales. En 2026 es Top of Mind en la categoría Financiera por cuarto año seguido y dice haber invertido en tecnología para la gestión comercial y el control de riesgos. Una cartera de muchos créditos chicos con pago digital es el escenario donde la priorización por probabilidad de pago ahorra más horas de gestión.",
+        "score_fit": 72,
+        "score_justificacion": "Negocio central de consumo en cuotas chicas, con cartera masiva y cobro digital. Resta que no haya informe de calificación ni cifras de mora recientes a la vista y que el contacto identificado sea el gerente general, no el de cobranzas.",
+        "noticias": "17/04/2026 (Revista PLUS): TU Financiera cumple 15 años y es Top of Mind 2026 en la categoría Financiera por cuarto año consecutivo, con 16% de menciones; cita a René Ibarra como gerente general.",
+        "fuente": "https://revistaplus.com.py/2026/04/17/tu-financiera-referente-del-credito-de-consumo-en-paraguay/ ; https://infonegocios.com.py/plus/monica-fadul-de-tu-financiera-iniciamos-un-proceso-para-diversificar-la-clientela-e-incluir-a-mipymes-con-las-cuales-estamos-creciendo-bastante ; https://infonegocios.com.py/hay-equipo/el-equipo-de-tu-financiera ; https://tu.com.py",
+        "pais": "Paraguay"
+      },
+      "nombre": "René",
+      "apellido": "Ibarra",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Ren%C3%A9%20Ibarra%20TU%20Financiera",
+      "verificacion": "Por verificar",
+      "fuente": "Revista PLUS (17/04/2026) lo nombra gerente general de TU Financiera. No encontré su perfil de LinkedIn en buscadores. ZoomInfo lista a Teresita Jara como jefa de riesgo y a una supervisora de cobranzas; la gerente de cobranzas publicada (Silvana Lombardo) es de una nota de 2016 y no la pude confirmar.",
+      "gancho": "Top of Mind 2026 en financieras, 15 años en crédito de consumo y una cartera de préstamos chicos (unos Gs. 4 millones de promedio en 2021) que se paga cada vez más por canales digitales.",
+      "mensajes": {
+        "invitacion": "René, leí en Revista PLUS que TU Financiera cumple 15 años y sigue Top of Mind en consumo. Yo vengo de cobranzas de consumo en Cuotitas y Banco Columbia, y hoy estoy en Moovitech. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, René. Con préstamos de ticket chico y cada vez más pagos por canales digitales, el problema suele ser el costo: llamar a todos los atrasados cuesta más de lo que se recupera en muchos casos. Flux Collect estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, para gastar gestión donde rinde. Si te interesa, hacemos un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "René, una de colega: en créditos de Gs. 3 a 5 millones, ¿tienen medido cuánto de la mora de 1 a 15 días cura sola con un recordatorio digital? En Cuotitas era más de la mitad, y sacarla de la cola de llamados liberaba al equipo para el tramo de 31 a 60, que es donde se juega la pérdida.",
+        "cierre": "René, no te molesto más. Si más adelante quieren revisar la cura temprana de la cartera de consumo, escribime y lo vemos con un tereré bien frío. Éxitos y felicitaciones por los 15 años."
+      },
+      "pais": "Paraguay",
+      "ciudad": "Asunción",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Coomecipar Ltda. (Cooperativa de Profesionales de la Salud)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.coomecipar.coop.py",
+        "tamano": "Grande para una cooperativa: 104.732 socios activos y cartera de créditos de Gs. 3.006.760 millones a dic-2025 (unos USD 390 millones, calculo); casa central y agencias en Central más sucursales en Ciudad del Este, Villarrica, Encarnación, Concepción y Pedro Juan Caballero",
+        "region": "Paraguay — Asunción",
+        "analisis": "Cooperativa de profesionales de la salud y sus familias. En 2025 desembolsó Gs. 1,7 billones en 35.639 operaciones (consumo, vehículos, vivienda, empresariales) y tiene 27.124 tarjetas activas. Reporta una morosidad de 2,77%, baja, y promociones de consumo al 18,5% vigentes hasta sep-2026. El dolor de mora es menor que en las financieras; el ángulo sería eficiencia (priorizar gestión en una base de más de 100.000 socios repartidos en seis ciudades) más que rescate de cartera.",
+        "score_fit": 58,
+        "score_justificacion": "Cartera de consumo en cuotas grande y activa, con jefe de riesgos identificado. Resta mucho: mora baja (2,77%), socios de ingresos formales y un tamaño que la acerca a las entidades grandes que Mauro suele descartar.",
+        "noticias": "Asamblea General Ordinaria del 22/03/2026 para aprobar la Memoria y Balance 2025; créditos de consumo promocionales al 18,5% anual hasta el 30/09/2026 (web oficial).",
+        "fuente": "https://www.coomecipar.coop.py/storage/publication/l6xxMUUlrkRE4RjKa7w3RnE4bSqSAn3NOwJw2Mia.pdf ; https://www.coomecipar.coop.py/prestamos/consumo",
+        "pais": "Paraguay"
+      },
+      "nombre": "Jorge Daniel",
+      "apellido": "Ortiz Romero",
+      "cargo": "Jefe de Riesgos",
+      "url_linkedin": "https://py.linkedin.com/in/jorge-daniel-ortiz-romero-84244b195",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Jorge%20Daniel%20Ortiz%20Romero%20Coomecipar",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Jorge Daniel Ortiz Romero - Jefe de Riesgos - Cooperativa Coomecipar Ltda.'); no abrí el perfil.",
+      "gancho": "Coomecipar cerró 2025 con 104.732 socios, Gs. 3 billones de cartera y una morosidad de 2,77%, repartida entre Central y cinco sucursales del interior.",
+      "mensajes": {
+        "invitacion": "Jorge, vi que estás en riesgos en Coomecipar. Leí la Memoria 2025: más de 100.000 socios y una mora de 2,77%, muy por debajo del sistema. Yo lideré cobranzas en Cuotitas y Banco Columbia. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Jorge. Con 2,77% de mora el tema no es rescatar cartera sino no gastar de más: con más de 100.000 socios, contactar a todos los atrasados por igual cuesta y molesta a gente que iba a pagar. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado para ver cuánta gestión se podría ahorrar.",
+        "followup": "Jorge, una de colega: ¿ven diferencias de cura entre la cartera de Central y la de las sucursales del interior, por ejemplo Ciudad del Este o Pedro Juan Caballero? En Banco Columbia la misma mora por región pedía horarios y canales distintos, y ajustarlo bajaba el roll de 30 a 60 sin sumar gestores.",
+        "cierre": "Jorge, no te molesto más. Si algún día quieren mirar la eficiencia de la cobranza por sucursal, escribime y lo charlamos con una chipa calentita. Éxitos en Coomecipar."
+      },
+      "pais": "Paraguay",
+      "ciudad": "Asunción",
+      "origen": "latam-2026-09-24"
+    }
+  ]
+}
