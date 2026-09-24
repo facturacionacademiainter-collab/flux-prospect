@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "seed": "node scripts/seed.mjs",
     "cargar-auto": "node scripts/cargar-auto.mjs",
-    "nombres": "node scripts/nombres-existentes.mjs"
+    "nombres": "node scripts/nombres-existentes.mjs",
+    "contactos-pendientes": "node scripts/contactos-pendientes.mjs",
+    "actualizar-contactos": "node scripts/actualizar-contactos.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
