@@ -1,0 +1,566 @@
+{
+  "tanda": 2,
+  "faltantes": 0,
+  "prospectos": [
+    {
+      "empresa": {
+        "nombre": "Oscar Barbieri S.A.",
+        "segmento": "Retail con crédito",
+        "web": "https://www.oscarbarbieri.com",
+        "tamano": "Mediana regional: 11 sucursales en Tucumán y 15 en total con Salta y Catamarca (según nota de mayo de 2019); crédito propio de hasta $1.500.000 a 24 meses",
+        "region": "NOA (Tucumán, Salta, Catamarca). Casa central en 25 de Mayo 325, San Miguel de Tucumán",
+        "analisis": "Empresa familiar tucumana que vende y financia electro, muebles, motos y bicicletas con su propio 'Crédito Barbieri': a sola firma, línea permanente y primera cuota a 30 días. Según lo que publica para usuarios financieros, cobra una TNA del 120% y un CFT máximo del 290%, con ingreso mínimo de $50.000 y edad máxima de 79 años. Eso apunta a una cartera de consumo masivo, de ticket chico y riesgo alto, que se cobra en las sucursales y por medios electrónicos, así que la mora temprana tiene que estar repartida entre más de 15 puntos. El ángulo de Flux es ordenar cada día a quién contactar primero, y por qué canal y a qué hora, antes de que la línea permanente se congele.",
+        "score_fit": 86,
+        "score_justificacion": "Tiene crédito propio publicado ante el BCRA (Com. A 5388), cartera en cuotas activa y un encargado de cobranzas identificable. El tamaño es medio, así que la venta puede cerrarla alguien que decide rápido. Resta algo que el volumen de cartera no sea público.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. La nota más reciente es del 15/05/2019 (InTucumán): apertura de una sucursal en San Martín al 800, con 11 sucursales en Tucumán y 15 en total. Esa nota cita a Oscar Barbieri como propietario y a Pablo David como gerente comercial.",
+        "fuente": "https://www.oscarbarbieri.com/quienes-somos ; https://www.oscarbarbieri.com/credito-personal ; https://www.oscarbarbieri.com/informacion-para-usuarios-financieros ; https://intucuman.info/nota-principal/apuesta-tucumana-barbieri-le-hace-frente-a-la-crisis-y-abre-una-moderna-sucursal-en-plena-city"
+      },
+      "nombre": "Mario",
+      "apellido": "Herrera",
+      "cargo": "Encargado Sector Cobranzas",
+      "url_linkedin": "https://www.linkedin.com/in/mario-herrera-745b3a207/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mario%20Herrera%20Oscar%20Barbieri",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('MARIO HERRERA - ENCARGADO SECTOR COBRANZAS - Oscar Barbieri SA'); no abrí el perfil completo. La web oficial también lo nombra, junto a Milagro Homsi, como responsable de atención al usuario de servicios financieros.",
+      "gancho": "El Crédito Barbieri es a sola firma, con línea permanente, primera cuota a 30 días y CFT publicado del 290%: una cartera de consumo masivo repartida en unas 15 sucursales del NOA.",
+      "mensajes": {
+        "invitacion": "Mario, vi que llevás cobranzas en Oscar Barbieri. Yo vengo de liderar cobranzas en Cuotitas y Banco Columbia, y me interesa mucho cómo se gestiona el crédito a sola firma en el NOA con 15 sucursales. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Mario. Con el Crédito Barbieri a sola firma, línea permanente y primera cuota a 30 días, imagino que el cuello de botella es decidir a quién llamar primero cuando se junta la mora de 11 sucursales en Tucumán más Salta y Catamarca. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de tu cartera.",
+        "followup": "Mario, una pregunta de colega. Con la primera cuota a 30 días, ¿ustedes miran aparte la mora de primera cuota (first payment default) o entra todo junto en el tramo 1-30? En Cuotitas vimos que ese grupo tenía un roll rate a 60 días mucho peor que el resto y que convenía atacarlo con otro guion y en otro horario. ¿En Barbieri pasa algo parecido o la cura de ese tramo es buena?",
+        "cierre": "Mario, no te molesto más. Si en algún momento querés comparar números de mora en el NOA, avisame y lo charlamos con un café, o con una empanada tucumana, que no se discute. Abrazo y éxitos con la cobranza."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Pareto (Espacio Digital S.A.)",
+        "segmento": "Fintech de crédito",
+        "web": "https://pareto.com.ar",
+        "tamano": "Mediana-chica: 77 empleados directos a may-2025 (suplemento FF Pareto Serie 11); la web declara más de 85.000 clientes y más de 300.000 créditos otorgados",
+        "region": "CABA, originación digital en todo el país",
+        "analisis": "Fintech de 2017, inscripta en el BCRA como PNFC, que otorga préstamos personales 100% digitales (2 a 9 cuotas y adelantos de 1 cuota) y securitiza casi todo lo que origina en la serie de fideicomisos Pareto (la 14 salió en febrero de 2026). Según su propio suplemento, la cobranza temprana es muy manual: tres intentos de débito en Itaú, Santander, Galicia y BBVA, boleta por mail el día 17, recordatorios por WhatsApp, llamados para pedir la promesa y el comprobante del día siguiente, y derivación a seis estudios a los 120 días. Lo que puede aportar Flux es ordenar esa cola: decidir a quién llamar, a quién mandarle solo un WhatsApp y a quién dejar autocurarse, según la probabilidad de pago a 5, 10 y 30 días y el mejor horario de cada deudor.",
+        "score_fit": 85,
+        "score_justificacion": "Cartera 100% de pago voluntario o débito, con mora de fintech alta en el mercado (30,5% en feb-2026 según ITBA/Cámara Fintech) y un proceso de cobranza documentado que funciona a pulmón con WhatsApp y llamados. Tiene equipo propio de cobranzas y el fundador y CEO está identificado. Emite fideicomisos seguido, así que mejorar la cura también mejora el flujo para los inversores.",
+        "noticias": "12/02/2026: emisión del FF Pareto Serie 14 por VN $2.685.547.535 (TCA Tanoira Cassagne, en Abogados.com.ar). 27/03/2026: Moody's Local afirma las calificaciones de los FF Pareto 10 a 13. 13/05/2026: el FF Pareto Serie 15 aparece en el informe quincenal de mercado de capitales de Valo, con VDFA por $2.689.350.000.",
+        "fuente": "https://www.bst.com.ar/wp-content/uploads/2025/07/FF-Pareto-Serie-11-Suplemento.pdf ; https://abogados.com.ar/tca-tanoira-cassagne-asesoro-en-la-emision-del-fideicomiso-financiero-pareto-serie-14/38546 ; https://moodyslocal.com.ar/wp-content/uploads/2026/03/IR-Pareto-Series-10-a-13-20260327.pdf ; https://www.valo.ar/wp-content/uploads/2026/05/Informe_Quincenal_13-05-2026.pdf ; https://pareto.com.ar/conocenos"
+      },
+      "nombre": "Hernán",
+      "apellido": "Finkelstein",
+      "cargo": "CEO, fundador y presidente del directorio",
+      "url_linkedin": "https://www.linkedin.com/in/hernan-finkelstein-a6ab358/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Hernan%20Finkelstein%20Pareto",
+      "verificacion": "Por verificar",
+      "fuente": "Suplemento del FF Pareto Serie 11 (jul-2025), que lo lista como Director Titular y Presidente de Espacio Digital S.A. El titular del perfil de LinkedIn en el buscador dice 'CEO & Founder & Chairman - Pareto', pero no pude abrir el perfil (LinkedIn bloquea el acceso).",
+      "gancho": "Su suplemento de FF describe la cobranza paso a paso: tres intentos de débito, boleta el 17, WhatsApp para recordar la promesa y llamado al día siguiente para pedir el comprobante, y seis estudios a partir de los 120 días.",
+      "mensajes": {
+        "invitacion": "Hernán, leí en el suplemento de la Serie 11 cómo gestionan la mora temprana en Pareto (WhatsApp, promesa y llamado al día siguiente). Vengo de liderar cobranzas en Cuotitas y Banco Columbia. Me gustaría sumarte.",
+        "mensaje_1": "Gracias por aceptar, Hernán. Me quedé pensando en el tramo de 1 a 30 días: tres débitos, boleta el 17 y un equipo que llama a todos para pedir la promesa. Ahí se va mucha hora de operador en gente que iba a pagar igual. En Flux estimamos, deudor por deudor, la probabilidad de pago a 5, 10 y 30 días y sugerimos canal y horario. Si me pasás un Excel anonimizado de una cosecha, te devuelvo un diagnóstico gratis.",
+        "followup": "Una pregunta de colega: ¿cuánto de lo que entra en mora temprana cura solo, sin llamado, cuando el débito rebota en el primer intento y entra en el segundo o el tercero? Si ese porcentaje es alto, se podría sacar a ese grupo de la cola de llamados y poner a los operadores en el roll de 30 a 60, que es lo que después termina en el estudio.",
+        "cierre": "Hernán, no te molesto más. Si más adelante quieren revisar la cura temprana antes de armar la próxima serie, me escribís y lo vemos con un café en el centro. Éxitos con la Serie 15."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Qida (Empresur S.A.)",
+        "segmento": "Financiera",
+        "web": "https://qida.com.ar",
+        "tamano": "Chica/mediana. S&P (abril 2023, datos a feb-2023): más de 8.200 socios activos, 11 sucursales propias, más de 2.600 comercios adheridos y 39 empleados. Préstamos hasta $2.000.000 de 30 días a 18 meses (web actual).",
+        "region": "Patagonia (casa central en Comodoro Rivadavia, Chubut)",
+        "analisis": "Emisora no bancaria de la tarjeta Qida y de préstamos personales, fundada como Empresur en 1990 en Comodoro Rivadavia; opera en Patagonia con un segmento de ingresos bajos y medios (asalariados, monotributistas, jubilados). Tiene una TEA máxima publicada de 887% y deudores de alto riesgo, así que la mora pesa mucho en el resultado, y usa gestores de mora tercerizados: S&P registró que en 2022 la incobrabilidad subió por el 'incorrecto barrido de cartera' de uno de ellos, que después fue reemplazado. El ángulo de Flux es priorizar por probabilidad de pago a 5/10/30 días para decidir qué gestiona el equipo interno (que tiene WhatsApp propio de cobranzas), qué va a la agencia y a quién alcanza con el débito por CBU.",
+        "score_fit": 84,
+        "score_justificacion": "Tamaño justo, cartera de alto riesgo con fideicomisos que exigen seguir la mora, un problema de cobranza tercerizada ya documentado por S&P y una persona identificada con cargo específico de estrategia de cobranzas. Resta puntos que la persona no esté confirmada en LinkedIn.",
+        "noticias": "9/5/2023: primera serie del FF 'Empresur Créditos I' por $71.073.428 dentro de un programa de hasta US$7 millones (PAGBAM, 15/5/2023; S&P, informe inicial del 5/4/2023). Fix SCR publicó una confirmación de calificación del FF Empresur I, sin fecha visible en el resultado de búsqueda. No encontré noticias con fecha de 2025-2026.",
+        "fuente": "https://qida.com.ar ; https://qida.com.ar/nosotros ; https://www.bst.com.ar/wp-content/uploads/2025/05/FF-Empresur-Creditos-I-Informe-de-Calificacion.pdf ; https://pagbam.com/news/new-trust-programme-and-first-issuance-under-this-programme/ ; https://fixscr.com/reportes-web/view?id=25296 ; https://bcra.gob.ar/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Silvia",
+      "apellido": "Gamarra",
+      "cargo": "Responsable de Estrategia de Cobranzas",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Silvia%20Gamarra%20Qida",
+      "verificacion": "Por verificar",
+      "fuente": "ZoomInfo (https://www.zoominfo.com/p/Silvia-Gamarra/8164622130): figura como Responsable de Estrategia de Cobranzas en Empresur/Qida, con recorrido Telegestor de Cobranzas -> Analista Senior de Cobranzas -> Responsable. No encontré su perfil de LinkedIn. Alternativa: Enrique Pini, Gerente General de Empresur (también según ZoomInfo).",
+      "gancho": "S&P documentó que en 2022 la incobrabilidad de Empresur subió por el mal barrido de cartera de un gestor de mora tercerizado.",
+      "mensajes": {
+        "invitacion": "Silvia, vi que armás la estrategia de cobranzas de Qida y que arrancaste en telegestión. Yo lideré cobranzas en Cuotitas y Banco Columbia, así que valoro ese recorrido. Me gustaría sumarte para intercambiar cómo se cobra en Patagonia.",
+        "mensaje_1": "Gracias por aceptar, Silvia. Leí en el informe de S&P del FF Empresur Créditos I que en 2022 la incobrabilidad subió por un mal barrido de un gestor tercerizado. Ese es el dolor típico: sin saber a quién llamar primero, la agencia barre todo igual. Flux estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si querés, te hago un diagnóstico gratis con un Excel anonimizado de un tramo de Qida.",
+        "followup": "Te hago una pregunta de colega: ¿cómo miden la cura en el tramo 1-30 separando a los que regularizan solos por el débito CBU de los que regularizan por gestión? Si no se separa, la agencia se adjudica recupero que igual iba a entrar, y el roll rate a 31-60 de lo que realmente gestiona puede cambiar bastante la decisión de qué tercerizar.",
+        "cierre": "Silvia, no te insisto más. Si en algún momento querés comparar números de mora o ver cómo le va a Flux con una muestra, escribime. Y si pasa un día sin viento en Comodoro, festejalo por mí."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Wayni Móvil (Waynicoin S.A.)",
+        "segmento": "Billetera con préstamos",
+        "web": "https://www.waynimovil.ar",
+        "tamano": "Mediana: cartera total de $61.113 millones y unos 6.000 préstamos por mes, con cerca de $2.100 millones desembolsados por mes entre jul y nov de 2025 (two-pager del FF Waynimóvil XII, BACS, dic-2025)",
+        "region": "Buenos Aires, originación digital en todo el país",
+        "analisis": "Fintech fundada en 2016 que da préstamos personales 100% digitales a población sub-bancarizada y suma billetera, tarjeta prepaga y membresías. Está inscripta en el BCRA como PNFC y como PSP. Fondea con fideicomisos Waynimóvil casi cada trimestre, y esos fideicomisos tienen cláusula gatillo que corta la compra de créditos si la cartera se deteriora, así que la mora le pega directo al fondeo. Ellos mismos dicen que la mora mejoró porque creció la proporción de renovadores. Flux puede separar a los primarios con baja probabilidad de pago a 5 y 10 días para trabajarlos antes y con el canal adecuado (app, WhatsApp o llamado).",
+        "score_fit": 80,
+        "score_justificacion": "Volumen alto de préstamos chicos a sub-bancarizados (mucho deudor, poco ticket), así que priorizar vale mucho. Tiene la billetera como canal propio de contacto y analistas de cobranzas y un equipo de Data y Riesgo visibles en LinkedIn. Es más conocida que las otras de esta lista y ya invierte en datos, por eso le bajé algo de puntaje.",
+        "noticias": "17/12/2025: licitación del FF Waynimóvil XII por VN $3.527.910.521. 27/04/2026: licitación del FF Waynimóvil XIII por $3.848.713.639 (emitido el 29/04/2026). 27/07/2026: emisión del FF Waynimóvil XIV por $4.188.530.462 (Marval O'Farrell Mairal).",
+        "fuente": "https://bacs.com.ar/wp-content/uploads/2025/12/Two-Pages-FF-Waynimovil-XII-Dic.-2025.pdf ; https://bacs.com.ar/wp-content/uploads/2026/04/FF-Waynimovil-XIII-Aviso-de-Colocacion.pdf ; https://www.marval.com/novedad/marval-ofarrell-mairal-asesoro-en-la-emision-de-valores-fiduciarios-waynimovil-xiv-5253 ; https://www.waynimovil.ar/"
+      },
+      "nombre": "Matías",
+      "apellido": "Wohlgemuth",
+      "cargo": "Cofundador y COO",
+      "url_linkedin": "https://ar.linkedin.com/in/matiaswohlgemuth/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mat%C3%ADas%20Wohlgemuth%20Wayni",
+      "verificacion": "Por verificar",
+      "fuente": "El two-pager del FF Waynimóvil XII (BACS, dic-2025) lo nombra entre los fundadores junto a Juan Francisco Salviolo y Martín Rivas Sarquis. El titular del perfil de LinkedIn en el buscador dice 'Co-fundador y COO de Wayni Movil', pero no pude abrir el perfil (HTTP 999).",
+      "gancho": "En el two-pager del FF XII dicen que la mora mejoró porque creció la proporción de renovadores, y originan unos 6.000 préstamos por mes.",
+      "mensajes": {
+        "invitacion": "Matías, vi que en el FF Waynimóvil XII atribuyen la mejora de mora al peso de los renovadores. Estuve del lado de la cobranza en Cuotitas y hoy estoy en Moovitech, y es un tema que me encanta. ¿Conectamos?",
+        "mensaje_1": "Gracias por conectar, Matías. Con 6.000 préstamos por mes, mucho primario y la cláusula gatillo de los fideicomisos, la mora de los primeros días pesa mucho. Arranqué Flux Collect para eso: para cada deudor estimamos la probabilidad de pago a 5, 10 y 30 días y sugerimos el canal (app, WhatsApp o llamada) y el horario. ¿Te sirve un diagnóstico gratis? Nos pasás un Excel anonimizado de una cosecha y te devolvemos el análisis.",
+        "followup": "Pregunta de colega: ¿miden la cura por separado para primarios y renovadores en el tramo de 1 a 30? En carteras parecidas vi que el primario que no paga en los primeros 5 días tiene un roll a 30+ mucho peor que el renovador con el mismo atraso. Si usan un único flujo para los dos, ahí suele haber margen.",
+        "cierre": "Matías, cierro acá para no llenarte la bandeja. Si en algún momento quieren probar la priorización con una cosecha de la XIV, me avisás y lo armamos. Abrazo, y que sigan saliendo las series."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Mutual de Residentes del Barrio Tais (Mutual Tais)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://mutualtais.com.ar/",
+        "tamano": "Chica/mediana: 4 sedes (El Trébol, San Jorge, Los Cardos, Piamonte); tarjeta propia ExpresCard; sin cifras públicas de cartera",
+        "region": "El Trébol, Santa Fe (centro-oeste santafesino)",
+        "analisis": "Mutual santafesina que da ayudas económicas en 12, 15, 18 y ahora 24 cuotas. También opera su propia tarjeta de compras en cuotas (ExpresCard) con comercios de la zona, además de salud, turismo y cobro de impuestos. Al alargar plazos a 24 meses y empujar la tarjeta, la cartera dura más y mezcla dos productos con comportamientos de mora distintos, gestionados desde cuatro sedes chicas. Ángulo Flux: priorizar la gestión diaria por probabilidad de pago a 5/10/30 días y separar préstamo de ExpresCard, sin sumar gente.",
+        "score_fit": 78,
+        "score_justificacion": "Tiene dos carteras activas en cuotas (préstamos + ExpresCard) y acaba de extender plazos (jul 2025). El gerente general está identificado y citado en prensa, y el tamaño es ideal para un producto liviano. Resta que no hay LinkedIn confirmado ni cifras de cartera.",
+        "noticias": "22/07/2025: la mutual amplió sus créditos a 24 meses (además de 12, 15 y 18) por mayor estabilidad de tasas, y destacó la promo de ExpresCard por el Día del Padre (Región Emprendedora). Contexto provincial: Santa Fe anunció un plan para trabajadores endeudados con tope de descuento por haberes del 25% y refinanciación, a lanzarse en mayo 2026 (UNO Santa Fe).",
+        "fuente": "https://mutualtais.com.ar/ ; https://regionemprendedora.com.ar/la-mutual-de-residentes-del-barrio-tais-fortalece-sus-servicios-y-beneficios-para-socios/ ; https://neoconsultores.ar/clientes/ ; https://www.unosantafe.com.ar/santa-fe/creditos-y-descuentos-santa-fe-lanza-un-plan-aliviar-trabajadores-endeudados-n10256686.html"
+      },
+      "nombre": "Gerardo",
+      "apellido": "Bruno",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerardo%20Bruno%20Mutual%20Tais",
+      "verificacion": "Por verificar",
+      "fuente": "La nota de Región Emprendedora del 22/07/2025 lo cita como gerente general de Mutual Tais. No encontré perfil personal de LinkedIn; solo hay una cuenta institucional, 'mutual tais los card gerencia' (https://ar.linkedin.com/in/mutual-tais-los-card-gerencia-7aa5a1113).",
+      "gancho": "En julio 2025 sumaron el plazo de 24 meses a los préstamos y la ExpresCard anduvo muy bien en el Día del Padre.",
+      "mensajes": {
+        "invitacion": "Gerardo, leí que en Mutual Tais sumaron el plazo de 24 meses a los préstamos y que la ExpresCard anduvo muy bien en el Día del Padre. Vengo de liderar cobranzas en Cuotitas y Banco Columbia; me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Gerardo. Estirar préstamos a 24 meses es buena noticia para el socio, pero alarga la ventana de riesgo y deja en la misma cartera cuotas de préstamo y saldos de ExpresCard. Armé Flux Collect: para cada deudor estima la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario para contactarlo. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de la cartera de El Trébol, San Jorge, Los Cardos y Piamonte.",
+        "followup": "Una consulta de colega: con cuatro sedes, ¿miden el roll rate de 1-30 a 31-60 por separado para préstamos y para ExpresCard? Muchas veces la tarjeta cura rápido en el primer tramo, pero si pasa los 60 días la cura cae fuerte. ¿A ustedes les pasa algo parecido?",
+        "cierre": "Gerardo, no te quiero llenar la bandeja. Si en algún momento querés ver cómo se ve la cartera de la mutual con el modelo, avisame y lo armamos sin compromiso. Un saludo grande a toda la gente de El Trébol."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Data (Data 2000 S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.tarjetadata.com.ar",
+        "tamano": "Mediana regional: la web informa unos 110.000 clientes y más de 7.000 comercios (otra fuente de la misma empresa dice 90.000 y 5.000); casa central en San Juan y 7 sucursales departamentales. LinkedIn: 51-200 empleados.",
+        "region": "Cuyo (San Juan)",
+        "analisis": "Tarjeta de crédito local de San Juan fundada en 1996 (Data 2000 S.A., inscripta en el registro de emisoras no bancarias del BCRA). Da préstamos personales en cuotas fijas que se debitan en la tarjeta y tiene sucursales en Rawson, Caucete, Valle Fértil, Jáchal, Barreal, Rivadavia y Media Agua. Con una base de ese tamaño y deudores de departamentos alejados, el dolor probable es gestionar la mora con un único guion para perfiles muy distintos (urbano digital vs. rural presencial). Flux le serviría para segmentar por probabilidad de pago y decidir canal y horario por deudor, y dejar la visita a sucursal para quien de verdad la necesita.",
+        "score_fit": 78,
+        "score_justificacion": "Cartera de tarjeta y préstamos activa (cuadro de comisiones vigente desde feb-2026), tamaño mediano manejable, poco conocida fuera de Cuyo y con la gerente general identificada. Resta que no hay noticias recientes ni un contacto específico de cobranzas.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. Hay un anexo de cargos y comisiones con 'Vigencia feb-26' publicado en la web (febrero 2026), que muestra que la operación sigue activa.",
+        "fuente": "https://www.tarjetadata.com.ar/quienes-somos/ ; https://www.tarjetadata.com.ar/wp-content/uploads/2026/02/ANEXO-1-FEBRERO-2026.pdf ; https://ar.linkedin.com/company/data-2000-s.a ; https://bcra.gob.ar/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Roxana",
+      "apellido": "Flores",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/roxana-flores-670b40167/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Roxana%20Flores%20Tarjeta%20Data",
+      "verificacion": "Por verificar",
+      "fuente": "El resultado de búsqueda de LinkedIn muestra el título 'Roxana Flores - Gerente general - tarjeta Data'. No pude abrir el perfil (LinkedIn devolvió error 999). Un video del Ministerio de Hacienda de San Juan en Facebook dice que trabaja en Tarjeta Data hace 25 años.",
+      "gancho": "Lleva 25 años en Data y contó en un video del Ministerio de Hacienda de San Juan el proceso de mejora continua de la empresa.",
+      "mensajes": {
+        "invitacion": "Roxana, vi que llevás más de 25 años en Tarjeta Data y hoy la gerencia general. Vengo de liderar cobranzas en Cuotitas y Banco Columbia y me interesan mucho las tarjetas regionales de Cuyo. Me gustaría conectar.",
+        "mensaje_1": "Gracias por conectar, Roxana. Con unos 110.000 clientes y sucursales de Jáchal a Barreal, en Data seguro conviven deudores de Capital que responden a un WhatsApp con otros de departamentos donde solo funciona la visita o el llamado. Flux estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Te ofrezco un diagnóstico sin costo: me pasás un Excel anonimizado y te devuelvo la cartera priorizada.",
+        "followup": "Una consulta de colega: ¿los préstamos que se debitan en el resumen los siguen como tramo aparte o se mezclan con el saldo de tarjeta? Cuando se mezclan, pagar el mínimo puede esconder el roll rate real del préstamo, y medir la cura por producto suele cambiar a quién conviene llamar primero.",
+        "cierre": "Roxana, no te molesto más. Si más adelante querés probar con una muestra chica, acá estoy. Y si el Zonda sopla fuerte en septiembre, que por lo menos no les tire abajo la cobranza del mes."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Prendo",
+        "segmento": "Automotor",
+        "web": "https://prendo.ar",
+        "tamano": "Mediana: más de 20 años, casa central en Rosario, 15 sucursales, más de 2.000 agencias y 17,8% del mercado de prendarios de usados (Siomaa, agosto de 2025)",
+        "region": "Rosario (Santa Fe), con alcance nacional. Fuerte en Santa Fe (35,51%), Córdoba (21,06%), Chaco (61,5%), La Pampa, Corrientes, Entre Ríos, Jujuy y Neuquén",
+        "analisis": "Financiera 100% enfocada en créditos prendarios para autos usados, que se colocan a través de agencias y de una app y un marketplace propios. Trabaja con respaldo de Banco del Sol. Como en prendarios de usados el deudor suele tener un perfil más ajustado que en 0km, el costo de llegar tarde es ir a secuestro, que es caro y lento. Flux le serviría para priorizar la mora temprana cuota por cuota y definir canal y horario en una cartera muy dispersa entre provincias.",
+        "score_fit": 78,
+        "score_justificacion": "Es un monoproducto prendario con mucho volumen y una cultura digital propia (app, marketplace), y el CEO aparece en prensa. Resta que es más grande que el resto de la lista, que puede tener analítica interna y que no está claro cuánta cobranza queda en Prendo y cuánta en el banco que la fondea.",
+        "noticias": "14/08/2025 (Infobae, iProfesional, El Cronista, Punto Biz): según Siomaa, Prendo es el número uno en colocación de prendarios de usados, con 17,8% de share. Lucas Nardin, su CEO, dijo: 'A diferencia de un banco, donde el prendario es un producto más, en Prendo estamos 100% enfocados en este negocio'.",
+        "fuente": "https://www.infobae.com/economia/networking/2025/08/14/prendo-se-convierte-en-la-empresa-numero-uno-en-colocacion-de-prestamos-prendarios/ ; https://www.cronista.com/informacion-gral/prendo-se-convierte-en-la-empresa-numero-uno-en-colocacion-de-prestamos-prendarios-en-argentina/ ; https://prendo.ar/"
+      },
+      "nombre": "Lucas",
+      "apellido": "Nardin",
+      "cargo": "CEO",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Lucas%20Nardin%20Prendo",
+      "verificacion": "Por verificar",
+      "fuente": "Prensa de agosto de 2025 (Infobae, El Cronista, iProfesional), donde aparece citado como CEO de Prendo. Busqué su perfil de LinkedIn y no apareció ninguno vinculado a Prendo.",
+      "gancho": "El ranking de Siomaa de agosto de 2025 pone a Prendo primero en prendarios de usados (17,8%), con 61,5% de share en Chaco y 35,5% en Santa Fe.",
+      "mensajes": {
+        "invitacion": "Lucas, vi el ranking de Siomaa que puso a Prendo primero en prendarios de usados con 17,8%. Vengo de cobranzas en Banco Columbia y Cuotitas, hoy en Moovitech. Me encantaría conectar con alguien 100% enfocado en prendas.",
+        "mensaje_1": "Gracias por aceptar, Lucas. Con más de 2.000 agencias y 35% del mercado en Santa Fe, el volumen de cuotas de usados que vence cada mes debe ser enorme, y en prenda el costo de llegar tarde es el secuestro. Flux Collect calcula para cada deudor la probabilidad de pago a 5, 10 y 30 días y recomienda canal y horario, para que el equipo se enfoque donde cambia el resultado. ¿Te interesa un diagnóstico gratis con un Excel anonimizado?",
+        "followup": "Lucas, una consulta de colega. En prendarios de usados, ¿las promesas de pago que toman en el tramo 31-60 las miden por cumplimiento real o solo por cantidad tomada? En Banco Columbia vimos que una promesa rota en ese tramo anticipaba el pase a 90+ mejor que el score de originación. Me da curiosidad si en Prendo cambia según la provincia, por ejemplo entre Chaco y Santa Fe.",
+        "cierre": "Lucas, cierro acá para no insistir. Si en algún momento quieren contrastar curvas de cura con alguien que viene de la trinchera, avisame. Y si paso por Rosario, el café a orillas del Paraná lo pago yo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Mutual ECO (Asociación Mutual Obras Públicas de la Nación)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://mutualeco.com.ar/",
+        "tamano": "Mediana: 31 sucursales en Entre Ríos, Corrientes, Córdoba y Misiones; fundada en 1944; sin cifras públicas de cartera",
+        "region": "Paraná, Entre Ríos (con presencia en Corrientes, Córdoba y Misiones)",
+        "analisis": "Mutual paranaense nacida en 1944 con 111 empleados de Obras Públicas. Hoy se enfoca casi exclusivamente en préstamos personales de 1 a 24 cuotas para empleados públicos, privados y jubilados, con solicitud online (app.mutualeco.com.ar) y un CFTNA publicado de 68% a 138% según perfil. Con 31 sucursales en cuatro provincias y perfiles de riesgo tan distintos es difícil priorizar la mora con una sola regla, y el diferimiento de cuotas que ofrecen como beneficio puede esconder mora. Ángulo Flux: ranking diario por probabilidad de pago a 5/10/30 días por sucursal y segmento, con canal y horario sugerido.",
+        "score_fit": 76,
+        "score_justificacion": "Su negocio central es el préstamo de consumo en cuotas. Tiene una red amplia pero es poco conocida fuera del Litoral, y el dolor de cobranza es muy probable por la dispersión geográfica y las tasas altas. Baja el score que no identifiqué ninguna persona.",
+        "noticias": "No encontré noticias con fecha 2025-2026 sobre la entidad.",
+        "fuente": "https://mutualeco.com.ar/ ; https://www.facebook.com/ecomutual/ ; https://neoconsultores.ar/clientes/"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente General / Responsable de Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mutual%20ECO%20Paran%C3%A1",
+      "verificacion": "Sin perfil",
+      "fuente": "No encontré autoridades ni gerentes en la web, en la prensa ni en LinkedIn.",
+      "gancho": "Nacieron en 1944 con 111 empleados de Obras Públicas y hoy prestan desde 31 sucursales en cuatro provincias.",
+      "mensajes": {
+        "invitacion": "Hola, vi que Mutual ECO arrancó en 1944 con empleados de Obras Públicas y hoy presta desde 31 sucursales en Entre Ríos, Corrientes, Córdoba y Misiones. Hace años trabajo en cobranzas (Cuotitas, Moovitech); me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar. Con 31 sucursales en cuatro provincias y socios que van de empleados públicos a privados y jubilados, me imagino que la mora no se comporta igual en Paraná que en Posadas o Corrientes. Desarrollé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Si les interesa, les hago un diagnóstico gratis sobre un Excel anonimizado de una o dos sucursales.",
+        "followup": "Pregunta de colega: ¿separan la gestión de los socios con descuento por recibo de los que pagan por ventanilla o transferencia? Y cuando un socio usa el diferimiento de cuota, ¿lo siguen como cartera sana o como tramo de riesgo? Suelen ser los que más ruedan de 1-30 a 31-60 si nadie los mira aparte.",
+        "cierre": "No quiero insistir de más. Si más adelante quieren probar el diagnóstico con una sucursal, me escriben y lo armamos. Un saludo grande para Paraná, que en primavera la costanera está hermosa."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Plan Platino (Platino S.R.L. / Villter S.R.L. / Tevisal S.A. / Zafiro S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.planplatino.com.ar",
+        "tamano": "Chica/mediana: 23 sucursales (25 según una nota de 2021) y más de 7.500 comercios adheridos en Córdoba y San Luis. No encontré cantidad de clientes publicada.",
+        "region": "Córdoba (casa central en Río Tercero; Villa María, Río Cuarto, San Francisco, Calamuchita) y San Luis",
+        "analisis": "Tarjeta regional fundada el 20/7/1991 en Río Tercero por cinco socios. Ofrece tarjeta, préstamos personales en efectivo y débitos automáticos, y opera con varias sociedades inscriptas en el BCRA. En 2019 pasó a mandar los resúmenes por WhatsApp Business (tyntec) y logró 200% más adhesiones que con el mail. El dolor probable es que, con 23 sucursales repartidas por varias regiones, la cobranza depende de cada sucursal y del llamado manual. Flux le permitiría usar ese canal de WhatsApp que ya tiene aceitado con criterio: a quién escribir, a qué hora y a quién derivar a la sucursal, según la probabilidad de pago a 5/10/30 días.",
+        "score_fit": 74,
+        "score_justificacion": "Tamaño ideal y poco conocida fuera de Córdoba, con cultura digital probada (WhatsApp) que baja la fricción para adoptar Flux, y un socio fundador identificado. Resta que no confirmé su LinkedIn, que la noticia sobre él es de 2021 y que no hay noticias recientes.",
+        "noticias": "20/7/2021: cumplió 30 años (Diario Río Tercero). 5/12/2019: implementó WhatsApp Business API con tyntec para enviar resúmenes y logró 200% más adhesiones que con el mail. No encontré noticias con fecha de 2025-2026; la web muestra cargos vigentes con información de 2025.",
+        "fuente": "https://www.planplatino.com.ar/ ; https://diarioriotercero.com.ar/cumple-hoy-30-anos-tarjeta-plan-platino-empresa-que-crearon-cinco-amigos/ ; https://www.thefastmode.com/services-and-innovations/16014-tyntec-brings-whatsapp-business-api-s-rich-media-features-to-its-financial-services-client ; https://bcra.gob.ar/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Walter",
+      "apellido": "Zicovich",
+      "cargo": "Gerente / Cofundador",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Walter%20Zicovich%20Plan%20Platino",
+      "verificacion": "Por verificar",
+      "fuente": "Diario Río Tercero (20/7/2021) lo cita como gerente; The Fast Mode/tyntec (5/12/2019) lo cita como cofundador. No encontré perfil de LinkedIn.",
+      "gancho": "Plan Platino manda los resúmenes por WhatsApp desde 2019 y consiguió 200% más adhesiones que con el mail.",
+      "mensajes": {
+        "invitacion": "Walter, leí que Plan Platino manda los resúmenes por WhatsApp desde 2019 y que la adhesión se triplicó frente al mail. Trabajo en cobranzas hace años (Cuotitas, Moovitech) y me encantaría tenerte entre mis contactos.",
+        "mensaje_1": "Gracias por aceptar, Walter. Si el WhatsApp ya les dio 200% más adhesiones que el mail para los resúmenes, el paso lógico es usarlo también para cobrar, pero no con todos igual. Con 23 sucursales entre Tercero Arriba, Río Cuarto y San Luis, elegir a quién escribir, cuándo y a quién mandar a la sucursal es el partido. Flux calcula la probabilidad de pago a 5, 10 y 30 días por deudor y sugiere canal y horario. ¿Te sirve un diagnóstico gratis con un Excel anonimizado?",
+        "followup": "Una pregunta de colega: ¿miden qué porcentaje de las promesas de pago tomadas por WhatsApp se cumplen, comparado con las que se toman en la sucursal? El cumplimiento de promesas por canal, y si el recordatorio sale el día anterior en el horario en que ese cliente contesta, es de lo que más mueve la cura del primer tramo.",
+        "cierre": "Walter, te dejo tranquilo. Si algún día querés ver qué sale de una muestra de cartera, me escribís. Y felicitaciones atrasadas por los 35 de Plan Platino: arrancar con cinco amigos en Río Tercero y seguir en pie no es poca cosa."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Mins (MINS LFE S.A.S.)",
+        "segmento": "Fintech de crédito",
+        "web": "https://mins.com.ar",
+        "tamano": "Chica: entre 10 y 19 empleados según ZoomInfo; su Facebook dice más de 5 años de actividad y más de 200.000 personas financiadas",
+        "region": "Nordelta, Tigre (GBA Norte), originación digital en todo el país",
+        "analisis": "Fintech que se declara PNFC ante el BCRA y da préstamos personales 100% digitales de $30.000 a $1.000.000, a hasta 12-18 meses, con TNA de 145% a 330%, más una línea para pymes. Se cobra con débito de la tarjeta de débito o transferencia al alias MINS.COMAFI. Con un equipo tan chico, la cobranza de los débitos rechazados tiene que salir casi sin gente. Flux le daría una lista diaria de a quién contactar primero y por qué canal, sin tener que sumar operadores.",
+        "score_fit": 74,
+        "score_justificacion": "Es chica, la decide el fundador y trabaja con clientes de riesgo alto (tasas de hasta 330% TNA). La propuesta de hacer más con el mismo equipo le calza bien. Le resta que no hay datos públicos de cartera ni de mora, y que el volumen puede quedar corto para un modelo propio.",
+        "noticias": "No encontré noticias con fecha. Solo aparece en el listado de prestamistas de El Mejor Trato y en los datos societarios (designación de administrador en asamblea del 12/01/2024, según Dateas).",
+        "fuente": "https://mins.com.ar/ ; https://www.facebook.com/Minsdamosprestamos/ ; https://www.zoominfo.com/p/Sebastian-Cuella/3198865684 ; https://www.dateas.com/en-us/empresa/mins-lfe-sas-30716830930 ; https://ar.linkedin.com/company/mins-pr%C3%A9stamos"
+      },
+      "nombre": "Sebastián",
+      "apellido": "Cuella",
+      "cargo": "Fundador y CEO",
+      "url_linkedin": "https://www.linkedin.com/in/sebastian-cuella-b528558/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Sebastian%20Cuella%20Mins",
+      "verificacion": "Por verificar",
+      "fuente": "El titular del perfil de LinkedIn en el buscador dice 'Sebastian Cuella - Founder & CEO - Mins'. ZoomInfo lo lista como Founder & CEO de Mins Damos Préstamos, y Dateas registra a Jorge Sebastián Cuella como administrador de MINS LFE S.A.S. No pude abrir el perfil de LinkedIn.",
+      "gancho": "Más de 200.000 personas financiadas con un equipo de 10 a 19 personas, cobrando por débito de tarjeta y transferencia al alias MINS.COMAFI.",
+      "mensajes": {
+        "invitacion": "Sebastián, vi que con Mins ya financiaron a más de 200.000 personas con un equipo chico. Vengo de la operación de cobranzas (Cuotitas, Banco Columbia) y me interesa cómo lo resuelven las fintech del segmento. ¿Conectamos?",
+        "mensaje_1": "Gracias, Sebastián. Con 10 a 20 personas y cobro por débito de tarjeta o transferencia, imagino que cada débito rechazado se lleva un rato del equipo. Flux Collect estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y te dice por qué canal y a qué hora conviene contactarlo, así se llama solo a quien hace falta. Si querés, te hago un diagnóstico gratis con un Excel anonimizado de tu cartera.",
+        "followup": "Una consulta técnica: cuando rebota el débito de la tarjeta, ¿cuántos pagan solos por transferencia a MINS.COMAFI en los 10 días siguientes? Si ese porcentaje es alto, conviene dejar a ese grupo con un recordatorio y usar el llamado para los que tienen promesa incumplida, que son los que más pasan al tramo de 30 a 60.",
+        "cierre": "Sebastián, te dejo tranquilo. Si algún día querés ver números de cura con tu propia cartera, estoy a un mensaje, y si te queda cómodo lo charlamos con un café por Nordelta."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Castillo SACIFIA (Crédito Castillo)",
+        "segmento": "Retail con crédito",
+        "web": "https://www.castillo.com.ar",
+        "tamano": "Mediana regional: 30 sucursales en el NOA según su web (otras fuentes dicen 27) y unos 454 empleados según RocketReach (dato sin verificar)",
+        "region": "NOA (Tucumán, Santiago del Estero, Catamarca, Salta, entre otras). Figura en 25 de Mayo 320, San Miguel de Tucumán",
+        "analisis": "Cadena familiar del NOA con más de 100 años, que vende electro, muebles, colchones, celulares y vehículos con crédito propio y requisitos más flexibles que los de un banco. En retail con crédito propio la cobranza es también retención: el cliente que entra en mora deja de comprar, y con 30 sucursales cada local tiende a gestionar su propia mora con criterios distintos. Flux daría una priorización única por deudor, con canal y horario, para el equipo central de cobranzas y para las sucursales.",
+        "score_fit": 74,
+        "score_justificacion": "Tiene crédito propio consolidado, buena escala regional y en los portales de empleo aparecen roles de jefe de créditos y supervisor de cobranzas. Resta que no identifiqué a nadie de cobranzas con certeza: el contacto es comercial y sale de bases de datos de terceros.",
+        "noticias": "No encontré noticias con fecha.",
+        "fuente": "https://www.castillo.com.ar/nosotros ; https://www.castillo.com.ar/sucursales ; https://ar.linkedin.com/company/castillo-sacifia ; https://rocketreach.co/castillo-sacifia-management_b404fde9fc1e4143 ; https://www.zoominfo.com/p/Alfredo-Arganaraz/7445780965"
+      },
+      "nombre": "Alfredo",
+      "apellido": "Argañaraz",
+      "cargo": "Director Comercial",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Alfredo%20Arga%C3%B1araz%20Castillo",
+      "verificacion": "Por verificar",
+      "fuente": "Aparece como Director Comercial de Castillo en ZoomInfo y RocketReach, con base en Catamarca. No encontré su perfil de LinkedIn. En LinkedIn también aparece Lucia Laragione como analista de créditos de Castillo SACIFIA, por si hace falta otro contacto.",
+      "gancho": "Castillo tiene más de 100 años y 30 sucursales en el NOA, y su crédito propio es la puerta de entrada de miles de familias: la mora ahí también es una pérdida de clientes.",
+      "mensajes": {
+        "invitacion": "Alfredo, sigo a Castillo por su crédito propio en el NOA: 30 sucursales y más de 100 años financiando hogares no es poca cosa. Vengo de la operación de cobranzas en Banco Columbia y Cuotitas, me gustaría conectar.",
+        "mensaje_1": "Buenas, Alfredo, gracias por aceptar. Cuando el crédito propio sostiene la venta en 30 sucursales del NOA, cada cliente que se atrasa también es un cliente que deja de volver a comprar. Por eso armé Flux Collect: para cada deudor calcula la probabilidad de pago a 5, 10 y 30 días y sugiere el canal y el horario que mejor le responde. Así el equipo sabe a quién llamar hoy y a quién le alcanza un WhatsApp. ¿Te hago un diagnóstico gratis con un Excel anonimizado?",
+        "followup": "Alfredo, una pregunta de colega. ¿La cobranza de los tramos 1-30 la hacen las sucursales o un equipo central? En retail con crédito propio vimos que cuando cada local gestiona su mora, la tasa de cura varía muchísimo entre sucursales por el mismo tramo, y eso termina siendo un problema de método más que de cliente. ¿En Castillo ven esa dispersión?",
+        "cierre": "Alfredo, no te insisto más. Si más adelante quieren revisar la mora con otra mirada, me escribís y lo vemos sin compromiso. Mientras tanto, que el calor del NOA empuje la venta de aires en cuotas. Saludos."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Mutual entre Asociados y Adherentes del Club Atlético Franck (Mutual CAF)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://mutualcaf.com.ar/",
+        "tamano": "Mediana-chica: sede en Franck + filiales en Santa Fe, Santo Tomé y Rafaela y oficina en San Agustín; 7.600 asociados en 2014 (dato viejo, no hay cifra actual pública)",
+        "region": "Franck, Santa Fe (departamento Las Colonias / Gran Santa Fe)",
+        "analisis": "Mutual fundada en 1989 que ofrece préstamos personales, prendarios e hipotecarios, la tarjeta CrediCAF, ahorro y plazo fijo, y financiamiento a comercios y microemprendimientos. Tiene varias carteras en cuotas con perfiles distintos repartidas en cuatro filiales, algo que suele terminar en una gestión pareja para todos los atrasados. Ángulo Flux: ordenar la gestión por probabilidad de pago a 5/10/30 días y separar CrediCAF de préstamos para enfocar al equipo donde más se recupera.",
+        "score_fit": 72,
+        "score_justificacion": "Cartera activa y diversificada (préstamos + tarjeta propia), tamaño manejable y poco conocida fuera de la región. Resta que el gerente identificado sale en fuentes de 2014 y 2019 y que no hay noticias recientes de la mutual.",
+        "noticias": "No encontré noticias con fecha 2025-2026 de la mutual. Del club: 09/04/2025, Jorge Lang asumió como presidente del Club Atlético Franck (FM Spacio).",
+        "fuente": "https://mutualcaf.com.ar/nuestra-mutual/ ; https://mutualcaf.com.ar/credicaf/ ; https://mutualcaf.com.ar/sucursales/ ; https://www.fmspacio.com/2019/12/10/30-anos-de-la-mutual-del-club-atletico-franck.html ; https://elsantafesino.com/avanza-la-obra-de-la-mutual-del-club-atletico-franck/ ; https://www.fmspacio.com/2025/04/09/jorge-lang-es-el-nuevo-presidente-del-club-atletico-franck.html"
+      },
+      "nombre": "José Luis",
+      "apellido": "Falchini",
+      "cargo": "Gerente",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Jos%C3%A9%20Luis%20Falchini%20Mutual%20CAF",
+      "verificacion": "Por verificar",
+      "fuente": "El Santafesino (03/02/2014) y FM Spacio (10/12/2019) lo nombran gerente de la Mutual CAF. No confirmé que siga en el cargo en 2026 ni encontré su LinkedIn.",
+      "gancho": "La mutual pasó de Franck a tener filiales en Santa Fe, Santo Tomé y Rafaela, con préstamos y su propia tarjeta CrediCAF.",
+      "mensajes": {
+        "invitacion": "José Luis, sigo el mutualismo del centro santafesino y me llamó la atención cómo creció Mutual CAF de Franck a Santa Fe, Santo Tomé y Rafaela, con préstamos y CrediCAF. Lideré cobranzas en Banco Columbia; me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, José Luis. Con préstamos personales, hipotecarios y CrediCAF conviviendo en las filiales de Franck, Santa Fe, Santo Tomé y Rafaela, suele pasar que el equipo llama a todos los atrasados con la misma prioridad. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere por qué canal y a qué hora contactarlo. Te ofrezco un diagnóstico gratis con un Excel anonimizado de la cartera, sin integrar nada.",
+        "followup": "Te hago una pregunta técnica: ¿cómo les rinden las promesas de pago en CrediCAF comparado con los préstamos personales? En mi experiencia, el porcentaje de promesas cumplidas es de lo mejor para anticipar si un socio en el tramo 31-60 cura solo o necesita otra gestión.",
+        "cierre": "José Luis, te dejo tranquilo. Si algún día querés ver el modelo corriendo con datos de la mutual, me escribís y lo coordinamos. Saludos a Franck, y que el club acompañe el crecimiento de la mutual."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Casa Reig S.A. (Club Reig)",
+        "segmento": "Retail con crédito",
+        "web": "https://www.reig.com.ar",
+        "tamano": "Chica-mediana: empresa familiar mendocina con más de 70 años y sucursales en 6 provincias. No encontré una cifra de sucursales confiable",
+        "region": "Cuyo y centro: Mendoza (casa central en José Vicente Zapata 265), San Juan, San Luis, La Rioja, Córdoba y Buenos Aires",
+        "analisis": "Cadena familiar de electro, tecnología, muebles y hogar con 'Club Reig', un sistema de crédito propio sin tarjeta bancaria, en cuotas fijas y con requisitos mínimos (DNI, recibo de sueldo y un impuesto). En su blog de abril de 2026 lo empuja como herramienta central de venta, lo que sugiere que la cartera propia crece. Tener clientes en seis provincias con un equipo chico hace que la cobranza sea difícil de priorizar. Flux aporta un orden diario de contacto por deudor, con canal y horario, sin tener que sumar gente.",
+        "score_fit": 72,
+        "score_justificacion": "Tiene crédito propio activo y promocionado en 2026, y su dueño habla en público y decide. Resta que no sé el tamaño de la cartera y que no identifiqué a nadie específico de créditos o cobranzas.",
+        "noticias": "14/04/2026: post en el blog de la propia empresa que presenta Club Reig como 'sistema de crédito propio' en 6 provincias. No encontré notas de prensa de 2025-2026. Antes hay declaraciones de Daniel Reig del 30/08/2024 (Memo): 'el aspecto más importante que ha cambiado ha sido la baja de tasas y la vuelta al crédito'. Otra del 03/09/2024 (Mendoza Post) sobre el impuesto PAIS.",
+        "fuente": "https://www.reig.com.ar/club-reig/ ; https://www.reig.com.ar/blog/posts/club-reig-cuotas-sin-tarjeta-0bc8f2f924af/ ; https://www.reig.com.ar/quienes-somos/ ; https://www.memo.com.ar/economia/electrodomesticos-cuotas-sin-interes-expectativas-de-bajas-de-precios/ ; https://www.mendozapost.com/economia/bajan-los-precios-de-la-electronica-esto-dijo-el-dueno-de-casa-reig/"
+      },
+      "nombre": "Daniel",
+      "apellido": "Reig",
+      "cargo": "Dueño / titular",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Daniel%20Reig%20Casa%20Reig",
+      "verificacion": "Por verificar",
+      "fuente": "Prensa mendocina de 2024 (Mendoza Post y Memo), donde aparece como dueño de Casa Reig. No encontré su perfil de LinkedIn. La empresa tiene página: https://ar.linkedin.com/company/casa-reig-s-a",
+      "gancho": "Dijo que lo que más cambió en electro fue 'la baja de tasas y la vuelta al crédito', y en abril de 2026 Casa Reig empuja Club Reig, su crédito propio sin tarjeta, en 6 provincias.",
+      "mensajes": {
+        "invitacion": "Daniel, leí tus comentarios sobre la vuelta al crédito en electro y vi que Club Reig ya financia en seis provincias. Trabajo en cobranzas de consumo (Cuotitas, Moovitech) y me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por conectar, Daniel. Club Reig como crédito propio y sin tarjeta es una gran herramienta de venta, pero con clientes en Mendoza, San Juan, San Luis, La Rioja, Córdoba y Buenos Aires, la cobranza se vuelve difícil de priorizar desde un solo lugar. Con Flux Collect estimamos para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugerimos por qué canal y a qué hora contactarlo. Te ofrezco un diagnóstico sin costo con un Excel anonimizado.",
+        "followup": "Daniel, una curiosidad de colega. Con cuotas fijas en Club Reig, ¿notan diferencias de roll rate de 30 a 60 días entre Mendoza y las provincias más nuevas? En Cuotitas vimos que las plazas recién abiertas tenían peor cura en el primer tramo, sobre todo por datos de contacto flojos al originar. Es un punto que se corrige barato si se detecta temprano.",
+        "cierre": "Daniel, te dejo tranquilo. Si algún día querés mirar la cartera de Club Reig con otros ojos, escribime y lo charlamos, ojalá con un Malbec de por medio. Éxitos con la temporada de aires."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Asociación Mutual del Club Almafuerte de Las Varillas (Grupo Almafuerte)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://mutualalmafuerte.com.ar/",
+        "tamano": "Mediana-chica: casa central en Las Varillas + filiales en Pozo del Molle, La Playosa, Sacanta, Adelia María, General Cabrera y Carrilobo (según Prensa Mutual, jun 2024); sin cifras públicas de cartera",
+        "region": "Las Varillas, Córdoba (este cordobés, zona agropecuaria)",
+        "analisis": "Mutual fundada en 1991 para dar ayuda económica y captar ahorro local. Hoy suma la Tarjeta Mutual Almafuerte, cobro de servicios, loteos financiados y un edificio de departamentos en construcción. La expansión a pueblos agrícolas con dinámicas distintas complica seguir la mora de cada filial desde Las Varillas, sumado a la estacionalidad de ingresos por la cosecha. Ángulo Flux: probabilidad de pago a 5/10/30 días por socio y filial para separar el atraso estacional de la mora estructural y decidir a quién llamar primero.",
+        "score_fit": 70,
+        "score_justificacion": "Tiene cartera de ayudas económicas, tarjeta propia y loteos en cuotas, con expansión reciente a pueblos nuevos. El gerente está identificado y es activo en FEMUCOR. Resta que no hay LinkedIn ni noticias 2025-2026.",
+        "noticias": "No encontré noticias con fecha 2025-2026. La última es del 23/06/2024 (Prensa Mutual): la mutual construye un edificio de planta baja más cuatro pisos (15 departamentos), y el gerente dijo que otros pueblos les piden abrir filiales, con General Cabrera como plaza prometedora.",
+        "fuente": "https://mutualalmafuerte.com.ar/ ; http://grupoalmafuerte.com.ar/la-mutual/autoridades/ ; http://grupoalmafuerte.com.ar/tarjeta-mutual-almafuerte/ ; https://prensamutual.com.ar/cordoba-la-mutual-almafuerte-esta-construyendo-moderno-edificio/ ; https://radiovive.com.ar/tag/emir-crivelli/"
+      },
+      "nombre": "Emir",
+      "apellido": "Crivelli",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Emir%20Crivelli%20Almafuerte",
+      "verificacion": "Por verificar",
+      "fuente": "Radio Vive (05/04/2020) y Prensa Mutual (23/06/2024) lo presentan como gerente general. En la web institucional figura como Secretario del Consejo Directivo (Emir Alberto Crivelli). No encontré su LinkedIn.",
+      "gancho": "Abrieron filiales en Adelia María, General Cabrera y Carrilobo en alianza con clubes locales, y él dijo que otros pueblos les piden sucursal.",
+      "mensajes": {
+        "invitacion": "Emir, leí la nota sobre el crecimiento de Mutual Almafuerte con filiales en Pozo del Molle, Sacanta, General Cabrera y Carrilobo. Vengo de la operación de cobranzas (Cuotitas, Banco Columbia) y me gustaría conectar con vos.",
+        "mensaje_1": "Gracias por aceptar, Emir. Cuando una mutual abre filiales en pueblos con dinámicas distintas, como Adelia María o General Cabrera, la cobranza de ayudas económicas y de la Tarjeta Mutual Almafuerte se vuelve más difícil de seguir desde Las Varillas. Flux Collect estima para cada socio la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Te propongo un diagnóstico gratis con un Excel anonimizado de una filial.",
+        "followup": "Pregunta de colega: ¿miden la cartera por filial con roll rate mes a mes? En zonas agropecuarias suele haber estacionalidad fuerte con la cosecha, y parte del tramo 31-60 cura solo en ciertos meses. Separar eso de la mora estructural cambia bastante a quién conviene llamar primero.",
+        "cierre": "Emir, no te molesto más. Si en algún momento querés probarlo con los datos de una filial, avisame y lo armamos. Y un saludo al club, que no cualquiera saca un Bolmaro."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Prestix (ex Prester Argentina, Corvalán 1160 S.A.)",
+        "segmento": "Fintech de crédito",
+        "web": "https://www.prestix.com.ar",
+        "tamano": "Chica: préstamos de $20.000 a $350.000 a 3-36 meses; no publica cartera ni cantidad de empleados",
+        "region": "CABA (Maipú 255), originación digital en todo el país",
+        "analisis": "Fintech que se presenta como registrada en el BCRA y da préstamos personales 100% digitales con selfie y DNI. En 2025 cambió su marca de Prester a Prestix. Las cuotas se debitan de la cuenta bancaria entre el 1 y el 10 de cada mes, y para renovar el cliente tiene que haber pagado el 50% del préstamo a tiempo. Con TEA que puede superar el 1.400%, el perfil de riesgo es alto y cobra mucho peso qué se hace con el débito rechazado en esa ventana de diez días. Flux puede decir qué rechazos van a pagar solos y cuáles hay que contactar ya, y también sirve para decidir a quién ofrecerle la renovación.",
+        "score_fit": 70,
+        "score_justificacion": "Es chica, con cartera de riesgo alto y un analista de riesgo crediticio y cobranzas identificado en RocketReach, así que hay un problema operativo concreto. Le resta que el contacto que encontré es comercial y no de cobranzas, y que no hay datos de volumen.",
+        "noticias": "2025 (sin día exacto): Prester Argentina anunció su cambio de marca a Prestix. No encontré otras noticias con fecha.",
+        "fuente": "https://www.prestix.com.ar/ ; https://www.prestix.com.ar/termsandconditions/ ; https://fimaster.com.br/ar/prestamo-prestix/ ; https://rocketreach.co/joaquin-badano-email_145682469 ; https://rocketreach.co/paul-c-email_752289177"
+      },
+      "nombre": "Joaquín",
+      "apellido": "Badano",
+      "cargo": "Gerente comercial",
+      "url_linkedin": "https://www.linkedin.com/in/joaquinbadano/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Joaqu%C3%ADn%20Badano%20Prestix",
+      "verificacion": "Por verificar",
+      "fuente": "El titular del perfil de LinkedIn en el buscador dice 'Joaquín Badano - Prestix Argentina', y RocketReach lo lista como Gerente comercial de Prestix Argentina (antes en Wenance). No pude abrir el perfil de LinkedIn. El área de cobranzas tiene un analista (Paul C., en RocketReach) sin apellido completo.",
+      "gancho": "Debitan todas las cuotas entre el 1 y el 10 de cada mes, y para renovar el cliente tiene que haber pagado el 50% a tiempo. La cobranza y la originación quedan atadas.",
+      "mensajes": {
+        "invitacion": "Joaquín, vi el cambio de Prester a Prestix y que la renovación depende de tener el 50% pagado en término. Trabajo en cobranzas hace años (Cuotitas, Banco Columbia) y me interesa cómo lo cruzan con lo comercial. ¿Conectamos?",
+        "mensaje_1": "Joaquín, gracias por aceptar. Como debitan entre el 1 y el 10, todo el mes se juega en esa ventana, y los rechazos pesan en la cobranza y también en quién llega a renovar. En Flux Collect calculamos, deudor por deudor, la probabilidad de pago a 5, 10 y 30 días y sugerimos canal y horario de contacto. ¿Lo charlarías con quien lleva cobranzas? Ofrecemos un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Pregunta de colega: de los que rebotan en el primer débito del día 1, ¿qué porcentaje entra solo antes del 10? Si lo tienen por cosecha, se ve rápido cuántos llamados sobran. Además, los que curan solos suelen ser los mejores candidatos para ofrecerles la renovación.",
+        "cierre": "Joaquín, no insisto más. Si más adelante quieren mirar la ventana del 1 al 10 con datos, me escribís y lo vemos, que desde Maipú al centro estamos a nada."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Ultra (Cumar S.A. - Grupo Maxi)",
+        "segmento": "Retail con crédito",
+        "web": "https://tarjetaultra.com",
+        "tamano": "Chica/mediana: la web informa más de 10.000 tarjetahabientes activos y más de 3.000 comercios (otra página de Ultra habla de más de 60.000 tarjetas en circulación). Sucursales en Mendoza, Tunuyán, San Rafael, Malargüe y San Juan.",
+        "region": "Cuyo (Mendoza y San Juan)",
+        "analisis": "Tarjeta de crédito mendocina con más de 30 años: nació para comprar en las tiendas Maxi y se abrió a comercios de toda la provincia. Hoy combina tarjeta, préstamos personales, la billetera virtual Ultra (lanzada en noviembre de 2020 y parte de Mendoza Activa) y una tienda de electrodomésticos. El dolor probable es el de una cartera de retail que financia electro y préstamos a clientes de segmentos medios y bajos, donde la mora de préstamos en efectivo suele comportarse distinto (y peor) que la de compras en cuotas. Tienen datos de uso de la billetera y la tarjeta que sirven para modelar la probabilidad de pago, y Flux puede convertirlos en prioridad, canal y horario por deudor.",
+        "score_fit": 68,
+        "score_justificacion": "Poco conocida fuera de Mendoza, con préstamos activos, sucursales en el interior profundo y un directivo financiero identificado con perfil de LinkedIn. Resta que es parte de un grupo de retail (la decisión puede ser del grupo), que hay cifras de tamaño que no coinciden y que no hay noticias recientes.",
+        "noticias": "12/7/2021: InfoMendoza entrevista a Alfonso Cutilla sobre el crecimiento de la billetera Ultra en Mendoza Activa. 15/6/2022: Unidiversidad lo entrevista sobre billeteras virtuales y QR. No encontré noticias con fecha de 2025-2026.",
+        "fuente": "https://tarjetaultra.com/quienes-somos/ ; https://infomendoza.info/nota-principal/ultra-la-billetera-virtual-mendocina-que-logra-posicionarse ; https://www.unidiversidad.com.ar/las-billeteras-virtuales-nos-permitieron-cambiar-el-home-banking-por-el-codigo-qr ; https://bcra.gob.ar/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Alfonso",
+      "apellido": "Cutilla",
+      "cargo": "Director de Finanzas (Grupo Maxi / Ultra)",
+      "url_linkedin": "https://www.linkedin.com/in/alfonso-cutilla-8260b650/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Alfonso%20Cutilla%20Ultra",
+      "verificacion": "Por verificar",
+      "fuente": "InfoMendoza (12/7/2021) y Unidiversidad (15/6/2022) lo presentan como director de Finanzas de Grupo Maxi y de la billetera Ultra. El resultado de búsqueda de LinkedIn muestra 'Alfonso Cutilla - EBUCAR SA/CUMAR SA/OTRAS', pero no abrí el perfil ni confirmé el cargo actual.",
+      "gancho": "Dijo en una entrevista que las billeteras 'permitieron cambiar el home banking por el código QR' y que las tarjetas iban a desaparecer en el corto plazo.",
+      "mensajes": {
+        "invitacion": "Alfonso, leí tu entrevista sobre la billetera Ultra y el cambio del home banking al QR. Soy Mauro, vengo de cobranzas en Banco Columbia y hoy estoy en Moovitech. Me gustaría conectar con gente que mueve el crédito en Mendoza.",
+        "mensaje_1": "Gracias por sumarme, Alfonso. Ultra tiene algo que pocas regionales tienen: la billetera, la tarjeta y la tienda de Grupo Maxi en el mismo ecosistema, y sucursales de Malargüe a San Juan. Eso deja datos de uso que sirven para anticipar quién va a pagar. Flux estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Si te interesa, hago un diagnóstico gratis sobre un Excel anonimizado de la cartera de préstamos.",
+        "followup": "Una consulta técnica: ¿el roll rate de 1-30 a 31-60 lo miran separado para préstamos en efectivo y para compras de electro en la tienda? Suelen comportarse muy distinto, y la actividad en la billetera (dejar de usarla, por ejemplo) puede servir de alerta temprana antes de que venza la cuota.",
+        "cierre": "Alfonso, no te sigo escribiendo. Si en algún momento querés hacer la prueba con una muestra, me avisás. Mientras tanto, que la vendimia venga buena y la cobranza del primer vencimiento acompañe."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Creditcar",
+        "segmento": "Automotor",
+        "web": "https://creditcar.com.ar",
+        "tamano": "Chica: financiera prendaria que opera desde 1996, con una red de agencias en el centro de la provincia de Buenos Aires. No hay cifras públicas de cartera",
+        "region": "Centro de la provincia de Buenos Aires (su WhatsApp tiene característica 2344, de la zona de Saladillo)",
+        "analisis": "Otorga créditos prendarios para autos 0km y usados de hasta 15 años, con hasta 48 cuotas y hasta 60% del valor. Para autos de 11 a 15 años baja a 24 meses y 50%. Tiene portal de clientes y de agencias. Financiar usados viejos a través de agencias del interior deja una mora con comportamiento muy distinto según la antigüedad del auto y la agencia de origen. Flux le daría una priorización por deudor a una estructura chica que probablemente cobra a mano.",
+        "score_fit": 68,
+        "score_justificacion": "Es chica, tiene casi 30 años y su nicho es claro (prendarios de usados en el interior bonaerense), con un director identificado. Resta que no hay datos de volumen ni noticias, y que el perfil de la persona no está confirmado.",
+        "noticias": "No encontré noticias con fecha.",
+        "fuente": "https://creditcar.com.ar/ ; https://creditcar.com.ar/prestamos.php ; https://www.crunchbase.com/organization/creditcar"
+      },
+      "nombre": "Leonardo",
+      "apellido": "Castellani",
+      "cargo": "Director",
+      "url_linkedin": "https://www.linkedin.com/in/leonardo-castellani-a4973348/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Leonardo%20Castellani%20Creditcar",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Leonardo Castellani - Director en Creditcar'). No pude abrir el perfil porque LinkedIn devolvió HTTP 999.",
+      "gancho": "Creditcar financia usados de hasta 15 años (los de 11 a 15 años, a 24 meses y 50%) desde 1996 en el centro de la provincia de Buenos Aires.",
+      "mensajes": {
+        "invitacion": "Leonardo, vi que Creditcar da prendarios desde 1996 en el centro de la provincia de Buenos Aires, con usados de hasta 15 años. Lideré cobranzas en Cuotitas y Banco Columbia, me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Leonardo. Casi 30 años en prendarios con red de agencias es mucha espalda, pero financiar usados de 11 a 15 años a 24 meses tiene un riesgo distinto al 0km, y la mora temprana no se comporta igual en cada tramo. Flux Collect estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Si querés, te hago un diagnóstico gratis sobre un Excel anonimizado de la cartera.",
+        "followup": "Leonardo, una pregunta técnica. ¿Separan la mora por agencia de origen? En prendarios vimos que dos agencias con el mismo perfil de auto podían tener un roll rate de 30 a 60 días del doble, y que eso se explicaba más por cómo se cargaban los datos de contacto que por el cliente. ¿En Creditcar ven esa diferencia entre agencias?",
+        "cierre": "Leonardo, no te sigo molestando. Si en algún momento querés contrastar números de mora con alguien que viene de la operación, avisame y lo charlamos. Saludos para el centro de la provincia, que ahí los autos duran de verdad."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Mutual Centro (Asociación Mutual del Centro Social y Deportivo Brinkmann)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.centrosocialbrk.com/",
+        "tamano": "Chica/mediana: sede en Brinkmann + Filial Oeste y otras filiales; la quinta se inauguró en Vicuña Mackenna (jul 2021); sin cifras públicas de cartera",
+        "region": "Brinkmann, Córdoba (noreste cordobés, con filial en el sur provincial)",
+        "analisis": "Mutual nacida del Club Centro Social y Deportivo Brinkmann que da ayudas económicas y ahorro. En octubre de 2024 presentó su alianza con Banco Bica para dar a sus socios Visa débito, MODO, QR y acreditaciones automáticas. Con filiales separadas por cientos de kilómetros (Brinkmann y Vicuña Mackenna), la cobranza de ayudas suele depender de cada filial y de reintentos manuales. Ángulo Flux: usar el historial de pagos y débitos para estimar la probabilidad de pago a 5/10/30 días y definir cuándo y por qué canal contactar.",
+        "score_fit": 66,
+        "score_justificacion": "Mutual chica con ayuda económica activa, en plena digitalización (Banco Bica) y con un gerente joven identificado, así que la receptividad probablemente sea buena. Baja por la menor escala, la cartera sin cifras y la falta de noticias 2025-2026 de la mutual.",
+        "noticias": "No encontré noticias con fecha 2025-2026 de la mutual. La última es del 23/10/2024 (La Radio 102.9): Mutual Centro participó en 'Visión compartida 2024' presentando su alianza con Banco Bica (Visa débito, MODO, QR).",
+        "fuente": "https://www.laradio1029.com.ar/2024/10/23/mutual-centro-participo-en-vision-compartida-2024-en-santa-fe/ ; https://acnoticias.ar/mario-de-paul-la-juventud-al-servicio-de-mutual-centro-y-sus-socios/ ; https://www.centrosocialbrk.com/se-presento-el-nuevo-gerente-de-mutual-centro-mario-de-paul/ ; https://www.centrosocialbrk.com/mutual-centro-inauguro-nueva-filial-en-vicuna-mackenna/"
+      },
+      "nombre": "Mario",
+      "apellido": "de Paúl",
+      "cargo": "Gerente",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mario%20de%20Pa%C3%BAl%20Mutual%20Centro",
+      "verificacion": "Por verificar",
+      "fuente": "Asumió como gerente en septiembre de 2018 (Centro Social Brinkmann / La Radio 102.9). ACN (13/07/2021) y La Radio 102.9 (23/10/2024) lo siguen citando como gerente. No encontré su LinkedIn.",
+      "gancho": "La alianza con Banco Bica para dar Visa débito, MODO y QR a los socios de una mutual de Brinkmann.",
+      "mensajes": {
+        "invitacion": "Mario, vi la alianza de Mutual Centro con Banco Bica para dar Visa débito y MODO a los socios. Muy bueno ver a una mutual de Brinkmann moverse así. Lideré cobranzas en Cuotitas y Banco Columbia; me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Mario. Con filiales desde Brinkmann hasta Vicuña Mackenna y ahora con cuentas y débitos vía Banco Bica, tienen un dato muy valioso: cuándo entra la plata al socio. Flux Collect usa el historial de pagos para estimar la probabilidad de pago a 5, 10 y 30 días de cada deudor y sugerir canal y horario de contacto. Si querés, te hago un diagnóstico gratis con un Excel anonimizado de las ayudas económicas.",
+        "followup": "Una pregunta técnica: con los débitos en cuenta, ¿cuántas cuotas rebotan en el primer intento y cuántas se recuperan con un segundo débito antes de los 10 días? Esa cura temprana suele marcar si hace falta llamar o alcanza con reintentar en la fecha correcta.",
+        "cierre": "Mario, te dejo tranquilo. Si más adelante querés ver el diagnóstico con datos de una filial, me escribís. Saludos a Brinkmann y a toda la gente del Centro Social, que de la cancha a la mutual sostienen mucho del pueblo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Megacrédito (Financompra S.A. / Agrofinar S.A.)",
+        "segmento": "Fintech de crédito",
+        "web": "https://megacredito.ar",
+        "tamano": "Chica: no publica cartera ni empleados. Según un perfil de LinkedIn tuvo 8 sucursales. Opera con préstamos a 2-12 meses",
+        "region": "Caseros (Tres de Febrero, GBA Oeste), originación online en todo el país",
+        "analisis": "PNFC inscripto en el BCRA (N° 60.123) que da préstamos personales online con aprobación en el día, a 2-12 meses, con CFT máximo de 248,68%. Todas las cuotas vencen el día 5 de cada mes y se pagan con débito, billeteras, Pago Fácil, Rapipago, transferencia o en sucursal. Tener un solo vencimiento concentra la mora de todo el mes en unos pocos días, y los medios de pago dispersos hacen difícil saber rápido quién pagó. Flux ordena esa cola del día 6 en adelante por probabilidad de pago y le asigna a cada deudor el canal y el horario que mejor funcionan.",
+        "score_fit": 65,
+        "score_justificacion": "Es chica y del conurbano, con vencimiento único y mucha dispersión de medios de pago, así que el dolor operativo está claro. Le resta que casi no hay información pública (ni volumen ni noticias) y que el contacto que encontré es un gerente sin área definida.",
+        "noticias": "No encontré noticias con fecha. Solo aparece nombrada en la nota de El Cronista del 15/09/2026 sobre el mapa de préstamos online, como fintech de mini préstamos.",
+        "fuente": "https://megacredito.ar/ ; https://www.megacredito.com.ar/tyc.html ; https://www.cronista.com/informacion-gral/prestamos-online-en-argentina-2026-el-mapa-del-mercado-despues-de-los-cambios-del-bcra/ ; https://www.linkedin.com/in/leandro-griffo-4a260969/"
+      },
+      "nombre": "Leandro",
+      "apellido": "Griffo",
+      "cargo": "Gerente (área a confirmar)",
+      "url_linkedin": "https://www.linkedin.com/in/leandro-griffo-4a260969/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Leandro%20Griffo%20Financompra",
+      "verificacion": "Por verificar",
+      "fuente": "El titular del perfil de LinkedIn en el buscador dice 'Leandro Griffo - Gerente en Financompra sa', con experiencia en Megacrédito. No pude abrir el perfil para confirmar el área ni si sigue en el cargo.",
+      "gancho": "Todas sus cuotas vencen el día 5 de cada mes y se pueden pagar por siete vías distintas, sucursal incluida.",
+      "mensajes": {
+        "invitacion": "Leandro, vi que en Megacrédito todas las cuotas vencen el 5. Estuve muchos años del lado de la cobranza de consumo, en Cuotitas y en Banco Columbia, y me gusta intercambiar con gente de financieras del conurbano. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Leandro. Con todos los vencimientos el 5 y pagos que entran por débito, billeteras, Rapipago, Pago Fácil y sucursal, el 6 de cada mes debe ser un día largo para saber a quién llamar. En Flux Collect estimamos para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugerimos canal y horario. Si te sirve, con un Excel anonimizado de un par de vencimientos te preparo un diagnóstico gratis.",
+        "followup": "Una pregunta de colega: ¿cuántos de los que no pagan el 5 terminan pagando antes del 15 sin ninguna gestión? Con un solo vencimiento, ese número define cuánta gente necesitan en la primera quincena y cuánta conviene pasar al tramo de 30 a 60, donde el roll rate duele de verdad.",
+        "cierre": "Leandro, te dejo tranquilo. Si algún mes quieren ver el día 6 con otros ojos, avisame y me doy una vuelta por Caseros. Gracias por el tiempo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Credife S.A. (CreCard)",
+        "segmento": "Financiera",
+        "web": "http://www.credife.com.ar",
+        "tamano": "Chica: 50-99 empleados (según el perfil de LinkedIn/directorios). Sucursales en Santa Fe, Esperanza, Rafaela, Sunchales, Pilar, San Lorenzo y Venado Tuerto.",
+        "region": "Litoral (Santa Fe y Entre Ríos)",
+        "analisis": "Financiera santafesina que emite la tarjeta cerrada CreCard desde 1990 (inscripta en el registro de emisoras del BCRA) y da préstamos personales y prendarios de hasta 36 cuotas, además de préstamos a empleados y jubilados de la provincia y a pymes. Mezcla productos con riesgos y ciclos de cobranza muy distintos (prendario con garantía, préstamo personal y tarjeta), algo que suele terminar gestionado con una sola cadencia. Flux ayudaría a separar por probabilidad de pago a 5/10/30 días para decidir cuándo alcanza con un recordatorio, cuándo llamar y cuándo ejecutar la garantía.",
+        "score_fit": 55,
+        "score_justificacion": "Buen tamaño y perfil (financiera chica del Litoral, poco conocida, con cartera mixta). Puntaje bajo porque no pude confirmar actividad en 2026 (el dominio credife.ar no resolvía el 24/9/2026) y porque el contacto es el presidente según una designación de directorio de 2021, sin LinkedIn.",
+        "noticias": "No encontré noticias con fecha. El 17/5/2022 el Boletín Oficial de Santa Fe publicó la designación del directorio (asamblea del 16/7/2021). No pude confirmar actividad en 2026.",
+        "fuente": "http://www.credife.com.ar/web_credife/empresa.html ; https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2022%2F2022-05-17contratos.html ; https://ar.linkedin.com/company/credife-s-a- ; https://creditos-personales.com.ar/ficha/credife-rafaela-santa-fe ; https://bcra.gob.ar/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Ángel Felipe",
+      "apellido": "Pragliola",
+      "cargo": "Presidente",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Pragliola%20Credife",
+      "verificacion": "Por verificar",
+      "fuente": "Boletín Oficial de Santa Fe del 17/5/2022: directorio designado el 16/7/2021 con Ángel Felipe 'PRAGIOLA' como presidente (el boletín lo escribe así, pero la directora suplente figura como Pragliola). ZoomInfo lo lista como 'Angel Pragliola, Presidente de Empresa at Credife'. No encontré perfil de LinkedIn.",
+      "gancho": "CreCard está en la calle desde 1990 y Credife combina prendarios hasta 36 cuotas con préstamos a estatales y jubilados santafesinos.",
+      "mensajes": {
+        "invitacion": "Ángel, vi que Credife tiene la CreCard en la calle desde 1990 y presta con prendarios en Santa Fe y Entre Ríos. Vengo de la operación de cobranzas en Cuotitas y Banco Columbia. Me gustaría sumarte a mis contactos.",
+        "mensaje_1": "Gracias por aceptar, Ángel. En una cartera como la de Credife, que mezcla préstamos a estatales y jubilados santafesinos, prendarios hasta 36 cuotas y CreCard, el error típico es gestionar todo con la misma cadencia. Flux estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Te propongo un diagnóstico gratis: me mandás un Excel anonimizado de una sucursal, Rafaela o Sunchales, y te devuelvo la cartera priorizada.",
+        "followup": "Te consulto algo técnico: en los prendarios, ¿a partir de qué tramo de atraso pasan a gestión de garantía? En carteras mixtas conviene medir cuántos prendarios en 31-60 se curan con un contacto a tiempo antes de escalar, porque tratarlos igual que a un personal sin garantía puede salir más caro en gestión.",
+        "cierre": "Ángel, no te escribo más. Si más adelante querés probar con una muestra, contá conmigo. Y que Colón o Unión (el que te toque) te dé una alegría este fin de semana."
+      }
+    }
+  ]
+}
