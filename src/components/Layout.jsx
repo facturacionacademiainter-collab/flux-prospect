@@ -1,6 +1,8 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useSesion } from '../lib/sesion'
+import { alCambiarRevision, contarPendientes } from '../lib/revision'
 
 const SECCIONES = [
   { a: '/', texto: 'Hoy', icono: IconoHoy },
@@ -10,8 +12,45 @@ const SECCIONES = [
   { a: '/ajustes', texto: 'Ajustes', icono: IconoAjustes },
 ]
 
+/** Prospectos cargados automáticamente que esperan revisión (se refresca al navegar y al aprobar/descartar). */
+function usePendientesRevision() {
+  const { pathname } = useLocation()
+  const [pendientes, setPendientes] = useState(0)
+  useEffect(() => {
+    let vivo = true
+    const refrescar = () =>
+      contarPendientes()
+        .then((n) => vivo && setPendientes(n))
+        .catch(() => {})
+    refrescar()
+    const soltar = alCambiarRevision(refrescar)
+    return () => {
+      vivo = false
+      soltar()
+    }
+  }, [pathname])
+  return pendientes
+}
+
+function Contador({ n, flotante }) {
+  if (!n) return null
+  return (
+    <span
+      className={`grid min-w-[1.25rem] place-items-center rounded-full bg-fuchsia-500 px-1.5 text-[10px] font-bold leading-5 text-white ${
+        flotante ? 'absolute -right-3 -top-1.5' : 'ml-auto'
+      }`}
+      title={`${n} para revisar`}
+      aria-label={`${n} para revisar`}
+    >
+      {n}
+    </span>
+  )
+}
+
 export default function Layout() {
   const { sesion } = useSesion()
+  const pendientes = usePendientesRevision()
+  const contadorDe = (a) => (a === '/prospectos' ? pendientes : 0)
 
   return (
     <div className="min-h-screen md:pl-60">
@@ -32,6 +71,7 @@ export default function Layout() {
             >
               <Icono />
               {texto}
+              <Contador n={contadorDe(a)} />
             </NavLink>
           ))}
         </nav>
@@ -73,7 +113,10 @@ export default function Layout() {
               }`
             }
           >
-            <Icono />
+            <span className="relative">
+              <Icono />
+              <Contador n={contadorDe(a)} flotante />
+            </span>
             {texto}
           </NavLink>
         ))}
