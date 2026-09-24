@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-fondo font-sans text-slate-100 antialiased;
+    background-image:
+      radial-gradient(60rem 40rem at 10% -10%, rgba(140, 104, 177, 0.25), transparent 60%),
+      radial-gradient(50rem 35rem at 110% 10%, rgba(88, 60, 140, 0.18), transparent 60%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  ::selection {
+    @apply bg-flux-500/40;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply rounded-2xl border border-white/10 bg-white/[0.04] shadow-xl shadow-black/20 backdrop-blur-xl;
+  }
+  .glass-strong {
+    @apply rounded-2xl border border-white/15 bg-[#1a1424]/80 shadow-2xl shadow-black/40 backdrop-blur-2xl;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl px-3.5 py-2 text-sm font-semibold transition
+      disabled:cursor-not-allowed disabled:opacity-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-flux-400;
+  }
+  .btn-primario {
+    @apply btn bg-flux-500 text-white hover:bg-flux-400 active:bg-flux-600;
+  }
+  .btn-secundario {
+    @apply btn border border-white/15 bg-white/5 text-slate-100 hover:bg-white/10;
+  }
+  .btn-fantasma {
+    @apply btn text-slate-300 hover:bg-white/5 hover:text-white;
+  }
+  .btn-peligro {
+    @apply btn border border-rose-400/30 bg-rose-500/15 text-rose-100 hover:bg-rose-500/25;
+  }
+  .btn-chico {
+    @apply px-2.5 py-1.5 text-xs;
+  }
+  .input {
+    @apply w-full rounded-xl border border-white/10 bg-black/30 px-3 py-2 text-sm text-slate-100 placeholder-slate-500
+      focus:border-flux-400 focus:outline-none focus:ring-1 focus:ring-flux-400;
+  }
+  .label {
+    @apply mb-1 block text-xs font-medium uppercase tracking-wide text-slate-400;
+  }
+  .chip {
+    @apply inline-flex items-center whitespace-nowrap rounded-full border px-2 py-0.5 text-[11px] font-semibold;
+  }
+  .titulo-pagina {
+    @apply text-2xl font-bold tracking-tight text-white md:text-3xl;
+  }
+}
+
+select.input option {
+  background: #1a1424;
+}
+
+/* Barra de scroll discreta */
+.scroll-fino::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scroll-fino::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+}
