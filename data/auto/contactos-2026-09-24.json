@@ -1,0 +1,42 @@
+{
+  "contactos": [
+    {
+      "id": "8fa6023c-991b-471b-9f0a-9e6fa53f3eba",
+      "empresa": {
+        "nombre": "Argenpesos (Argencred S.A.)"
+      },
+      "nombre": "Angel Damian",
+      "apellido": "Moscoso Hernandez",
+      "cargo": "Jefe de Operaciones",
+      "url_linkedin": "https://www.linkedin.com/in/angel-damian-moscoso-hernandez-85b39499/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Angel%20Moscoso%20Hernandez%20Argenpesos",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de buscador con la URL del perfil de LinkedIn: 'Angel Damian Moscoso Hernandez - Jefe de operaciones - Argenpesos | LinkedIn' (https://www.linkedin.com/in/angel-damian-moscoso-hernandez-85b39499/), sin fecha; no abrí el perfil. ZoomInfo (https://www.zoominfo.com/p/Angel-Moscoso/7526695529, sin fecha) lo lista como Jefe de Operaciones en Argenpesos, con email del dominio argenpesos.com.ar, y describe que arma las proyecciones mensuales y cronogramas de cobranza y los reportes de cobranza por canal (Excel, SQL, Power BI). No encontré en fuentes públicas un gerente de cobranzas, riesgo o créditos; el Boletín Oficial solo muestra autoridades viejas (Pablo Vergara del Carril, presidente según acta del 11/04/2008).",
+      "mensajes": {
+        "invitacion": "Hola Angel, ¿cómo va? Soy Mauro, lideré cobranzas en Banco Columbia y Cuotitas. Vi que Argenpesos abrió en abril su local número 20, el segundo en San Miguel, y que desde operaciones seguís la cobranza. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Angel. Con 20 sucursales en el conurbano y una cartera de trabajadores y jubilados que entra por muchos comercializadores, armar la proyección de cobranza del mes y decidir a quién gestionar primero se vuelve difícil con listados de atraso. Flux Collect estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Angel, una de colega: cuando proyectan la cobranza mensual, ¿separan las promesas de pago cumplidas de las que se caen, o entra todo en el mismo tramo 1-30? En Cuotitas vimos que el roll rate a 60 días de las promesas incumplidas era casi el doble y que la cura mejoraba mucho si se las llamaba en otro horario. ¿En Argenpesos lo miran por comercializador o por sucursal?",
+        "cierre": "Angel, no te molesto más. Si en algún momento querés comparar números de mora en el conurbano, avisame y lo charlamos con un café en Liniers, que queda a mano. Éxitos con las sucursales nuevas."
+      }
+    },
+    {
+      "id": "184a2652-24ad-4be7-98e3-c775cc18e7f8",
+      "empresa": {
+        "nombre": "Tarjeta Pampeana S.A."
+      },
+      "nombre": "Martín Eduardo",
+      "apellido": "Battaglia",
+      "cargo": "Vicepresidente (directorio)",
+      "url_linkedin": null,
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mart%C3%ADn%20Battaglia%20Tarjeta%20Pampeana",
+      "verificacion": "Por verificar",
+      "fuente": "https://www.dateas.com/es/empresa/tarjeta-pampeana-sa-30714527483 (ficha de Tarjeta Pampeana S.A., CUIT 30-71452748-3, Corrientes 398, Macachín; vista solo por snippets de buscador porque la página devuelve 403): nombra a Martín Eduardo Battaglia como Vicepresidente, con directores titulares César Raúl Ramos, Gladys Norma Aguilera e Ignacio José Negri; designados por la 21ª Asamblea General Ordinaria del 06/10/2023 con mandato de 3 años hasta el 31/10/2026 (un snippet fecha el documento el 17/11/2025). Un snippet lo mencionó como Presidente y otros como Vicepresidente: tomo Vicepresidente, que es lo que se repite. https://indicadores.ar/empresa/30714527483 : solo nombra a Juan Antonio Baldome con datos de la constitución de 2014 y sin publicaciones en el Boletín Oficial. No encontré perfil de LinkedIn de Battaglia vinculado a la tarjeta; hay homónimos (un Martín Battaglia de Agro Ganadera Battaglia S.A., criador en La Pampa, que podría o no ser la misma persona).",
+      "mensajes": {
+        "invitacion": "Martín, buen día. Soy Mauro Alegre y vengo de liderar cobranzas en Cuotitas y Banco Columbia. Me llamó la atención que una tarjeta con casa central en Macachín llegue a más de 50 localidades de cuatro provincias. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Martín. Con Tarjeta Pampeana en más de 50 localidades de La Pampa, Buenos Aires, Córdoba y Santa Fe, imagino que buena parte de la cartera cobra al ritmo de la cosecha y que la mora se concentra en ciertos meses y pueblos. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si les sirve, les hago un diagnóstico gratis con un Excel anonimizado de la cartera.",
+        "followup": "Martín, una pregunta de colega. En tarjetas con clientela atada al agro, ¿ustedes miran el roll rate de 30 a 60 días por localidad y por mes? En Cuotitas vimos que la cura cambiaba mucho según la época del año, y que mover las promesas de pago a la fecha de cobro real del cliente mejoraba bastante el cumplimiento. ¿En Pampeana se nota esa estacionalidad?",
+        "cierre": "Martín, no te ocupo más la bandeja. Si en algún momento quieren comparar números de mora del interior, avisame y lo charlamos con un mate de por medio. Saludos a Macachín y éxitos con la cartera."
+      }
+    }
+  ]
+}
