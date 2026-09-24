@@ -1,11 +1,13 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { supabase, ok } from '../lib/supabase'
 import { useDatosApp } from '../lib/datosApp'
 import { SELECT_PROSPECTO, actualizarProspecto, moverEstado } from '../lib/acciones'
 import { ESTADOS, VERIFICACIONES } from '../lib/constantes'
 import { linkPerfil, nombreCompleto, partirFuentes } from '../lib/mensajes'
 import { formatoFecha, formatoFechaHora } from '../lib/fechas'
+import { aprobarProspectos, descartarProspecto } from '../lib/revision'
+import { ConfirmarModal } from '../components/Modal'
 import EditorMensajes from '../components/EditorMensajes'
 import Oportunidad from '../components/Oportunidad'
 import RegistroModal from '../components/RegistroModal'
@@ -14,6 +16,7 @@ import {
   Cargando,
   ErrorCaja,
   EstadoBadge,
+  RevisarBadge,
   ScoreBadge,
   SegmentoBadge,
   VerificacionBadge,
@@ -27,6 +30,9 @@ export default function Ficha() {
   const [actividades, setActividades] = useState([])
   const [error, setError] = useState(null)
   const [registro, setRegistro] = useState(false)
+  const [confirmarDescarte, setConfirmarDescarte] = useState(false)
+  const [procesando, setProcesando] = useState(false)
+  const navegar = useNavigate()
 
   const cargarActividades = useCallback(async () => {
     const data = ok(
@@ -63,6 +69,32 @@ export default function Ficha() {
     }
   }
 
+  async function aprobar() {
+    setProcesando(true)
+    try {
+      const [act] = await aprobarProspectos([p.id])
+      if (act) setP(act)
+      avisar('Aprobado: ya está en la cola de hoy')
+    } catch (e) {
+      avisar(`No se pudo aprobar: ${e.message}`, 'error')
+    } finally {
+      setProcesando(false)
+    }
+  }
+
+  async function descartar() {
+    setConfirmarDescarte(false)
+    setProcesando(true)
+    try {
+      const { empresaBorrada } = await descartarProspecto(p)
+      avisar(empresaBorrada ? 'Descartado (y su empresa también)' : 'Descartado')
+      navegar('/prospectos')
+    } catch (e) {
+      avisar(`No se pudo descartar: ${e.message}`, 'error')
+      setProcesando(false)
+    }
+  }
+
   if (error)
     return (
       <div className="space-y-4">
@@ -83,6 +115,30 @@ export default function Ficha() {
       <Link to="/prospectos" className="btn-fantasma btn-chico -ml-2">
         ← Prospectos
       </Link>
+
+      {p.revisar && (
+        <div
+          role="status"
+          className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-fuchsia-400/40 bg-fuchsia-500/10 px-4 py-3"
+        >
+          <div className="text-sm text-fuchsia-50">
+            <p className="font-semibold">
+              <RevisarBadge origen={p.origen} /> Este prospecto lo cargó la tarea automática.
+            </p>
+            <p className="mt-0.5 text-fuchsia-100/80">
+              Revisá el análisis y los mensajes. Si lo aprobás, entra hoy a la cola; si no, descartalo.
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <button className="btn-primario" onClick={aprobar} disabled={procesando}>
+              ✓ Aprobar
+            </button>
+            <button className="btn-peligro" onClick={() => setConfirmarDescarte(true)} disabled={procesando}>
+              Descartar
+            </button>
+          </div>
+        </div>
+      )}
 
       <header className="glass flex flex-wrap items-start justify-between gap-4 p-4 md:p-5">
         <div className="min-w-0">
@@ -142,6 +198,16 @@ export default function Ficha() {
         tipoInicial="respuesta"
         onCerrar={() => setRegistro(false)}
         onGuardado={alActualizar}
+      />
+
+      <ConfirmarModal
+        abierto={confirmarDescarte}
+        titulo="Descartar prospecto"
+        mensaje={`Se borra ${e.nombre || 'este prospecto'} (y la empresa, si no le quedan otros prospectos). No se puede deshacer.`}
+        textoConfirmar="Descartar"
+        peligro
+        onConfirmar={descartar}
+        onCerrar={() => setConfirmarDescarte(false)}
       />
     </div>
   )
