@@ -1,0 +1,453 @@
+{
+  "tanda": "latam-2026-09-24",
+  "prospectos": [
+    {
+      "empresa": {
+        "nombre": "Financiera CrediFácil",
+        "segmento": "Financiera",
+        "web": "https://credifacilnicaragua.com",
+        "tamano": "Mediana: 201-500 empleados según su página de LinkedIn; 17 sucursales más la casa matriz (sucursales.net)",
+        "region": "Nicaragua — Managua (casa matriz en Altamira, Grupo Platinum) y 17 sucursales: Bluefields, Boaco, Chinandega, Estelí, Jinotepe, Juigalpa, León, Matagalpa, Nueva Guinea, Ocotal, Rama, Rivas, El Sauce, Sébaco y Somotillo, entre otras",
+        "analisis": "Financiera nicaragüense fundada el 8 de julio de 1995 que presta a micro y pequeños comerciantes y a familias: MicroPyme para negocios, CrediNómina para asalariados y CrediMoto para comprar moto. Tiene una red de 17 sucursales repartida entre el Pacífico, el norte y la Costa Caribe, lo que obliga a coordinar la cobranza temprana entre muchos equipos. En su LinkedIn se ven búsquedas recientes de gerente de sucursal en Chinandega y de un gerente regional, o sea que la red sigue en movimiento. El ángulo de Flux es ordenar cada día la cola de cobro de cada sucursal: a quién llamar, a quién alcanza con un WhatsApp y en qué horario.",
+        "score_fit": 82,
+        "score_justificacion": "Cartera de consumo y microcrédito en cuotas, con motos y nómina, repartida en 17 sucursales: el volumen justifica priorizar la cobranza. Tamaño medio y poco conocida fuera de Nicaragua. Resta que no hay cifras públicas de cartera ni de mora.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. Su página de LinkedIn muestra una búsqueda de gerente de sucursal en Chinandega publicada hace unos 4 meses (sin fecha exacta).",
+        "fuente": "https://credifacilnicaragua.com ; https://ni.linkedin.com/company/credifacilnicaragua ; https://sucursales.net/credifacil-nicaragua/ ; https://www.zoominfo.com/p/Lester-Rodri%CC%81guez/8552556501",
+        "pais": "Nicaragua"
+      },
+      "nombre": "Lester",
+      "apellido": "Rodríguez",
+      "cargo": "Gerente de Crédito",
+      "url_linkedin": "https://www.linkedin.com/in/lester-rodr%C3%ADguez-6a746966/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Lester%20Rodr%C3%ADguez%20CrediF%C3%A1cil",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Lester Rodríguez - Financiera CrediFácil'); ZoomInfo y RocketReach lo listan como Gerente de Crédito en Financiera CrediFácil, con paso previo por ADIM, Tu Crédito y Fundeser. Hay otro perfil 'Lester Rodriguez - Director en CrediFácil Nicaragua' que podría ser la misma persona. ZoomInfo también lista a Lenin Nieto como gerente general. No abrí los perfiles.",
+      "gancho": "Tres productos con mora de naturaleza distinta (MicroPyme, CrediNómina y CrediMoto) en 17 sucursales, de Bluefields a Somotillo.",
+      "mensajes": {
+        "invitacion": "Lester, vi que llevás crédito en CrediFácil, con 17 sucursales de Bluefields a Somotillo. Yo lideré cobranzas en Cuotitas y Banco Columbia, en Argentina, y me interesa cómo manejan la mora de CrediMoto y CrediNómina. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Lester. Con MicroPyme, CrediNómina y CrediMoto repartidos en 17 sucursales, imagino que el desafío es decidir cada mañana a qué cliente llama cada gestor y a cuál alcanza con un WhatsApp. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de una cosecha.",
+        "followup": "Lester, una pregunta de colega: en CrediMoto, ¿la cura del tramo 1-30 se parece a la de MicroPyme o se comporta distinto porque la moto es el medio de trabajo del cliente? En Cuotitas veíamos que los créditos con un bien asociado tenían mejor promesa cumplida, pero un roll rate a 60 días más brusco cuando se cortaba el ingreso. ¿Les pasa algo parecido?",
+        "cierre": "Lester, no te insisto más. Si algún día querés comparar números de mora entre Managua y Buenos Aires, escribime y lo charlamos con un café de Matagalpa de por medio. Un abrazo y éxitos con la cartera."
+      },
+      "pais": "Nicaragua",
+      "ciudad": "Managua",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Microfinanciera SERFIGSA (Servicios Financieros Globales de Nicaragua S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.serfigsa.com.ni",
+        "tamano": "Mediana-chica: presencia en 7 departamentos (Pacífico, sur y norte); cartera no publicada",
+        "region": "Nicaragua — Managua (casa matriz), con sucursales en 7 departamentos del Pacífico, el sur y el norte",
+        "analisis": "Microfinanciera regulada por la CONAMI, creada el 9 de octubre de 2009, afiliada a ASOMIF. Combina crédito grupal (SERFI AMIGOS, de 3 a 6 personas), microcrédito individual (SERFI EMPRENDE, AVANZA, CRECE), PYME, vivienda y consumo para asalariados, remesados y jubilados (BIENESTAR SERFIGSA). Cada producto se atrasa por razones distintas, y el crédito grupal tiene una dinámica propia de cobertura entre integrantes. Flux puede separar esos comportamientos y decirle a cada oficial a quién visitar o llamar primero.",
+        "score_fit": 72,
+        "score_justificacion": "Cartera activa en cuotas, regulada y con un vicegerente que viene de riesgo, que es un buen interlocutor para un modelo de probabilidad de pago. Resta que el foco es más microcrédito productivo que consumo puro y que no hay cifras públicas de cartera.",
+        "noticias": "Solo comunicados operativos con fecha: 02/02/2026, 21/02/2026, 01/05/2026 y 30/05/2026 (cierres de sucursales por feriados). No encontré noticias de negocio de 2025-2026.",
+        "fuente": "https://www.serfigsa.com.ni ; https://www.serfigsa.com.ni/2026/05/25/comunicado-30-de-mayo-2026 ; https://www.siboif.gob.ni/instituciones/servicios-financieros-globales-nicaragua-sa-serfigsa ; https://www.linkedin.com/company/serfigsanicaragua",
+        "pais": "Nicaragua"
+      },
+      "nombre": "Marlon",
+      "apellido": "Olivas",
+      "cargo": "Vicegerente general",
+      "url_linkedin": "https://www.linkedin.com/in/marlon-olivas-244b98b2/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Marlon%20Olivas%20SERFIGSA",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Marlon Olivas - Vicegerente general - MICROFINANCIERA SERFIGSA'); el resumen del perfil dice que estuvo a cargo de la unidad de riesgo (mapa de riesgos, políticas y metodología de cálculo cuantitativo del riesgo de crédito). No abrí el perfil.",
+      "gancho": "Mezcla de crédito grupal SERFI AMIGOS, microcrédito individual y consumo BIENESTAR en 7 departamentos; el vicegerente viene de la unidad de riesgo.",
+      "mensajes": {
+        "invitacion": "Marlon, vi que en SERFIGSA estuviste a cargo de la unidad de riesgo y hoy sos vicegerente general. Lideré cobranzas en Cuotitas y Banco Columbia y ahora estoy en Moovitech. Me gustaría sumarte a mi red. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Marlon. SERFIGSA mezcla grupos solidarios, microcrédito individual, PYME y el consumo de BIENESTAR en siete departamentos, y cada cartera se atrasa por motivos distintos. Armé Flux Collect: para cada deudor estima la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario de contacto. Si querés, te preparo un diagnóstico gratis a partir de un Excel anonimizado de la cartera.",
+        "followup": "Marlon, una consulta de colega: en SERFI AMIGOS, ¿miden la cura del grupo completo o la de cada integrante? En mi experiencia, cuando un miembro cae, el resto tarda unos días en cubrirlo, y ese es justo el momento en que un contacto bien dirigido evita que todo el grupo pase al tramo de 30 a 60. ¿Cómo lo trabajan ustedes?",
+        "cierre": "Marlon, no te molesto más. Si en algún momento querés contrastar métricas de mora entre microfinanzas de Nicaragua y Argentina, avisame y lo vemos, con un nacatamal de domingo si se da. Éxitos con la cartera."
+      },
+      "pais": "Nicaragua",
+      "ciudad": "Managua",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Tu Crédito Nicaragua",
+        "segmento": "Financiera",
+        "web": "https://www.tucreditonicaragua.com.ni",
+        "tamano": "Chica: 11-50 empleados según su página de LinkedIn (unos 20 visibles); casa matriz y 4 sucursales",
+        "region": "Nicaragua — Managua (casa matriz en Comercial El Retiro), con sucursales en León, Estelí, Chinandega y Matagalpa",
+        "analisis": "Financiera chica de consumo con tres líneas: Tu Moto (moto sin prima y sin fiador, con convenio con Grupo UMA para motos Bajaj), Tu Credi Consumo para asalariados a corto y mediano plazo, y préstamos por descuento de planilla para empleados de empresas en convenio. Ofrece represtamo automático y cancelación anticipada sin penalidad. Una cartera de motos sin prima tiene mora temprana alta, en especial en la primera cuota, y con un equipo chico cada gestión cuenta. Flux puede decirle al equipo a quién llamar primero y a quién alcanza con un recordatorio.",
+        "score_fit": 70,
+        "score_justificacion": "Encaja muy bien por producto (motos sin prima, consumo en cuotas) y por tamaño, que permite decidir rápido. Resta que no encontré a ninguna persona con cargo identificable ni cifras de cartera.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. La web tiene copyright 2022 y una promoción vigente de motos Bajaj sin fiador.",
+        "fuente": "https://www.tucreditonicaragua.com.ni ; https://www.tucreditonicaragua.com.ni/grupo-uma/ ; https://ni.linkedin.com/company/tu-credito-nicaragua",
+        "pais": "Nicaragua"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente de cobranzas o gerente general (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Tu%20Cr%C3%A9dito%20Nicaragua",
+      "verificacion": "Sin perfil",
+      "fuente": "Busqué en la web, en snippets de LinkedIn, ZoomInfo y RocketReach y no encontré a nadie con cargo de gerencia identificable. La página de LinkedIn de la empresa solo muestra a una empleada sin cargo.",
+      "gancho": "Motos Bajaj sin prima y sin fiador (convenio con Grupo UMA) y consumo para asalariados en cinco ciudades.",
+      "mensajes": {
+        "invitacion": "Hola, vi que Tu Crédito financia motos Bajaj sin prima ni fiador y crédito de consumo en Managua, León, Estelí, Chinandega y Matagalpa. Lideré cobranzas en Cuotitas y Banco Columbia y me interesa cómo manejan la mora. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar. Con Tu Moto sin prima y Tu Credi Consumo para asalariados, imagino que la mora temprana tiene dos caras: la del que perdió el ingreso y la del que se olvidó de pagar. Armé Flux Collect: estima para cada cliente la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario, para llamar primero a quien más lo necesita. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Una pregunta de colega: en Tu Moto, ¿cuánto de la mora de primera cuota termina curando sola y cuánto rueda a 60 días? Con motos sin prima vimos que ese primer atraso predice muy bien el resto del crédito, y separarlo del tramo 1-30 general cambiaba mucho el guion y el horario de contacto. ¿Ustedes lo miran por separado?",
+        "cierre": "No te insisto más. Si en algún momento quieren revisar la mora de Tu Moto con otro par de ojos, escribime y lo charlamos, con un vigorón en León o un café en Estelí. Éxitos con la cartera."
+      },
+      "pais": "Nicaragua",
+      "ciudad": "Managua",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "CONFIANSA (microfinanciera)",
+        "segmento": "Financiera",
+        "web": "https://confiansa.com.ni",
+        "tamano": "Chica-mediana: más de 20 años en el mercado; casa matriz en Managua y atención en 8 departamentos",
+        "region": "Nicaragua — Managua (Rotonda Metrocentro), con presencia en León, Chinandega, Matagalpa, Estelí, Jinotepe, Rivas, Granada y Masaya",
+        "analisis": "Microfinanciera no bancaria registrada en la CONAMI (Resolución CD-CONAMI-008-04NOV21-2012), especializada en préstamos personales por deducción de nómina (desde C$5.000 hasta 4 salarios, a 3-30 meses, con 7% de comisión de desembolso) y en microcrédito para negocios de Managua con al menos un año. Firma convenios con empresas e instituciones, como la Alcaldía de Granada. En nómina la mora es baja mientras el cliente sigue en la empresa; el problema es el que se desvincula o el convenio que remite tarde, que pasa de golpe a cobro directo. Ahí Flux puede priorizar esos casos antes de que se enfríen.",
+        "score_fit": 58,
+        "score_justificacion": "Cartera en cuotas activa y de tamaño chico-medio, pero la deducción de nómina limita el dolor de cobranza al segmento que sale de planilla y al microcrédito. No encontré contacto con nombre ni cifras.",
+        "noticias": "La web muestra dos novedades sin fecha: una alianza con la Alcaldía de Granada para sus colaboradores y un programa de crédito para posgrados con la Universidad Thomas More. No encontré noticias con fecha de 2025-2026.",
+        "fuente": "https://confiansa.com.ni ; https://confiansa.com.ni/nuestros-productos-financieros/deduccion-de-nomina/ ; https://confiansa.com.ni/atencion-al-cliente/seccion-de-noticias/",
+        "pais": "Nicaragua"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente de créditos y cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=CONFIANSA%20Nicaragua",
+      "verificacion": "Sin perfil",
+      "fuente": "Busqué en la web, en snippets de LinkedIn, ZoomInfo y RocketReach y no encontré a nadie de CONFIANSA con cargo identificable.",
+      "gancho": "Crédito por nómina a 3-30 meses con convenios como el de la Alcaldía de Granada: el riesgo está en el cliente que sale de planilla.",
+      "mensajes": {
+        "invitacion": "Hola, vi que CONFIANSA lleva más de 20 años con crédito por deducción de nómina y microcrédito en nueve departamentos. Lideré cobranzas en Cuotitas y Banco Columbia, y hoy estoy en Moovitech. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar. En crédito por nómina la mora casi nunca viene del que sigue cobrando el sueldo: viene del que cambia de empleo o de la empresa que se atrasa en remitir la planilla, y ahí el crédito queda sin descuento. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de esos casos.",
+        "followup": "Una pregunta de colega: cuando un cliente de nómina deja la empresa en convenio, ¿cuántos días pasan hasta que lo gestionan como cobro directo? En Banco Columbia vimos que la cura caía fuerte después de la segunda cuota sin descuento, así que los primeros 15 días valían oro. ¿Y en el microcrédito cómo lo manejan?",
+        "cierre": "No te molesto más. Si más adelante quieren mirar la cartera que sale de nómina con otro enfoque, escribime y lo charlamos con un café cerca de Metrocentro. Saludos y éxitos."
+      },
+      "pais": "Nicaragua",
+      "ciudad": "Managua",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Monifai Costa Rica S.A.",
+        "segmento": "Fintech de crédito",
+        "web": "https://monifai.com/cr/",
+        "tamano": "Chica: arrancó en enero de 2021 con 30 empleos directos (La República); opera también en El Salvador",
+        "region": "Costa Rica — Escazú, San José (Edificio Corporativo Escazú Village); originación 100% digital en todo el país",
+        "analisis": "Fintech del grupo YNV que presta en línea a asalariados: microcréditos de hasta ₡690.000 y préstamos personales de ₡690.000 a ₡9.000.000 a 24-60 meses, con tasas publicadas de 36,48% a 51,51% según el perfil. Está inscrita ante la SUGEF desde el 15/10/2020, solo para prevención de lavado. Su CEO, Patrick Zarzar, la posiciona como alternativa formal al gota a gota. Todo es digital, así que la cobranza depende de acertar canal y horario sin sucursales de respaldo, y eso es justo lo que Flux resuelve.",
+        "score_fit": 86,
+        "score_justificacion": "Cartera de consumo digital en cuotas, de tamaño chico, y con una gerente de crédito y cobro identificada. La tasa alta y el cliente asalariado de ingreso medio-bajo hacen que la mora temprana pese.",
+        "noticias": "05/12/2025 (Delfino): Patrick Zarzar, CEO, presenta los microcréditos Monifai de hasta ₡690.000 como alternativa formal al crédito gota a gota. 11/01/2021 (La República): inicio de operaciones en Costa Rica.",
+        "fuente": "https://monifai.com/cr/ ; https://delfino.cr/2025/12/microcreditos-monifai-microcreditos-seguros-una-alternativa-formal-frente-al-credito-informal ; https://www.larepublica.net/noticia/empresa-de-servicios-financieros-monifai-inicia-operaciones-en-costa-rica",
+        "pais": "Costa Rica"
+      },
+      "nombre": "Carmen",
+      "apellido": "Núñez",
+      "cargo": "Credit & Collections Manager",
+      "url_linkedin": "https://www.linkedin.com/in/carmen-n%C3%BA%C3%B1ez-585baa14b/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Carmen%20N%C3%BA%C3%B1ez%20Monifai",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Carmen Núñez - Credit & Collections Manager - Monifai', en cr.linkedin.com). No abrí el perfil.",
+      "gancho": "Microcréditos 100% en línea de hasta ₡690.000, presentados en diciembre de 2025 como alternativa al gota a gota.",
+      "mensajes": {
+        "invitacion": "Carmen, vi que llevás crédito y cobro en Monifai. Yo lideré cobranzas en Cuotitas y Banco Columbia, y me interesó mucho lo que publicaron sobre los microcréditos como alternativa al gota a gota en Costa Rica. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Carmen. Con microcréditos de hasta ₡690.000 y préstamos personales a 24-60 meses, todo 100% en línea, imagino que el cobro depende casi entero de acertar el canal: WhatsApp, correo o llamada. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de una cosecha.",
+        "followup": "Carmen, una pregunta de colega: ¿el microcrédito y el préstamo personal a 60 meses tienen la misma curva de cura en el tramo 1-30, o el micro rueda más rápido a 60? En Cuotitas los tickets chicos se curaban solos si el recordatorio llegaba el día de cobro del sueldo, y el error era llamarlos igual que al resto.",
+        "cierre": "Carmen, no te insisto más. Si más adelante quieren comparar números de cobro digital entre Costa Rica y Argentina, escribime y lo vemos con un cafecito chorreado. Pura vida y éxitos con la cartera."
+      },
+      "pais": "Costa Rica",
+      "ciudad": "Escazú, San José",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Rayo C.R. S.A. (Rayo Credit)",
+        "segmento": "Fintech de crédito",
+        "web": "https://rayocredit.com/cr/",
+        "tamano": "Chica: fintech fundada en 2013 en Costa Rica, hoy también en Colombia y México; tamaño de cartera no publicado",
+        "region": "Costa Rica — San José (Avenida Primera, Calle 3, Edificio Omni); originación digital en todo el país",
+        "analisis": "Fintech costarricense de nanocréditos: préstamos de ₡20.000 a ₡100.000 a pocas cuotas, aprobados en unos 15 minutos y sin fiador. La fundaron los hermanos Arce y se expandió a Colombia y México. En México trabajó con Belvo la domiciliación bancaria y reportó un 20% más de cobranza. En tickets tan chicos cada llamada de cobro se come el margen, así que saber a quién no hace falta contactar vale mucho: ese es el ángulo de Flux.",
+        "score_fit": 84,
+        "score_justificacion": "Crédito de consumo de ticket muy chico y a pocas cuotas, 100% digital, donde la eficiencia de cobranza define la rentabilidad. Tamaño chico y fundador accesible. Resta que el contacto es el CEO (no un jefe de cobranzas) y que no pude confirmar su URL de LinkedIn.",
+        "noticias": "No encontré noticias con fecha de 2025-2026 sobre Rayo Costa Rica. El caso de éxito con Belvo (sin fecha) informa un 20% más de cobranza en México.",
+        "fuente": "https://rayocredit.com/cr/ ; https://cr.loan-apps.com/loan-apps-costa-rica/rayo-cr-sa ; https://belvo.com/es/casos-de-exito/rayo-optimizo-su-cobranza-gracias-a-domiciliacion-bancaria/ ; https://www.crunchbase.com/person/bernardo-arce",
+        "pais": "Costa Rica"
+      },
+      "nombre": "Bernardo",
+      "apellido": "Arce",
+      "cargo": "Cofundador y CEO",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Bernardo%20Arce%20Rayo",
+      "verificacion": "Por verificar",
+      "fuente": "Crunchbase ('Bernardo Arce - Co-founder & CEO @ Rayo Credit') y un artículo de LinkedIn Pulse ('Breaking Barriers with Bernardo Arce, CEO of Rayo'). Los resúmenes lo mencionan también como presidente de la junta de Asocomi. No vi la URL de su perfil personal.",
+      "gancho": "Nanocréditos de ₡20.000 a ₡100.000 a pocas cuotas en tres países, y un caso con Belvo que reporta un 20% más de cobranza en México.",
+      "mensajes": {
+        "invitacion": "Bernardo, vi que fundaste Rayo en 2013 y que hoy operan en Costa Rica, Colombia y México con préstamos de pocas cuotas. Lideré cobranzas en Cuotitas y Banco Columbia, en Argentina. Me encantaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Bernardo. En préstamos de ₡20.000 a ₡100.000 a pocas cuotas, cada llamada de cobro se come buena parte del margen, así que la clave es saber a quién no hace falta llamar. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Vi el caso con Belvo en México; si te sirve, te hago un diagnóstico gratis de la cartera tica con un Excel anonimizado.",
+        "followup": "Bernardo, una consulta de colega: con créditos de pocas cuotas, ¿la cura después de la primera cuota impaga se parece entre Costa Rica, Colombia y México, o cambia mucho por país? Nosotros veíamos que en tickets chicos la promesa de pago servía poco y funcionaba mejor un recordatorio en el horario exacto de cobro del sueldo.",
+        "cierre": "Bernardo, no te molesto más. Si en algún momento querés comparar la cura del microcrédito entre países, escribime y lo charlamos con un gallo pinto de por medio. Pura vida y éxitos con Rayo."
+      },
+      "pais": "Costa Rica",
+      "ciudad": "San José",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "KrediYA Costa Rica",
+        "segmento": "Fintech de crédito",
+        "web": "https://www.krediya.cr",
+        "tamano": "Mediana regional: cerca de 1 millón de créditos en la región y 110.000 en Costa Rica (oct-2024); opera en 6 países",
+        "region": "Costa Rica — La Uruca, San José; originación en comercios aliados (Artelec, Liberty, Intelec, Tiendas Honor, Almacenes Roes, entre otros)",
+        "analisis": "Fintech regional (Panamá, Guatemala, Colombia, Costa Rica, México y El Salvador) que financia celulares, tablets, laptops y electrodomésticos en cuotas, en punto de venta. Apunta a población con ingresos informales, sueldos bajos o historial manchado, con una aprobación del 90%. En Costa Rica llegó a 110.000 créditos en unos dos años. Con esa apertura en la originación, la cobranza carga con buena parte del riesgo, y el comercio de origen explica mucho del comportamiento. Flux puede ordenar la cola de cobro por probabilidad de pago y canal.",
+        "score_fit": 80,
+        "score_justificacion": "Ticket chico en cuotas, segmento de riesgo alto y gran volumen de operaciones: la priorización de cobranza pesa mucho. Resta que es un grupo regional con decisiones posiblemente centralizadas y que el contacto encontrado es comercial, no de cobranzas.",
+        "noticias": "29/07/2024 (Delfino): 80.000 créditos colocados en Costa Rica y aprobación del 90%. 29/10/2024 (Business News CR): 110.000 créditos en Costa Rica y alianza con Synergia para sumar asistencias médicas desde el 01/11/2024. No encontré noticias con fecha de 2025-2026.",
+        "fuente": "https://www.krediya.cr ; https://delfino.cr/2024/07/con-estrategia-para-democratizacion-de-creditos-para-smartphones-krediya-impulsa-crecimiento-en-el-pais ; https://businessnewscr.com/index.php/negocios/banca-y-finanzas/4678-krediya-coloco-110-mil-creditos-en-costa-rica ; https://www.facebook.com/KrediyaCR/",
+        "pais": "Costa Rica"
+      },
+      "nombre": "Adriana",
+      "apellido": "Contreras Loinaz",
+      "cargo": "Gerente comercial",
+      "url_linkedin": "https://www.linkedin.com/in/adrianacontrerasloinaz/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Adriana%20Contreras%20Loinaz%20KrediYA",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Adriana Contreras Loinaz - Gerente comercial - KrediYA', en es.linkedin.com). Delfino (29/07/2024) y Business News CR (29/10/2024) la citan como gerente comercial de KrediYA en Costa Rica. No abrí el perfil.",
+      "gancho": "110.000 créditos para celulares en Costa Rica con un 90% de aprobación, dirigidos a clientes con historial manchado o ingresos informales.",
+      "mensajes": {
+        "invitacion": "Adriana, vi que KrediYA colocó 110.000 créditos para celulares en Costa Rica y que aprueba el 90% de las solicitudes. Lideré cobranzas en Cuotitas y Banco Columbia, y me interesa cómo cuidan esa cartera. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Adriana. Con una aprobación del 90% y clientes con historial manchado o ingresos informales, la cobranza carga con buena parte del riesgo que no filtra la originación. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, y aunque quizá lo vea el área de cobro, te hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Adriana, una pregunta de colega: ¿la mora cambia según el comercio aliado donde se originó el crédito, por ejemplo una cadena grande frente a una tienda de barrio? En Cuotitas vimos que el punto de venta explicaba casi tanto como el score, y usarlo para ordenar la cola de cobro mejoraba bastante la cura temprana.",
+        "cierre": "Adriana, no te insisto más. Si más adelante quieren revisar la cartera de celulares con otro enfoque, escribime y lo vemos con un cafecito en La Uruca. Pura vida y éxitos con KrediYA."
+      },
+      "pais": "Costa Rica",
+      "ciudad": "La Uruca, San José",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Credix World S.A.",
+        "segmento": "Financiera",
+        "web": "https://www.credix.com",
+        "tamano": "Mediana: más de 100 empleados, 5 oficinas dentro de tiendas EPA, más de 150.000 créditos de consumo y 71.399 plásticos emitidos (La Nación, feb-2020)",
+        "region": "Costa Rica — Tibás, San José (sede), con oficinas en tiendas EPA",
+        "analisis": "Nació en julio de 2009 como vehículo para financiar compras en Ferretería EPA y se convirtió en financiera de consumo independiente: tarjeta cerrada y Visa, préstamos personales, motos, adelantos de salario y créditos a negocios. Está inscrita ante la SUGEF desde el 10/11/2019. Semanario Universidad (2022) la listó entre los emisores que cobraban intereses moratorios por encima del tope de usura, con 43,43%. Tiene un área de gestión de cobros propia y ofrece arreglos de pago en su web. Con tantos productos, Flux puede separar la cola de cobro por comportamiento y no solo por días de atraso.",
+        "score_fit": 77,
+        "score_justificacion": "Cartera de consumo en cuotas con tarjeta, préstamos y motos, de tamaño medio y marca poco conocida fuera de Costa Rica, con un área de cobro y crédito identificable. Resta que los datos públicos de tamaño son de 2020 y que el cargo exacto del contacto no está claro.",
+        "noticias": "05/02/2020 (La Nación): más de 150.000 préstamos de consumo en una década, según su gerente general Jorge Chacón. 30/11/2022 (Semanario Universidad): figura entre los emisores con interés moratorio de 43,43%, por encima del tope. No encontré noticias con fecha de 2025-2026.",
+        "fuente": "https://www.credix.com ; https://www.credix.com/preguntas-frecuentes/arreglos-de-pago/ ; https://www.nacion.com/economia/negocios/credix-logro-amasar-150000-prestamos-de-consumo/EAE64N62LFHAJDSP6T2RDSJYQI/story/ ; https://semanariouniversidad.com/pais/tarjetas-de-bancos-nacional-y-popular-dos-cooperativas-credisiman-y-credix-cobran-intereses-por-mora-sobre-tope-de-usura/",
+        "pais": "Costa Rica"
+      },
+      "nombre": "Maybel",
+      "apellido": "Velazquez",
+      "cargo": "Gerencia de Cobro y Crédito (puesto exacto a confirmar)",
+      "url_linkedin": "https://www.linkedin.com/in/maybel-velazquez-75b4491b4/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Maybel%20Velazquez%20Credix",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Maybel Velazquez - Gerencia Cobro y Crédito - Credix World S.A.'). El resumen habla de más de 3 años en servicio al cliente y cobros, con manejo de personal, así que 'Gerencia' puede ser el área y no el cargo. Alternativa: Jorge Chacón, gerente general según La Nación (2020), sin confirmar si sigue.",
+      "gancho": "Nació financiando compras en EPA y hoy tiene tarjeta cerrada, préstamos, motos y adelantos de salario, con un área de cobro propia.",
+      "mensajes": {
+        "invitacion": "Maybel, vi que trabajás en el área de cobro y crédito de Credix, que nació financiando compras en EPA y hoy tiene tarjeta, préstamos y motos. Lideré cobranzas en Cuotitas y Banco Columbia. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Maybel. Credix tiene tarjeta cerrada, préstamos personales, motos y adelantos de salario, y cada producto entra en mora por motivos distintos, aunque el equipo de cobro los trabaje juntos. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de una de las carteras.",
+        "followup": "Maybel, una consulta de colega: en la tarjeta cerrada, ¿qué parte de los clientes que pagan solo el mínimo termina pasando a mora de 30 días? En Banco Columbia ese grupo era el mejor predictor del roll rate y convenía contactarlo antes del vencimiento, no después. ¿En Credix lo ven parecido?",
+        "cierre": "Maybel, no te molesto más. Si algún día querés comparar números de cobro de tarjeta entre Costa Rica y Argentina, escribime y lo charlamos con un gallo pinto en Tibás. Pura vida."
+      },
+      "pais": "Costa Rica",
+      "ciudad": "Tibás, San José",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Financiera MultiMoney S.A. (ex Financiera Gente)",
+        "segmento": "Financiera",
+        "web": "https://multimoney.com/cr",
+        "tamano": "Mediana: cartera de ₡47.143 millones a oct-2022 y más de 36.000 clientes activos (La Nación); Revista Summa, tras la fusión, habla de más de 250.000 clientes",
+        "region": "Costa Rica — Santa Ana, San José (Plaza MultiMoney, Lindora); originación digital en todo el país",
+        "analisis": "Financiera supervisada por la SUGEF (ex Financiera Gente, renombrada el 24/11/2022) que presta en forma digital hasta ₡12 millones, con desembolso en minutos, y capta ahorro en colones. Según Moody's Local (22/12/2025), el 100% de la cartera es consumo sin garantía, muy atomizada (los 25 mayores deudores son el 1%), con mora a más de 90 días de 2,7% a sep-2025 contra un promedio de 2,3% y castigos por encima de lo previo a la fusión. La entidad ajustó sus scores y se espera una baja de 7% de la cartera en 2025. Mejorar la cura temprana sin volver a abrir el grifo es justo el problema que Flux ataca.",
+        "score_fit": 70,
+        "score_justificacion": "Cartera 100% de consumo sin garantía, con deterioro documentado por la calificadora y una cartera en contracción: el dolor es claro. Resta que es de las financieras más grandes de Costa Rica (grupo con marcas Beto y Punto Xpress) y que el contacto es el presidente ejecutivo.",
+        "noticias": "22/12/2025 (Moody's Local Costa Rica): afirma A+.cr con perspectiva Estable y marca mora >90 días de 2,7% a sep-2025 y castigos altos. 03/07/2025 y 06/01/2025: informes previos de Moody's Local. 24/11/2022 (La Nación): cambio de nombre a Financiera MultiMoney.",
+        "fuente": "https://moodyslocal.cr/wp-content/uploads/2025/12/1.2.1_MLCR_Informe-PUBLICO-Financiera-MultiMoney-S.A.-22122025-1.pdf ; https://www.nacion.com/economia/banca/financiera-gente-ahora-es-financiera-multimoney-y/CI7YDEQVJVC57MH42V2LIOSINU/story/ ; https://multimoney.com/cr ; https://revistasumma.com/multimoney-realiza-fusion-y-se-convierte-en-una-de-la-financieras-mas-grandes-de-costa-rica/",
+        "pais": "Costa Rica"
+      },
+      "nombre": "Tomás",
+      "apellido": "Odio",
+      "cargo": "Presidente Ejecutivo",
+      "url_linkedin": "https://www.linkedin.com/in/tom%C3%A1s-odio-221b8538/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Tom%C3%A1s%20Odio%20MultiMoney",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Tomás Odio - Presidente Ejecutivo Multimoney Costa Rica - MultiMoney'). No abrí el perfil. No encontré un gerente de cobro o de riesgo con nombre; Gabriel González Roesch aparece como subgerente general en un video de Facebook sin fecha clara.",
+      "gancho": "Moody's Local (dic-2025): cartera 100% consumo sin garantía, mora >90 días en 2,7% contra 2,3% de promedio y castigos por encima de lo previo a la fusión.",
+      "mensajes": {
+        "invitacion": "Tomás, leí el informe de Moody's Local de diciembre sobre MultiMoney: cartera 100% de consumo sin garantía y muy atomizada. Lideré cobranzas en Cuotitas y Banco Columbia y hoy estoy en Moovitech. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Tomás. Moody's Local marcó que la mora a más de 90 días subió a 2,7% en septiembre de 2025, contra un promedio de 2,3%, con castigos por encima de lo previo a la fusión. En una cartera tan atomizada, la diferencia está en priorizar bien. Flux Collect estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Te ofrezco un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Tomás, una pregunta de colega: la cartera que compraron a Beto y a MultiMoney antes de la fusión y la que originan hoy, ¿se comportan parecido en el tramo 1-30? En casos así vimos que la cartera heredada tenía otra cura y otros horarios de respuesta, y mezclarlas en la misma cola de cobro escondía el problema.",
+        "cierre": "Tomás, no te insisto más. Si en algún momento quieren revisar la cura temprana antes de la próxima calificación, escribime y lo charlamos con un café en Lindora. Pura vida y éxitos."
+      },
+      "pais": "Costa Rica",
+      "ciudad": "Santa Ana (Lindora), San José",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Presta Panamá, S.A. (PRESTA!)",
+        "segmento": "Financiera",
+        "web": "https://www.prestapanama.com",
+        "tamano": "Mediana-chica: 12 sucursales más la oficina principal; fundada en 2009",
+        "region": "Panamá — Ciudad de Panamá (oficina en Panama Business Tower, Obarrio), con sucursales en Los Pueblos, La Chorrera, Calidonia, Albrook Mall, Los Andes, San Miguelito, Villa Zaita, Vía España, Las Acacias, La Doña, Vista Alegre y Santiago de Veraguas",
+        "analisis": "Financiera registrada en el MICI (Resolución 027 del 27/02/2009), miembro de ANIFI y supervisada por la Superintendencia de Bancos en prevención de lavado. Presta de US$100 a US$5.000 a 6-48 meses, con pagos quincenales, sin garantía ni fiador, aprobación en 20 minutos y opción de descuento directo; la tasa máxima publicada es de 36% anual. Tiene estructura de cobranza propia, con cobro de calle y prelegal. Con tickets chicos y cuotas quincenales, el costo de cada gestión pesa, y Flux puede decidir quién va a calle o a prelegal y quién se cura con un recordatorio.",
+        "score_fit": 84,
+        "score_justificacion": "Consumo en cuotas de ticket chico, 12 sucursales y un equipo de cobranza con varios niveles (calle, prelegal): encaja justo con el perfil. Es poco conocida fuera de Panamá. Resta que el contacto es un supervisor y no pude confirmar el nombre del gerente de cobros.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. Hay avisos de búsqueda de gestor de cobros en Konzerta en marzo de 2026 (no confirmé que sean de Presta).",
+        "fuente": "https://www.prestapanama.com ; https://www.prestapanama.com/sobre-nosotros ; https://www.prestapanama.com/sucursales ; https://www.zoominfo.com/p/Alexis-Mckay/17744266670",
+        "pais": "Panamá"
+      },
+      "nombre": "Alexis",
+      "apellido": "Mckay",
+      "cargo": "Supervisor de Cobros y Cobros Pre Legal",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Alexis%20Mckay%20Presta%20Panam%C3%A1",
+      "verificacion": "Por verificar",
+      "fuente": "Título de resultado de ZoomInfo en un buscador ('Alexis Mckay ... Supervisor, DE Cobros Y Cobros Pre Legal at Presta Panamá'). No encontré su perfil de LinkedIn. Un resumen de búsqueda mencionó a una 'Gerente de Recaudos y Cobros' de nombre María Moreno Greco, pero no lo pude ver en ninguna fuente, así que no lo uso.",
+      "gancho": "Préstamos de US$100 a US$5.000 con pagos quincenales en 12 sucursales, y una cobranza propia con cobro de calle y prelegal.",
+      "mensajes": {
+        "invitacion": "Alexis, vi que supervisás cobros y prelegal en Presta Panamá, con 12 sucursales y préstamos de US$100 a US$5.000. Lideré cobranzas en Cuotitas y Banco Columbia, en Argentina. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Alexis. Con préstamos desde US$100, cuotas quincenales y 12 sucursales de Albrook a Santiago, imagino que el desafío es que el cobro de calle y el prelegal no se lleven a clientes que se iban a poner al día solos. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Alexis, una consulta de colega: con pagos quincenales, ¿miden la cura por quincena o por mes? Nosotros vimos que el cliente que falla una quincena y paga la siguiente se comporta muy distinto del que falla dos seguidas, y separar esos grupos cambiaba a quién mandar al prelegal.",
+        "cierre": "Alexis, no te molesto más. Si más adelante quieren comparar números de cobro entre Panamá y Argentina, escribime y lo charlamos con un sancocho de por medio. Éxitos con la cartera."
+      },
+      "pais": "Panamá",
+      "ciudad": "Ciudad de Panamá",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Muebles Jamar Panamá, S.A. (Credijamar)",
+        "segmento": "Retail con crédito",
+        "web": "https://credijamar.com.pa",
+        "tamano": "Mediana: 7 tiendas en Panamá; parte de Muebles Jamar, cadena con sede en Barranquilla (Colombia)",
+        "region": "Panamá — Ciudad de Panamá (Vía España, entre Vía Brasil y Vía Porras), con tiendas en Albrook Mall, La Chorrera, Tocumen, Los Andes Mall, Megamall y David (Chiriquí)",
+        "analisis": "Cadena de muebles y colchones que vende con crédito propio (Credijamar): aprobación inmediata solo con la cédula, sin historial crediticio, para independientes, asalariados, jubilados y extranjeros, a 3-40 meses con cuota fija. Los clientes pagan por un portal y hay programas de fidelización para quien paga a tiempo (Cliente Oro, Paga y Gana). Una originación tan abierta deja el filtro del riesgo en la cobranza. La operación de cartera y cobranzas se lidera desde Barranquilla para Colombia y Panamá, así que Flux puede aportar una priorización específica para el cliente panameño.",
+        "score_fit": 78,
+        "score_justificacion": "Retail con crédito propio en cuotas, sin historial requerido, con un gerente de cartera y cobranzas identificado y con discurso de transformación digital. Resta que es una cadena colombiana conocida allá (puede repetirse con la prospección de Colombia) y que la decisión se toma en Barranquilla.",
+        "noticias": "No encontré noticias con fecha de 2025-2026 sobre Jamar Panamá. Jul-2021 (Ciclo de Riesgo, edición 36): entrevista a Alexander Murillo sobre la cobranza como parte de la experiencia del cliente.",
+        "fuente": "https://credijamar.com.pa ; https://www.jamar.com.pa/pages/credito-y-financiamiento-de-muebles ; https://cicloderiesgo.com/latam/viviendo-la-cobranza/la-gestion-de-cartera-pilar-fundamental-para-asegurar-la-solidez-del ; https://www.panadata.net/en/organizaciones/id_MERCANTIL_Folio_N_517780_S",
+        "pais": "Panamá"
+      },
+      "nombre": "Alexander",
+      "apellido": "Murillo Sánchez",
+      "cargo": "Gerente de Cartera y Cobranzas",
+      "url_linkedin": "https://www.linkedin.com/in/alexander-murillo-a3639371/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Alexander%20Murillo%20Muebles%20Jamar",
+      "verificacion": "Por verificar",
+      "fuente": "Snippet de LinkedIn en un buscador ('Alexander Murillo - Gerente de Cartera y Cobranzas - Muebles Jamar'); el resumen dice 20 años en cartera y cobranzas en Colombia y Panamá. Ciclo de Riesgo (jul-2021) lo entrevista como gerente de cobranzas de Muebles Jamar, desde Barranquilla. No abrí el perfil.",
+      "gancho": "Credijamar aprueba con la cédula y sin historial, a 3-40 meses, y su gerente de cartera ve la cobranza como parte de la experiencia del cliente.",
+      "mensajes": {
+        "invitacion": "Alexander, leí tu nota en Ciclo de Riesgo sobre hacer de la cobranza parte de la experiencia del cliente. Lideré cobranzas en Cuotitas y Banco Columbia y me interesa cómo trabajan la cartera de Credijamar en Panamá. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Alexander. Credijamar en Panamá aprueba con la cédula y sin historial, a 3-40 meses, en siete tiendas de Vía España a David. Esa originación tan abierta deja en cobranza la tarea de separar al que se atrasa por desorden del que ya no puede pagar. Flux Collect estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Te ofrezco un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Alexander, una pregunta de colega: ¿la cartera de Panamá cura parecido a la de Colombia en el tramo 1-30, o el cliente panameño responde mejor a otros canales y horarios? En Cuotitas vimos que el mismo producto cambiaba bastante de una plaza a otra, y copiar la estrategia tal cual costaba puntos de roll rate.",
+        "cierre": "Alexander, no te insisto más. Si en algún momento querés comparar números de cartera entre Barranquilla, Panamá y Buenos Aires, escribime y lo charlamos con un tinto o un sancocho, lo que quede más cerca. Éxitos."
+      },
+      "pais": "Panamá",
+      "ciudad": "Ciudad de Panamá",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Venmetro",
+        "segmento": "Fintech de crédito",
+        "web": "https://www.venmetro.com",
+        "tamano": "Chica: fintech creada en septiembre de 2016; equipo reducido (la web muestra CTO, product manager, gerente de riesgo y negocio y analista de crédito senior)",
+        "region": "Panamá — Ciudad de Panamá (Santa María Business District, Torre Argos, Juan Díaz); originación en línea",
+        "analisis": "Plataforma panameña de préstamos personales en línea por descuento directo de planilla, de US$500 a US$25.000 a hasta 60 meses, regulada por el MICI (Resolución 250 del 24/11/2015). La fundó el belga Dan Pinchasi y en 2017 fue elegida entre las 10 startups financieras más prometedoras de la región. Con descuento directo la mora es baja mientras el cliente sigue en la planilla; el riesgo está en quien cambia de empleo y pasa de un día para otro a pago voluntario. Flux puede detectar y priorizar esos casos en los primeros días, que es cuando más se recuperan.",
+        "score_fit": 70,
+        "score_justificacion": "Fintech chica de crédito de consumo en cuotas, con un responsable de riesgo identificado en la web oficial. Resta que el descuento directo acota el dolor de cobranza y que no hay cifras públicas de cartera.",
+        "noticias": "No encontré noticias con fecha de 2025-2026. La nota más reciente que vi es de la etapa de lanzamiento (2016-2017, El Capital Financiero y PanamericanWorld).",
+        "fuente": "https://www.venmetro.com/nosotros ; https://www.venmetro.com ; https://elcapitalfinanciero.com/emprendedor-belga-crea-la-plataforma-de-credito-venmetro/ ; https://panamericanworld.com/revista/startups/venmetro-la-revolucion-fintech-que-llega-de-panama/",
+        "pais": "Panamá"
+      },
+      "nombre": "José",
+      "apellido": "Muito",
+      "cargo": "Risk & Business Manager",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Jos%C3%A9%20Muito%20Venmetro",
+      "verificacion": "Por verificar",
+      "fuente": "Página 'Nosotros' de la web oficial de Venmetro, que lo lista como 'Risk & Business Manager'. No encontré su perfil de LinkedIn en buscadores.",
+      "gancho": "Préstamos 100% en línea por descuento directo de US$500 a US$25.000 a 60 meses: el riesgo está en el cliente que sale de la planilla.",
+      "mensajes": {
+        "invitacion": "José, vi en la web de Venmetro que llevás riesgo y negocio en una plataforma 100% digital de préstamos por descuento directo. Lideré cobranzas en Cuotitas y Banco Columbia y hoy estoy en Moovitech. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, José. En préstamos por descuento directo a 60 meses, la mora aparece cuando el cliente cambia de empleo o la empresa deja de descontar, y ahí el crédito pasa de un día para otro a cobro voluntario. Armé Flux Collect: estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Si te sirve, te hago un diagnóstico gratis con un Excel anonimizado de esos casos.",
+        "followup": "José, una consulta de colega: cuando un cliente sale de la planilla, ¿cuántos días tardan en detectarlo y pasarlo a gestión directa? Vimos que en los primeros 15 días la cura era alta y después caía en picada, así que la velocidad de detección pesaba más que el guion de cobro.",
+        "cierre": "José, no te molesto más. Si más adelante quieren revisar la cartera que sale de descuento directo, escribime y lo charlamos con un café en Santa María. Éxitos con Venmetro."
+      },
+      "pais": "Panamá",
+      "ciudad": "Ciudad de Panamá",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Cooperativa de Servicios Múltiples El Educador Veragüense (COOPEVE, R.L.)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.coopeve.com",
+        "tamano": "Mediana: más de 24.000 asociados activos; 201-500 empleados según ZoomInfo",
+        "region": "Panamá — Santiago de Veraguas (Avenida Manuel Celestino González), con sucursales en otras provincias, entre ellas Ciudad de Panamá",
+        "analisis": "Cooperativa fundada en 1971 en Veraguas, con cartera concentrada en consumo (préstamos personales y prendarios) para asociados del sector público y de educación, con buena parte cobrada por descuento de planilla. Según Moody's Local (22/09/2025), a marzo de 2025 la morosidad (morosos más vencidos) era de 6,6%, igual al promedio de los últimos tres cierres. En marzo de 2026 fue la primera cooperativa del país en emitir la tarjeta de débito Clave con Telered. Una morosidad de 6,6% con descuento de planilla sugiere que el atraso se concentra en pocos perfiles, y Flux puede ayudar a encontrarlos y priorizarlos.",
+        "score_fit": 66,
+        "score_justificacion": "Cartera de consumo en cuotas con morosidad del 6,6% documentada por la calificadora y una gerente general identificada. Resta que el descuento de planilla mitiga el riesgo y que el contacto es la gerente general, no alguien de cobros.",
+        "noticias": "Mar-2026 (Destino Panamá): primera cooperativa del país en emitir la tarjeta Clave, con Telered; habla la gerente general Elvecia Rujano de León. 22/09/2025 (Moody's Local Panamá): afirma la calificación, con morosidad de 6,6% a marzo de 2025.",
+        "fuente": "https://destinopanama.com.pa/2026/03/coopeve-se-convierte-en-la-primera-cooperativa-de-panama-en-emitir-la-nueva-tarjeta-clave/ ; https://moodyslocal.com.pa/wp-content/uploads/2025/09/Publico-1.2.1_MLPA_Informe_COOPEVE_22092025_Version-Final.pdf ; https://www.zoominfo.com/p/Elvecia-Rujano/8116875534",
+        "pais": "Panamá"
+      },
+      "nombre": "Elvecia",
+      "apellido": "Rujano de León",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Elvecia%20Rujano%20Coopeve",
+      "verificacion": "Por verificar",
+      "fuente": "Destino Panamá (marzo de 2026) la cita como gerente general de Coopeve; ZoomInfo la lista como 'Gerente General at Coopeve Rl'. Un resultado de LinkedIn muestra a Luis Fonseca como gerente general, pero es su antecesor: según un resumen de búsqueda, ella asumió el 01/12/2017 tras su retiro. No encontré su perfil de LinkedIn.",
+      "gancho": "Primera cooperativa de Panamá en emitir la tarjeta Clave (mar-2026), con una morosidad de 6,6% según Moody's Local.",
+      "mensajes": {
+        "invitacion": "Elvecia, vi que Coopeve fue la primera cooperativa de Panamá en emitir la tarjeta Clave y que ya suma más de 24.000 asociados. Lideré cobranzas en Cuotitas y Banco Columbia, en Argentina. Me gustaría conectar.",
+        "mensaje_1": "Gracias por aceptar, Elvecia. Leí en el informe de Moody's Local de septiembre de 2025 que la morosidad de Coopeve ronda el 6,6% y que la cartera es sobre todo de consumo. En carteras así, el atraso suele concentrarse en quien sale de la planilla. Flux Collect estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Te ofrezco un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Elvecia, una pregunta de colega: ¿la mora se concentra en asociados que dejaron el sector público o en los préstamos prendarios? En cooperativas con descuento de planilla vimos que casi todo el atraso venía de pocos perfiles, y atenderlos con otro canal y horario bajaba el roll rate sin sumar gestores.",
+        "cierre": "Elvecia, no te insisto más. Si más adelante quieren mirar la morosidad con otro enfoque, escribime y lo charlamos con un café en Santiago de Veraguas. Éxitos con Coopeve."
+      },
+      "pais": "Panamá",
+      "ciudad": "Santiago de Veraguas",
+      "origen": "latam-2026-09-24"
+    },
+    {
+      "empresa": {
+        "nombre": "Panacredit (Corporación de Finanzas del País, S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.panacredit.com",
+        "tamano": "Mediana-grande para el perfil: cartera bruta de unos US$400 millones a dic-2023 y 19 puntos de atención (Fitch, jul-2024)",
+        "region": "Panamá — Ciudad de Panamá, con 19 puntos de atención, sucursales móviles y corresponsales",
+        "analisis": "Financiera panameña con cerca del 90% de la cartera en préstamos personales, sobre todo de consolidación de deuda y cobrados por orden de descuento de planilla (en torno al 60% a empleados del gobierno, 24% a empresa privada y el resto a jubilados); complementa con autos, comercial, arrendamiento y factoraje. Según Fitch (10/07/2024), la cartera creció más de 20% anual en los últimos tres períodos, con vencidos a más de 90 días de 1,7% y castigos de 1,2% a dic-2023. La mora es baja, pero con ese crecimiento el poco atraso que aparece (clientes que salen de planilla) vale plata. Flux puede priorizar esa recuperación.",
+        "score_fit": 60,
+        "score_justificacion": "Tiene una VP de recuperación y cobros identificada y cartera de consumo en cuotas activa. Resta mucho el tamaño (unos US$400 millones, fuera de lo chico o mediano) y que el descuento de planilla deja poco dolor de cobranza. Lo cargo por el contacto; si Mauro lo ve grande, se descarta.",
+        "noticias": "10/07/2024 (Fitch Ratings): informe de calificación con datos a dic-2023. No encontré noticias con fecha de 2025-2026.",
+        "fuente": "https://www.panacredit.com/site/assets/files/1069/rr1-778175-38351-corporacion_de_finanzas_del_pais_s_a_1_2.pdf ; https://www.linkedin.com/company/panacredit-panama ; https://www.zoominfo.com/p/Janeth-Omlin/10194356706",
+        "pais": "Panamá"
+      },
+      "nombre": "Janeth",
+      "apellido": "Pinzón Omlin",
+      "cargo": "Vicepresidente de Recuperación de Activos y Cobros",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Janeth%20Pinzon%20Omlin%20Panacredit",
+      "verificacion": "Por verificar",
+      "fuente": "Título de resultado de ZoomInfo en un buscador ('Janeth Omlin ... Vicepresidente De Recuperación De Activos Y Cobros at Panacredit'), con paso previo como gerente de cobros en Banisi y por Scotiabank. Un resumen de búsqueda la ubica publicando en LinkedIn sobre cobranza como 'Janeth Pinzon Omlin' de Panacredit, pero no vi la URL de su perfil.",
+      "gancho": "Cartera de unos US$400 millones que crece más de 20% al año, 90% en préstamos personales por descuento de planilla y mora >90 días de 1,7%.",
+      "mensajes": {
+        "invitacion": "Janeth, vi que llevás recuperación de activos y cobros en Panacredit, después de tu paso por Banisi y Scotiabank. Yo lideré cobranzas en Cuotitas y Banco Columbia, en Argentina. Me gustaría sumarte a mi red.",
+        "mensaje_1": "Gracias por aceptar, Janeth. Con cerca del 90% de la cartera en préstamos personales por descuento de planilla y un crecimiento de más del 20% anual, la mora es baja, pero el poco atraso que aparece suele ser de clientes que salieron de planilla y hay que recuperarlos rápido. Flux Collect estima para cada deudor la probabilidad de pago a 5, 10 y 30 días y sugiere canal y horario. Te ofrezco un diagnóstico gratis con un Excel anonimizado.",
+        "followup": "Janeth, una consulta de colega: con cerca del 60% de la cartera en empleados públicos, ¿notan picos de mora cuando hay rotación en el Estado? En Banco Columbia veíamos que esos picos se podían anticipar y que contactar antes del primer descuento fallido cambiaba bastante la cura.",
+        "cierre": "Janeth, no te molesto más. Si más adelante quieren comparar números de recuperación entre Panamá y Argentina, escribime y lo charlamos con un raspao en la Cinta Costera. Éxitos con la cartera."
+      },
+      "pais": "Panamá",
+      "ciudad": "Ciudad de Panamá",
+      "origen": "latam-2026-09-24"
+    }
+  ]
+}
