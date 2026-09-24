@@ -36,7 +36,15 @@ export default function Pipeline() {
   )
 
   useEffect(() => {
-    traerTodo(() => supabase.from('prospectos').select(SELECT_PROSPECTO).order('actualizado_en', { ascending: false }).order('id'))
+    // Los cargados automáticamente entran al pipeline recién cuando se aprueban.
+    traerTodo(() =>
+      supabase
+        .from('prospectos')
+        .select(SELECT_PROSPECTO)
+        .eq('revisar', false)
+        .order('actualizado_en', { ascending: false })
+        .order('id'),
+    )
       .then(setProspectos)
       .catch((e) => setError(e.message))
   }, [])

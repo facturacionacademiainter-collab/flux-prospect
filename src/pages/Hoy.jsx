@@ -34,6 +34,7 @@ export default function Hoy() {
             .from('prospectos')
             .select(SELECT_PROSPECTO)
             .lte('proximo_toque', hoy)
+            .eq('revisar', false)
             .not('estado', 'in', `(${ESTADOS_CERRADOS.map((e) => `"${e}"`).join(',')})`)
             .order('proximo_toque', { ascending: true })
             .order('id'),

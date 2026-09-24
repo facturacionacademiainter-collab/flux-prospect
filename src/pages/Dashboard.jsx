@@ -54,7 +54,7 @@ export default function Dashboard() {
             .order('fecha')
             .order('id'),
         ),
-        traerTodo(() => supabase.from('prospectos').select('id, estado, empresas(segmento)').order('id')),
+        traerTodo(() => supabase.from('prospectos').select('id, estado, empresas(segmento)').eq('revisar', false).order('id')),
         traerTodo(() =>
           supabase.from('kpi_ajustes').select('*').gte('desde', rango.desde).lte('hasta', rango.hasta).order('creado_en'),
         ),
