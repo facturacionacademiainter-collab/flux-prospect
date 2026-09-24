@@ -3,7 +3,7 @@ import Modal from './Modal'
 import { useToast } from './Toast'
 import { supabase, ok } from '../lib/supabase'
 import { SELECT_PROSPECTO } from '../lib/acciones'
-import { ESTADOS, SEGMENTOS, VERIFICACIONES } from '../lib/constantes'
+import { ESTADOS, PAISES, PAIS_POR_DEFECTO, SEGMENTOS, VERIFICACIONES } from '../lib/constantes'
 
 const PERSONA_VACIA = {
   nombre: '',
@@ -16,7 +16,7 @@ const PERSONA_VACIA = {
   gancho: '',
 }
 
-const EMPRESA_VACIA = { nombre: '', segmento: '', web: '', region: '', tamano: '', score_fit: '' }
+const EMPRESA_VACIA = { nombre: '', segmento: '', pais: PAIS_POR_DEFECTO, web: '', region: '', tamano: '', score_fit: '' }
 
 const nulo = (v) => (typeof v === 'string' && v.trim() === '' ? null : typeof v === 'string' ? v.trim() : v)
 
@@ -55,6 +55,7 @@ export default function AltaProspectoModal({ abierto, onCerrar, empresas, onCrea
               nombre: empresa.nombre.trim(),
               segmento: nulo(empresa.segmento),
               web: nulo(empresa.web),
+              pais: empresa.pais || PAIS_POR_DEFECTO,
               region: nulo(empresa.region),
               tamano: nulo(empresa.tamano),
               score_fit: score,
@@ -148,6 +149,16 @@ export default function AltaProspectoModal({ abierto, onCerrar, empresas, onCrea
                 </select>
               </div>
               <Campo etiqueta="Web" id="em-web" {...campoEmpresa('web')} />
+              <div>
+                <label className="label" htmlFor="em-pais">
+                  País
+                </label>
+                <select id="em-pais" className="input" {...campoEmpresa('pais')}>
+                  {PAISES.map(([p]) => (
+                    <option key={p}>{p}</option>
+                  ))}
+                </select>
+              </div>
               <Campo etiqueta="Región" id="em-region" {...campoEmpresa('region')} />
               <Campo etiqueta="Tamaño" id="em-tamano" {...campoEmpresa('tamano')} />
               <Campo etiqueta="Score de fit (1-100)" id="em-score" type="number" min="1" max="100" {...campoEmpresa('score_fit')} />

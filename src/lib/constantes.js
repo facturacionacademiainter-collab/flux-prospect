@@ -105,3 +105,35 @@ export const COLOR_VERIFICACION = {
   'Por verificar': 'bg-amber-500/15 text-amber-200 border-amber-400/30',
   'Sin perfil': 'bg-rose-500/15 text-rose-200 border-rose-400/30',
 }
+
+/** Países de Hispanoamérica (código ISO para la insignia), en orden de prioridad comercial. */
+export const PAISES = [
+  ['Argentina', 'AR'],
+  ['México', 'MX'],
+  ['Colombia', 'CO'],
+  ['Chile', 'CL'],
+  ['Perú', 'PE'],
+  ['Uruguay', 'UY'],
+  ['Paraguay', 'PY'],
+  ['Bolivia', 'BO'],
+  ['Ecuador', 'EC'],
+  ['Venezuela', 'VE'],
+  ['Guatemala', 'GT'],
+  ['El Salvador', 'SV'],
+  ['Honduras', 'HN'],
+  ['Nicaragua', 'NI'],
+  ['Costa Rica', 'CR'],
+  ['Panamá', 'PA'],
+  ['República Dominicana', 'DO'],
+  ['Puerto Rico', 'PR'],
+  ['Cuba', 'CU'],
+]
+export const PAIS_POR_DEFECTO = 'Argentina'
+export const codigoPais = (pais) => PAISES.find(([p]) => p === pais)?.[1] || (pais || '?').slice(0, 2).toUpperCase()
+export const paisDe = (p) => p?.empresas?.pais || PAIS_POR_DEFECTO
+/** Orden de la lista PAISES; los que no están, al final y alfabéticos. */
+export const ordenPais = (a, b) => {
+  const ia = PAISES.findIndex(([p]) => p === a)
+  const ib = PAISES.findIndex(([p]) => p === b)
+  return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b, 'es')
+}

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BotonCopiar from './BotonCopiar'
 import { useToast } from './Toast'
+import { PaisBadge } from './FiltroPais'
+import { paisDe } from '../lib/constantes'
 import { ContadorCaracteres, EstadoBadge, ScoreBadge, SegmentoBadge, VerificacionBadge } from './Insignias'
 import { AVANCE_POR_ENVIO, LIMITE_INVITACION } from '../lib/constantes'
 import { etiquetaDeTipo, linkPerfil, mensajeParaEstado, nombreCompleto } from '../lib/mensajes'
@@ -61,6 +63,7 @@ export default function TarjetaHoy({ prospecto, plantillas, onActualizado, onReg
 
       <div className="mt-1.5 flex flex-wrap gap-1.5">
         <SegmentoBadge segmento={prospecto.empresas?.segmento} />
+        <PaisBadge pais={paisDe(prospecto)} />
         <ScoreBadge score={prospecto.empresas?.score_fit} />
       </div>
 

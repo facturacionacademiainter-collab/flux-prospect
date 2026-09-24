@@ -2,10 +2,11 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { supabase, traerTodo } from '../lib/supabase'
 import { useDatosApp } from '../lib/datosApp'
 import { SELECT_PROSPECTO } from '../lib/acciones'
-import { ESTADOS_CERRADOS, SEGMENTOS } from '../lib/constantes'
+import { ESTADOS_CERRADOS, SEGMENTOS, paisDe } from '../lib/constantes'
 import { formatoFecha, hoyIso, inicioDiaTs } from '../lib/fechas'
 import TarjetaHoy from '../components/TarjetaHoy'
 import RegistroModal from '../components/RegistroModal'
+import FiltroPais from '../components/FiltroPais'
 import { Cargando, ErrorCaja, Vacio } from '../components/Insignias'
 
 const FILTROS = [
@@ -22,6 +23,7 @@ export default function Hoy() {
   const [error, setError] = useState(null)
   const [filtro, setFiltro] = useState('todos')
   const [segmento, setSegmento] = useState('')
+  const [pais, setPais] = useState('')
   const [registro, setRegistro] = useState(null) // { prospecto, tipo }
   const hoy = hoyIso()
   const limite = config?.limite_invitaciones_diarias ?? 25
@@ -63,6 +65,7 @@ export default function Hoy() {
     if (!cola) return []
     const f = FILTROS.find((x) => x.id === filtro)
     return cola
+      .filter((p) => !pais || paisDe(p) === pais)
       .filter((p) => !segmento || p.empresas?.segmento === segmento)
       .filter((p) => (f.estados ? f.estados.includes(p.estado) : f.excluir ? !f.excluir.includes(p.estado) : true))
       .sort((a, b) => {
@@ -72,7 +75,7 @@ export default function Hoy() {
         if (atrA === 0 && a.proximo_toque !== b.proximo_toque) return a.proximo_toque < b.proximo_toque ? -1 : 1
         return (b.empresas?.score_fit ?? 0) - (a.empresas?.score_fit ?? 0)
       })
-  }, [cola, filtro, segmento, hoy])
+  }, [cola, filtro, segmento, pais, hoy])
 
   function alActualizar(anterior, actualizado) {
     if (anterior.estado === 'Por invitar' && actualizado.estado === 'Invitado') setInvitacionesHoy((n) => n + 1)
@@ -147,6 +150,8 @@ export default function Hoy() {
           ↻ Actualizar
         </button>
       </div>
+
+      <FiltroPais prospectos={cola} valor={pais} onCambiar={setPais} />
 
       <ErrorCaja error={error} />
       {!cola && !error && <Cargando />}

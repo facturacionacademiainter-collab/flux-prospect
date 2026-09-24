@@ -1,10 +1,11 @@
 import { supabase, ok, traerTodo } from './supabase'
-import { ESTADOS, SEGMENTOS, VERIFICACIONES } from './constantes'
+import { ESTADOS, PAIS_POR_DEFECTO, SEGMENTOS, VERIFICACIONES } from './constantes'
 
 /** Columnas de exportación/importación (encabezado = nombre de columna). */
 export const COLUMNAS = [
   ['empresa', (p) => p.empresas?.nombre],
   ['segmento', (p) => p.empresas?.segmento],
+  ['pais', (p) => p.empresas?.pais],
   ['web', (p) => p.empresas?.web],
   ['region', (p) => p.empresas?.region],
   ['tamano', (p) => p.empresas?.tamano],
@@ -63,6 +64,7 @@ const ALIAS = {
   follow_up: 'msg_followup',
   cierre: 'msg_cierre',
   region: 'region',
+  pais: 'pais',
 }
 
 const vacioANull = (v) => {
@@ -123,6 +125,7 @@ export async function importarFilas(filas) {
       if (!nombreEmpresa) throw new Error('falta la columna empresa')
       const datosEmpresa = {
         segmento: buscarEnum(f.segmento, SEGMENTOS),
+        pais: vacioANull(f.pais) || PAIS_POR_DEFECTO,
         web: vacioANull(f.web),
         region: vacioANull(f.region),
         tamano: vacioANull(f.tamano),

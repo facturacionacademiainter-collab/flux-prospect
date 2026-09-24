@@ -13,10 +13,11 @@ import {
 } from '@dnd-kit/core'
 import { supabase, traerTodo } from '../lib/supabase'
 import { SELECT_PROSPECTO, moverEstado } from '../lib/acciones'
-import { COLOR_ESTADO, ESTADOS, SEGMENTOS } from '../lib/constantes'
+import { COLOR_ESTADO, ESTADOS, SEGMENTOS, paisDe } from '../lib/constantes'
 import { nombreCompleto } from '../lib/mensajes'
 import { formatoFecha, hoyIso } from '../lib/fechas'
 import { useToast } from '../components/Toast'
+import FiltroPais, { PaisBadge } from '../components/FiltroPais'
 import { Cargando, ErrorCaja, ScoreBadge, VerificacionBadge } from '../components/Insignias'
 
 export default function Pipeline() {
@@ -25,6 +26,7 @@ export default function Pipeline() {
   const [error, setError] = useState(null)
   const [busqueda, setBusqueda] = useState('')
   const [segmento, setSegmento] = useState('')
+  const [pais, setPais] = useState('')
   const [ocultarCerrados, setOcultarCerrados] = useState(false)
   const [arrastrando, setArrastrando] = useState(null)
 
@@ -54,10 +56,11 @@ export default function Pipeline() {
     const q = busqueda.trim().toLowerCase()
     return prospectos.filter(
       (p) =>
+        (!pais || paisDe(p) === pais) &&
         (!segmento || p.empresas?.segmento === segmento) &&
         (!q || `${p.empresas?.nombre} ${p.nombre} ${p.apellido} ${p.cargo}`.toLowerCase().includes(q)),
     )
-  }, [prospectos, busqueda, segmento])
+  }, [prospectos, busqueda, segmento, pais])
 
   const columnas = ocultarCerrados ? ESTADOS.filter((e) => !['Cliente', 'No interesado', 'Cierre enviado'].includes(e)) : ESTADOS
 
@@ -114,6 +117,8 @@ export default function Pipeline() {
           </label>
         </div>
       </header>
+
+      <FiltroPais prospectos={prospectos} valor={pais} onCambiar={setPais} />
 
       <ErrorCaja error={error} />
       {!prospectos && !error && <Cargando />}
@@ -201,6 +206,7 @@ function Tarjeta({ prospecto, onMover, flotando }) {
         {prospecto.cargo ? ` · ${prospecto.cargo}` : ''}
       </p>
       <div className="mt-1.5 flex flex-wrap items-center gap-1">
+        <PaisBadge pais={paisDe(prospecto)} />
         <ScoreBadge score={prospecto.empresas?.score_fit} />
         {prospecto.verificacion !== 'Verificado' && <VerificacionBadge verificacion={prospecto.verificacion} />}
       </div>

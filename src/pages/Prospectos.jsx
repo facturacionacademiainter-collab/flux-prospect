@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { supabase, traerTodo } from '../lib/supabase'
 import { SELECT_PROSPECTO, actualizarEmpresa, actualizarProspecto, moverEstado } from '../lib/acciones'
-import { ESTADOS, SEGMENTOS, VERIFICACIONES } from '../lib/constantes'
+import { ESTADOS, SEGMENTOS, VERIFICACIONES, ordenPais, paisDe } from '../lib/constantes'
 import { formatoFecha, hoyIso } from '../lib/fechas'
 import { COLUMNAS, exportar, importarFilas, leerArchivo } from '../lib/excel'
 import CeldaEditable from '../components/CeldaEditable'
@@ -11,6 +11,7 @@ import { aprobarProspectos, descartarProspecto } from '../lib/revision'
 import Modal, { ConfirmarModal } from '../components/Modal'
 import { useToast } from '../components/Toast'
 import { Cargando, ErrorCaja, RevisarBadge } from '../components/Insignias'
+import FiltroPais, { PaisBadge } from '../components/FiltroPais'
 
 const COLUMNAS_TABLA = [
   { id: 'empresa', texto: 'Empresa', valor: (p) => p.empresas?.nombre || '' },
@@ -27,6 +28,23 @@ const COLUMNAS_TABLA = [
 
 const FILTROS_VACIOS = { q: '', segmento: '', estado: '', verificacion: '', scoreMin: '', scoreMax: '', revisar: false }
 
+// El país elegido se recuerda entre visitas (solo en este navegador).
+const CLAVE_PAIS = 'flux.prospectos.pais'
+function leerPais() {
+  try {
+    return localStorage.getItem(CLAVE_PAIS) || ''
+  } catch {
+    return ''
+  }
+}
+function guardarPais(pais) {
+  try {
+    localStorage.setItem(CLAVE_PAIS, pais)
+  } catch {
+    // Sin almacenamiento: no pasa nada, solo no se recuerda.
+  }
+}
+
 export default function Prospectos() {
   const avisar = useToast()
   const [prospectos, setProspectos] = useState(null)
@@ -34,6 +52,7 @@ export default function Prospectos() {
   const [error, setError] = useState(null)
   const [filtros, setFiltros] = useState(FILTROS_VACIOS)
   const [orden, setOrden] = useState({ col: 'score', asc: false })
+  const [pais, setPais] = useState(leerPais)
   const [alta, setAlta] = useState(false)
   const [importando, setImportando] = useState(false)
   const [resultadoImport, setResultadoImport] = useState(null)
@@ -68,6 +87,7 @@ export default function Prospectos() {
     return prospectos
       .filter((p) => {
         const e = p.empresas || {}
+        if (pais && paisDe(p) !== pais) return false
         if (filtros.revisar && !p.revisar) return false
         if (filtros.segmento && e.segmento !== filtros.segmento) return false
         if (filtros.estado && p.estado !== filtros.estado) return false
@@ -75,7 +95,7 @@ export default function Prospectos() {
         if (min != null && (e.score_fit ?? -1) < min) return false
         if (max != null && (e.score_fit ?? 999) > max) return false
         if (q) {
-          const texto = [e.nombre, e.region, p.nombre, p.apellido, p.cargo, p.gancho, p.notas].join(' ').toLowerCase()
+          const texto = [e.nombre, e.pais, e.region, p.nombre, p.apellido, p.cargo, p.gancho, p.notas].join(' ').toLowerCase()
           if (!texto.includes(q)) return false
         }
         return true
@@ -86,7 +106,24 @@ export default function Prospectos() {
         const r = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'es')
         return orden.asc ? r : -r
       })
-  }, [prospectos, filtros, orden])
+  }, [prospectos, filtros, orden, pais])
+
+  /** En "Todos" con más de un país, la tabla se separa en un bloque por país. */
+  const grupos = useMemo(() => {
+    const porPais = new Map()
+    for (const p of visibles) {
+      const k = paisDe(p)
+      if (!porPais.has(k)) porPais.set(k, [])
+      porPais.get(k).push(p)
+    }
+    return [...porPais.entries()].sort(([a], [b]) => ordenPais(a, b))
+  }, [visibles])
+  const agrupar = !pais && grupos.length > 1
+
+  function elegirPais(p) {
+    setPais(p)
+    guardarPais(p)
+  }
 
   const pendientes = prospectos ? prospectos.filter((p) => p.revisar).length : 0
   const visiblesARevisar = visibles.filter((p) => p.revisar)
@@ -204,6 +241,8 @@ export default function Prospectos() {
         </div>
       </header>
 
+      <FiltroPais prospectos={prospectos} valor={pais} onCambiar={elegirPais} />
+
       {(pendientes > 0 || filtros.revisar) && (
         <div className="flex flex-wrap items-center gap-2">
           <button
@@ -235,7 +274,7 @@ export default function Prospectos() {
       <div className="glass grid grid-cols-2 gap-2 p-3 md:grid-cols-4 xl:grid-cols-7">
         <input
           className="input col-span-2"
-          placeholder="Buscar empresa, persona, cargo, región…"
+          placeholder="Buscar empresa, persona, cargo, país, región…"
           value={filtros.q}
           onChange={cambiarFiltro('q')}
         />
@@ -312,8 +351,26 @@ export default function Prospectos() {
                   <th className="px-2 py-2" />
                 </tr>
               </thead>
-              <tbody className="divide-y divide-white/5">
-                {visibles.map((p) => (
+              {(agrupar ? grupos : [['', visibles]]).map(([nombrePais, filas]) => (
+              <tbody key={nombrePais || 'todos'} className="divide-y divide-white/5">
+                {agrupar && (
+                  <tr className="bg-white/[0.04]">
+                    <th colSpan={COLUMNAS_TABLA.length + 1} className="px-2 py-2 text-left">
+                      <button
+                        className="flex items-center gap-2 text-sm font-semibold text-white hover:text-flux-200"
+                        onClick={() => elegirPais(nombrePais)}
+                        title={`Ver solo ${nombrePais}`}
+                      >
+                        <PaisBadge pais={nombrePais} />
+                        {nombrePais}
+                        <span className="text-xs font-normal text-slate-400">
+                          {filas.length} {filas.length === 1 ? 'prospecto' : 'prospectos'}
+                        </span>
+                      </button>
+                    </th>
+                  </tr>
+                )}
+                {filas.map((p) => (
                   <tr key={p.id} className="align-middle hover:bg-white/[0.02]">
                     <td className="max-w-[220px] px-2 py-1">
                       <Link to={`/prospecto/${p.id}`} className="block truncate font-semibold text-white hover:text-flux-200">
@@ -384,6 +441,7 @@ export default function Prospectos() {
                   </tr>
                 ))}
               </tbody>
+              ))}
             </table>
           </div>
           {visibles.length === 0 && <p className="p-6 text-center text-sm text-slate-500">No hay prospectos con esos filtros.</p>}

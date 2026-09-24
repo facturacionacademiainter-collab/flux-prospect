@@ -255,7 +255,7 @@ function AnalisisEmpresa({ empresa: e }) {
         )}
       </div>
       <div className="grid gap-4 sm:grid-cols-2">
-        <Bloque titulo="Región">{e.region}</Bloque>
+        <Bloque titulo="País y región">{[e.pais, e.region].filter(Boolean).join(' · ')}</Bloque>
         <Bloque titulo="Tamaño">{e.tamano}</Bloque>
       </div>
       <Bloque titulo="Análisis">{e.analisis}</Bloque>
