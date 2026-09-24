@@ -19,6 +19,18 @@ export function SegmentoBadge({ segmento }) {
   return <span className="chip border-white/15 bg-white/5 text-slate-300">{segmento}</span>
 }
 
+/** Prospecto cargado por la tarea automática que todavía no se revisó. */
+export function RevisarBadge({ origen }) {
+  return (
+    <span
+      className="chip border-fuchsia-400/40 bg-fuchsia-500/15 text-fuchsia-100"
+      title={`Cargado automáticamente${origen ? ` (${origen})` : ''}: aprobalo o descartalo`}
+    >
+      Nuevo (auto)
+    </span>
+  )
+}
+
 export function ScoreBadge({ score }) {
   if (score == null) return null
   const color =

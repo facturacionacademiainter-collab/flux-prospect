@@ -7,9 +7,10 @@ import { formatoFecha, hoyIso } from '../lib/fechas'
 import { COLUMNAS, exportar, importarFilas, leerArchivo } from '../lib/excel'
 import CeldaEditable from '../components/CeldaEditable'
 import AltaProspectoModal from '../components/AltaProspectoModal'
-import Modal from '../components/Modal'
+import { aprobarProspectos, descartarProspecto } from '../lib/revision'
+import Modal, { ConfirmarModal } from '../components/Modal'
 import { useToast } from '../components/Toast'
-import { Cargando, ErrorCaja } from '../components/Insignias'
+import { Cargando, ErrorCaja, RevisarBadge } from '../components/Insignias'
 
 const COLUMNAS_TABLA = [
   { id: 'empresa', texto: 'Empresa', valor: (p) => p.empresas?.nombre || '' },
@@ -24,7 +25,7 @@ const COLUMNAS_TABLA = [
   { id: 'ultimo', texto: 'Últ. contacto', valor: (p) => p.ultimo_contacto || '' },
 ]
 
-const FILTROS_VACIOS = { q: '', segmento: '', estado: '', verificacion: '', scoreMin: '', scoreMax: '' }
+const FILTROS_VACIOS = { q: '', segmento: '', estado: '', verificacion: '', scoreMin: '', scoreMax: '', revisar: false }
 
 export default function Prospectos() {
   const avisar = useToast()
@@ -36,6 +37,8 @@ export default function Prospectos() {
   const [alta, setAlta] = useState(false)
   const [importando, setImportando] = useState(false)
   const [resultadoImport, setResultadoImport] = useState(null)
+  const [confirmar, setConfirmar] = useState(null) // { tipo: 'descartar', prospecto } | { tipo: 'aprobarVisibles' }
+  const [procesando, setProcesando] = useState(false)
   const archivoRef = useRef(null)
 
   async function cargar() {
@@ -65,6 +68,7 @@ export default function Prospectos() {
     return prospectos
       .filter((p) => {
         const e = p.empresas || {}
+        if (filtros.revisar && !p.revisar) return false
         if (filtros.segmento && e.segmento !== filtros.segmento) return false
         if (filtros.estado && p.estado !== filtros.estado) return false
         if (filtros.verificacion && p.verificacion !== filtros.verificacion) return false
@@ -83,6 +87,9 @@ export default function Prospectos() {
         return orden.asc ? r : -r
       })
   }, [prospectos, filtros, orden])
+
+  const pendientes = prospectos ? prospectos.filter((p) => p.revisar).length : 0
+  const visiblesARevisar = visibles.filter((p) => p.revisar)
 
   const reemplazar = (act) => setProspectos((ps) => ps.map((p) => (p.id === act.id ? act : p)))
 
@@ -107,6 +114,41 @@ export default function Prospectos() {
       avisar(`No se pudo guardar: ${e.message}`, 'error')
       throw e
     }
+  }
+
+  async function aprobar(lista) {
+    setProcesando(true)
+    try {
+      const aprobados = await aprobarProspectos(lista.map((p) => p.id))
+      const porId = new Map(aprobados.map((a) => [a.id, a]))
+      setProspectos((ps) => ps.map((p) => porId.get(p.id) || p))
+      avisar(aprobados.length === 1 ? 'Aprobado: ya está en la cola de hoy' : `${aprobados.length} aprobados: ya están en la cola de hoy`)
+    } catch (e) {
+      avisar(`No se pudo aprobar: ${e.message}`, 'error')
+    } finally {
+      setProcesando(false)
+    }
+  }
+
+  async function descartar(p) {
+    setProcesando(true)
+    try {
+      const { empresaBorrada } = await descartarProspecto(p)
+      setProspectos((ps) => ps.filter((x) => x.id !== p.id))
+      if (empresaBorrada) setEmpresas((es) => es.filter((x) => x.id !== p.empresa_id))
+      avisar(empresaBorrada ? 'Descartado (y su empresa también)' : 'Descartado')
+    } catch (e) {
+      avisar(`No se pudo descartar: ${e.message}`, 'error')
+    } finally {
+      setProcesando(false)
+    }
+  }
+
+  async function alConfirmar() {
+    const c = confirmar
+    setConfirmar(null)
+    if (c?.tipo === 'descartar') await descartar(c.prospecto)
+    if (c?.tipo === 'aprobarVisibles') await aprobar(visiblesARevisar)
   }
 
   async function alElegirArchivo(e) {
@@ -161,6 +203,34 @@ export default function Prospectos() {
           </button>
         </div>
       </header>
+
+      {(pendientes > 0 || filtros.revisar) && (
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            className={`btn btn-chico border ${
+              filtros.revisar
+                ? 'border-fuchsia-400/50 bg-fuchsia-500/25 text-white'
+                : 'border-fuchsia-400/30 bg-fuchsia-500/10 text-fuchsia-100 hover:bg-fuchsia-500/20'
+            }`}
+            onClick={() => setFiltros((f) => ({ ...f, revisar: !f.revisar }))}
+            aria-pressed={filtros.revisar}
+          >
+            Para revisar ({pendientes})
+          </button>
+          {filtros.revisar && visiblesARevisar.length > 0 && (
+            <button
+              className="btn-primario btn-chico"
+              disabled={procesando}
+              onClick={() => setConfirmar({ tipo: 'aprobarVisibles' })}
+            >
+              ✓ Aprobar todos los visibles ({visiblesARevisar.length})
+            </button>
+          )}
+          <p className="text-xs text-slate-500">
+            Cargados por la tarea automática: no aparecen en Hoy, Pipeline ni KPIs hasta que los apruebes.
+          </p>
+        </div>
+      )}
 
       <div className="glass grid grid-cols-2 gap-2 p-3 md:grid-cols-4 xl:grid-cols-7">
         <input
@@ -245,10 +315,11 @@ export default function Prospectos() {
               <tbody className="divide-y divide-white/5">
                 {visibles.map((p) => (
                   <tr key={p.id} className="align-middle hover:bg-white/[0.02]">
-                    <td className="max-w-[200px] px-2 py-1">
+                    <td className="max-w-[220px] px-2 py-1">
                       <Link to={`/prospecto/${p.id}`} className="block truncate font-semibold text-white hover:text-flux-200">
                         {p.empresas?.nombre || 'Sin empresa'}
                       </Link>
+                      {p.revisar && <RevisarBadge origen={p.origen} />}
                     </td>
                     <td className="max-w-[150px] truncate px-2 py-1 text-slate-400">{p.empresas?.segmento || '—'}</td>
                     <td className="w-20 px-1 py-1">
@@ -287,7 +358,25 @@ export default function Prospectos() {
                     <td className="whitespace-nowrap px-2 py-1 tabular-nums text-slate-400">
                       {formatoFecha(p.ultimo_contacto)}
                     </td>
-                    <td className="px-2 py-1 text-right">
+                    <td className="whitespace-nowrap px-2 py-1 text-right">
+                      {p.revisar && (
+                        <>
+                          <button
+                            className="btn-primario btn-chico"
+                            disabled={procesando}
+                            onClick={() => aprobar([p])}
+                          >
+                            Aprobar
+                          </button>{' '}
+                          <button
+                            className="btn-peligro btn-chico"
+                            disabled={procesando}
+                            onClick={() => setConfirmar({ tipo: 'descartar', prospecto: p })}
+                          >
+                            Descartar
+                          </button>{' '}
+                        </>
+                      )}
                       <Link to={`/prospecto/${p.id}`} className="btn-fantasma btn-chico">
                         Ficha →
                       </Link>
@@ -306,6 +395,20 @@ export default function Prospectos() {
         onCerrar={() => setAlta(false)}
         empresas={empresas}
         onCreado={() => cargar()}
+      />
+
+      <ConfirmarModal
+        abierto={Boolean(confirmar)}
+        titulo={confirmar?.tipo === 'descartar' ? 'Descartar prospecto' : 'Aprobar prospectos'}
+        mensaje={
+          confirmar?.tipo === 'descartar'
+            ? `Se borra ${confirmar.prospecto.empresas?.nombre || 'este prospecto'} (y la empresa, si no le quedan otros prospectos). No se puede deshacer.`
+            : `Vas a aprobar ${visiblesARevisar.length} prospectos: pasan a la cola de hoy y al pipeline.`
+        }
+        textoConfirmar={confirmar?.tipo === 'descartar' ? 'Descartar' : 'Aprobar'}
+        peligro={confirmar?.tipo === 'descartar'}
+        onConfirmar={alConfirmar}
+        onCerrar={() => setConfirmar(null)}
       />
 
       <Modal
