@@ -9,6 +9,7 @@ const SECCIONES = [
   { a: '/dashboard', texto: 'KPIs', icono: IconoKpi },
   { a: '/pipeline', texto: 'Pipeline', icono: IconoPipeline },
   { a: '/prospectos', texto: 'Prospectos', icono: IconoTabla },
+  { a: '/mapa', texto: 'Mapa', icono: IconoMapa },
   { a: '/ajustes', texto: 'Ajustes', icono: IconoAjustes },
 ]
 
@@ -99,7 +100,7 @@ export default function Layout() {
 
       {/* Navegación inferior (mobile) */}
       <nav
-        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-white/10 bg-[#120d1b]/90 backdrop-blur-xl md:hidden"
+        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-6 border-t border-white/10 bg-[#120d1b]/90 backdrop-blur-xl md:hidden"
         style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       >
         {SECCIONES.map(({ a, texto, icono: Icono }) => (
@@ -180,6 +181,14 @@ function IconoTabla() {
     <svg {...svg}>
       <rect x="3" y="4" width="18" height="16" rx="2" />
       <path d="M3 10h18M3 15h18M9 4v16" />
+    </svg>
+  )
+}
+function IconoMapa() {
+  return (
+    <svg {...svg}>
+      <path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z" />
+      <path d="M9 4v14M15 6v14" />
     </svg>
   )
 }

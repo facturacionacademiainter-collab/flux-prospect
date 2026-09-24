@@ -12,6 +12,7 @@ import Hoy from './pages/Hoy'
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const Pipeline = lazy(() => import('./pages/Pipeline'))
 const Prospectos = lazy(() => import('./pages/Prospectos'))
+const Mapa = lazy(() => import('./pages/Mapa'))
 const Ficha = lazy(() => import('./pages/Ficha'))
 const Ajustes = lazy(() => import('./pages/Ajustes'))
 
@@ -54,6 +55,7 @@ function Panel() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="pipeline" element={<Pipeline />} />
           <Route path="prospectos" element={<Prospectos />} />
+          <Route path="mapa" element={<Mapa />} />
           <Route path="prospecto/:id" element={<Ficha />} />
           <Route path="ajustes" element={<Ajustes />} />
           <Route path="*" element={<Navigate to="/" replace />} />

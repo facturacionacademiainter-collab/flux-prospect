@@ -18,26 +18,33 @@ export function contarPorPais(prospectos) {
   return [...conteo.entries()].sort(([a], [b]) => ordenPais(a, b))
 }
 
-/** Pestañas "Todos / país (n)". valor = '' es Todos. */
-export default function FiltroPais({ prospectos, valor, onCambiar }) {
+/**
+ * Selector de país: un botón por país con su cantidad, todos a la vista (hacen wrap).
+ * valor = '' es "Todos los países". Con conTodos = false no se ofrece esa opción.
+ */
+export default function FiltroPais({ prospectos, valor, onCambiar, conTodos = true }) {
   const paises = useMemo(() => contarPorPais(prospectos), [prospectos])
   if (paises.length < 2 && !valor) return null
   const clase = (activo) =>
-    `btn btn-chico whitespace-nowrap ${activo ? 'bg-flux-500 text-white' : 'text-slate-300 hover:bg-white/5'}`
+    `flex items-center gap-2 rounded-xl border px-3 py-1.5 text-sm font-semibold transition ${
+      activo
+        ? 'border-flux-400/60 bg-flux-500 text-white shadow-lg shadow-flux-500/20'
+        : 'border-white/10 bg-white/[0.04] text-slate-300 hover:border-flux-400/40 hover:bg-white/[0.08] hover:text-white'
+    }`
   return (
-    <nav
-      className="scroll-fino flex gap-1 overflow-x-auto rounded-xl border border-white/10 bg-white/5 p-1"
-      aria-label="Filtrar por país"
-    >
-      <button className={clase(!valor)} onClick={() => onCambiar('')} aria-pressed={!valor}>
-        Todos <span className="opacity-70">({prospectos?.length || 0})</span>
-      </button>
+    <nav className="flex flex-wrap gap-2" aria-label="País">
       {paises.map(([pais, n]) => (
         <button key={pais} className={clase(valor === pais)} onClick={() => onCambiar(pais)} aria-pressed={valor === pais}>
-          <span className="font-mono text-[10px] font-bold opacity-80">{codigoPais(pais)}</span> {pais}{' '}
-          <span className="opacity-70">({n})</span>
+          <span className="font-mono text-[10px] font-bold opacity-70">{codigoPais(pais)}</span>
+          {pais}
+          <span className="tabular-nums opacity-70">{n}</span>
         </button>
       ))}
+      {conTodos && (
+        <button className={clase(!valor)} onClick={() => onCambiar('')} aria-pressed={!valor}>
+          Todos los países <span className="tabular-nums opacity-70">{prospectos?.length || 0}</span>
+        </button>
+      )}
     </nav>
   )
 }

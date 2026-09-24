@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { supabase, traerTodo } from '../lib/supabase'
 import { SELECT_PROSPECTO, actualizarEmpresa, actualizarProspecto, moverEstado } from '../lib/acciones'
-import { ESTADOS, SEGMENTOS, VERIFICACIONES, ordenPais, paisDe } from '../lib/constantes'
+import { ESTADOS, PAIS_POR_DEFECTO, SEGMENTOS, VERIFICACIONES, ordenPais, paisDe } from '../lib/constantes'
 import { formatoFecha, hoyIso } from '../lib/fechas'
 import { COLUMNAS, exportar, importarFilas, leerArchivo } from '../lib/excel'
 import CeldaEditable from '../components/CeldaEditable'
@@ -28,13 +28,13 @@ const COLUMNAS_TABLA = [
 
 const FILTROS_VACIOS = { q: '', segmento: '', estado: '', verificacion: '', scoreMin: '', scoreMax: '', revisar: false }
 
-// El país elegido se recuerda entre visitas (solo en este navegador).
+// El país elegido se recuerda entre visitas (solo en este navegador). '' = todos los países.
 const CLAVE_PAIS = 'flux.prospectos.pais'
 function leerPais() {
   try {
-    return localStorage.getItem(CLAVE_PAIS) || ''
+    return localStorage.getItem(CLAVE_PAIS) ?? PAIS_POR_DEFECTO
   } catch {
-    return ''
+    return PAIS_POR_DEFECTO
   }
 }
 function guardarPais(pais) {
@@ -52,7 +52,8 @@ export default function Prospectos() {
   const [error, setError] = useState(null)
   const [filtros, setFiltros] = useState(FILTROS_VACIOS)
   const [orden, setOrden] = useState({ col: 'score', asc: false })
-  const [pais, setPais] = useState(leerPais)
+  const [params, setParams] = useSearchParams()
+  const [pais, setPais] = useState(() => params.get('pais') ?? leerPais())
   const [alta, setAlta] = useState(false)
   const [importando, setImportando] = useState(false)
   const [resultadoImport, setResultadoImport] = useState(null)
@@ -123,9 +124,19 @@ export default function Prospectos() {
   function elegirPais(p) {
     setPais(p)
     guardarPais(p)
+    setParams(p ? { pais: p } : {}, { replace: true })
   }
 
-  const pendientes = prospectos ? prospectos.filter((p) => p.revisar).length : 0
+  // Si el país recordado ya no tiene prospectos, se abre el primero que haya.
+  useEffect(() => {
+    if (!prospectos?.length || !pais || prospectos.some((p) => paisDe(p) === pais)) return
+    const primero = [...new Set(prospectos.map(paisDe))].sort(ordenPais)[0]
+    if (primero) setPais(primero)
+  }, [prospectos, pais])
+
+  const enPais = pais ? (prospectos || []).filter((p) => paisDe(p) === pais) : prospectos || []
+
+  const pendientes = prospectos ? prospectos.filter((p) => p.revisar && (!pais || paisDe(p) === pais)).length : 0
   const visiblesARevisar = visibles.filter((p) => p.revisar)
 
   const reemplazar = (act) => setProspectos((ps) => ps.map((p) => (p.id === act.id ? act : p)))
@@ -213,9 +224,11 @@ export default function Prospectos() {
     <div className="space-y-4">
       <header className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="titulo-pagina">Prospectos</h1>
+          <h1 className="titulo-pagina">
+            Prospectos <span className="text-flux-300">· {pais || 'todos los países'}</span>
+          </h1>
           <p className="text-sm text-slate-400">
-            {prospectos ? `${visibles.length} de ${prospectos.length}` : '…'} · clic en una celda para editarla
+            {prospectos ? `${visibles.length} de ${enPais.length}` : '…'} · clic en una celda para editarla
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
