@@ -1,0 +1,546 @@
+{
+  "tanda": 1,
+  "faltantes": 0,
+  "prospectos": [
+    {
+      "empresa": {
+        "nombre": "Credicuotas",
+        "segmento": "Fintech de crédito",
+        "web": "https://www.credicuotas.com.ar",
+        "tamano": "+500.000 préstamos otorgados y +100.000 clientes activos (2021); 300+ comercios adheridos y 600+ puntos de venta de motos. Grupo BIND.",
+        "analisis": "Préstamos personales 100% online y financiación en comercios/motos, plazos de 1 a 48 meses. Segmento consumo masivo con TNA alta. Dolor probable: sostener la mora temprana mientras empujan originación (billetera propia desde enero 2026 y proyección de +50% de préstamos). Ángulo: priorización diaria de la gestión con probabilidad de pago por deudor y lectura de promesas por medio de pago, justo lo que cae en el área de Gonzalo (cobranzas + medios de pago + operaciones).",
+        "score_fit": 88,
+        "score_justificacion": "Fintech de consumo pura, con cartera en cuotas y volumen alto; el contacto es el dueño de cobranzas y además de medios de pago; está en expansión (billetera nueva), así que la mora es prioridad.",
+        "noticias": "Ene 2026: lanza billetera digital propia orientada a crédito y proyecta al menos 50% más préstamos en 2026 (Descubre.vc / RoadShow). Mar 2023: cuarta ON récord por $3.600M (Cámara Argentina Fintech).",
+        "fuente": "https://www.descubre.vc/noticia/credicuotas-lanza-billetera-digital-para-cr-dito-online-2026-01-05 ; https://www.roadshow.com.ar/credicuotas-lanza-una-billetera-propia-cuyo-objetivo-sera-el-otorgamiento-de-credito-digital/ ; https://camarafintech.org/credicuotas-cerro-su-cuarta-on-por-un-valor-record-de-3-600-millones-de-pesos/ ; https://camarafintech.org/dirigio-un-banco-y-vio-que-el-sistema-de-prestamos-no-funcionaba-ahora-los-da-en-minutos-y-por-whatsapp/"
+      },
+      "nombre": "Gonzalo",
+      "apellido": "Tulian",
+      "cargo": "Gerente de Cobranzas, Medios de Pago, Operaciones y Defensa del Consumidor",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cobranzas%20Credicuotas",
+      "verificacion": "Por verificar",
+      "fuente": "https://rocketreach.co/gonzalo-tulian-email_756160690 (cargo); no se encontró URL de LinkedIn en resultados",
+      "gancho": "Lleva cobranzas, medios de pago, operaciones y defensa del consumidor juntos; pasó por Cartasur, Créditos Posta y Wenance. Credicuotas lanzó billetera propia en ene-2026.",
+      "mensajes": {
+        "invitacion": "Hola Gonzalo, soy Mauro, vengo de cobranzas (Cuotitas/Banco Columbia, hoy Moovitech). Vi que en Credicuotas llevás cobranzas, medios de pago y defensa del consumidor juntos: combo pesado. Me gustaría sumarte a la red para intercambiar experiencias.",
+        "mensaje_1": "Gonzalo, gracias por aceptar. Con la billetera nueva y el objetivo de crecer fuerte en originación, imagino que el desafío es que la mora temprana no acompañe ese ritmo. Armé Flux Collect: predice la probabilidad de pago de cada deudor a 5/10/15/20/30 días y te dice a quién llamar, por qué canal y en qué franja. Te propongo un diagnóstico gratis: me pasás un Excel anonimizado y en una semana te devuelvo dónde se te escapa la recuperación. ¿O preferís 20 min de demo?",
+        "followup": "Gonzalo, un dato que me sirvió mucho en consumo online: cruzar cumplimiento de promesas de pago con el medio de pago que usa cada cliente explica buena parte del roll rate de 1-30 a 31-60. Como medios de pago está en tu área, ese cruce en Flux sale sin armar nada a mano. Si querés te lo muestro con datos anonimizados.",
+        "cierre": "Gonzalo, no te quiero llenar la bandeja. Si algún día querés comparar números de mora o charlar de agencias, acá estoy, de colega a colega. Éxitos con la billetera."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Moni",
+        "segmento": "Fintech de crédito",
+        "web": "https://moni.com.ar",
+        "tamano": "Fundada en 2013; más de 1 millón de préstamos otorgados (más de US$250M). Billetera + tarjeta Monicard.",
+        "analisis": "Préstamos personales de corto plazo 100% online, más billetera y pago de servicios. Ticket chico, alta rotación y cliente sensible a tasa: la cobranza temprana define la rentabilidad. Dolor probable: volumen de cuentas chicas donde no conviene gestionar a todos igual; necesidad de decidir a quién no gestionar. Ángulo: la contacto viene de riesgo crediticio (motores de decisión), así que el lenguaje de probabilidad de pago y segmentación le resulta natural.",
+        "score_fit": 82,
+        "score_justificacion": "Cartera masiva de consumo en cuotas cortas, fintech madura; contacto de Operaciones con background en riesgo y estrategias de cobranza. Tienen área de cobranzas propia (cobranzas@moni.com.ar).",
+        "noticias": "Superó el millón de préstamos otorgados, más de US$250M (InfoNegocios). Citada en 2026 entre fintechs que evalúan con señales digitales a monotributistas (Corrientes Hoy).",
+        "fuente": "https://infonegocios.info/amp/y-ademas/moni-supero-la-barrera-del-millon-en-prestamos-otorgados-mas-de-us-250-millones ; https://www.corrienteshoy.com/info-general/como-acceden-los-monotributistas-argentinos-al-credito-en-2026-bancos-anses-y-fintech-comparados.htm ; https://moni.com.ar/blog/tecnologia/como-contactarte-conmigo/"
+      },
+      "nombre": "Julieta",
+      "apellido": "Antoni",
+      "cargo": "Gerente de Operaciones",
+      "url_linkedin": "https://www.linkedin.com/in/julieta-antoni-912328117/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Operaciones%20Moni",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/julieta-antoni-912328117/ (visto en resultados, empresa Moni) ; https://www.zoominfo.com/p/Julieta-Antoni/4214866137 (cargo)",
+      "gancho": "Viene de riesgo: fue Gerente de Riesgo Crediticio en Libgot (motores de decisión AR y CO) y hoy es Gerente de Operaciones en Moni.",
+      "mensajes": {
+        "invitacion": "Hola Julieta, soy Mauro, trabajo en cobranzas hace años (Cuotitas/Banco Columbia, hoy Moovitech). Vi que pasaste de riesgo crediticio en Libgot a operaciones en Moni: ese puente riesgo-cobranza me interesa mucho. ¿Conectamos?",
+        "mensaje_1": "Julieta, gracias por conectar. En préstamos cortos como los de Moni, el costo de gestionar a todos igual se come el margen: hay cuentas que pagan solas y otras que ya no vuelven. Flux Collect estima la probabilidad de pago de cada deudor a 5 a 30 días y recomienda acción, canal y horario, como un motor de decisión pero para cobranza. Te ofrezco un diagnóstico gratis sobre un Excel anonimizado, listo en una semana. ¿Te sirve eso o una demo de 20 min?",
+        "followup": "Julieta, te dejo un KPI que suele sorprender: el first payment default por cohorte de originación. Cuando lo cruzás con la política vigente en cada mes, aparece qué cambio de riesgo te llenó la mora 60 días después. Flux lo arma solo al cargar la cartera. Con tu paso por riesgo, creo que lo vas a leer mejor que nadie.",
+        "cierre": "Julieta, no insisto más. Si en algún momento querés intercambiar cómo están midiendo recupero o qué funciona con agencias, escribime tranquila. Un abrazo y éxitos en Moni."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Directo (Crédito Directo S.A.)",
+        "segmento": "Fintech de crédito",
+        "web": "https://www.directo.com.ar",
+        "tamano": "Parte de Grupo ST (GST Grupo Financiero). Tamaño de cartera no público en lo relevado.",
+        "analisis": "Compras en cuotas sin tarjeta y préstamos personales, con red de comercios. Según su informe de calificación, la recuperación tiene 3 etapas (preventiva, mora temprana, mora intermedia) y las cuentas en mora se derivan a agencias especializadas. Dolor probable: medir y comparar performance de agencias y decidir qué tramo va a cada una. Ángulo: módulo de performance de agencias y campañas de Flux.",
+        "score_fit": 80,
+        "score_justificacion": "Consumo en cuotas con esquema de agencias externas documentado; el contacto es Operaciones, que suele administrar agencias. Tamaño medio, ciclo de venta razonable.",
+        "noticias": "Sin noticias recientes con fecha encontradas; el esquema de recupero surge del informe de Evaluadora Latinoamericana.",
+        "fuente": "https://www.evaluadora.com/ar/usr/archivos/347_Credito%20Directo%20(2).pdf ; https://www.linkedin.com/company/gst-grupo-financiero ; https://www.directo.com.ar/"
+      },
+      "nombre": "Marcelo",
+      "apellido": "Raffin",
+      "cargo": "Gerente de Operaciones",
+      "url_linkedin": "https://www.linkedin.com/in/marceraffin/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Operaciones%20Directo%20%28Cr%C3%A9dito%20Directo%20S.A.%29",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/marceraffin/ (resultado 'Marcelo Raffin - Directo | LinkedIn'; cargo según el mismo resultado)",
+      "gancho": "Directo trabaja la mora en 3 etapas y deriva a agencias especializadas: el tema de agencias es su día a día.",
+      "mensajes": {
+        "invitacion": "Hola Marcelo, soy Mauro, llevo años en cobranzas y manejé agencias externas en Cuotitas/Banco Columbia. Vi que en Directo la mora se trabaja por etapas con agencias; siempre me interesa cruzar experiencias con gente de operaciones. ¿Conectamos?",
+        "mensaje_1": "Marcelo, gracias por aceptar. Cuando la mora temprana e intermedia pasa por agencias, lo difícil es saber si una agencia recupera más porque trabaja mejor o porque le tocó la cartera más fácil. Flux Collect predice la probabilidad de pago por deudor y compara agencias y campañas ajustando por esa dificultad; además recomienda canal y horario. Te propongo un diagnóstico gratis con un Excel anonimizado, en una semana. ¿O una demo de 20 min?",
+        "followup": "Marcelo, un caso típico que vi mil veces: dos agencias con 18% y 22% de recupero, y al ajustar por calidad de cartera asignada la 'peor' era la mejor. Flux hace ese ajuste solo y te sugiere cómo reasignar tramos. Si querés te muestro cómo se ve con tus datos anonimizados.",
+        "cierre": "Marcelo, no te molesto más. Si alguna vez querés comparar cómo pagan o miden a sus agencias, o charlar de mora intermedia, acá estoy. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Naranja X",
+        "segmento": "Billetera con préstamos",
+        "web": "https://www.naranjax.com",
+        "tamano": "Más de 9 millones de usuarios; principal emisor de tarjeta de crédito del país; sucursales en todo el país (Grupo Galicia).",
+        "analisis": "Tarjeta de crédito propia, préstamos personales y billetera. Cartera enorme y federal. Cobranzas ya digitalizada (chatbot ROMA por WhatsApp con Teleprom). Dolor probable: decidir qué clientes se autogestionan en el bot y cuáles necesitan un humano, y en qué momento. Ángulo: capa predictiva que ordena quién va a bot, quién a call y en qué franja, sin reemplazar lo que ya funciona. Ciclo de venta largo por tamaño.",
+        "score_fit": 70,
+        "score_justificacion": "Cartera y dolor gigantes, contacto exacto (Manager de Mora y Recupero); baja el score por tamaño corporativo, equipos internos de analytics y compras complejas.",
+        "noticias": "13/05/2025: Naranja X y Teleprom ganan premio ALOIC (Cartagena) a mejor estrategia de cobranzas, riesgo y crédito por ROMA, chatbot de cobranzas en WhatsApp; Alejandro Lazzuri recibió el premio.",
+        "fuente": "https://infonegocios.info/y-ademas/teleprom-y-naranja-x-obtienen-premio-aloic-por-su-estrategia-de-cobranzas-con-chatbot ; https://openhubnews.com/ln-teleprom-y-naranja-x-premiados-en-colombia-por-roma/"
+      },
+      "nombre": "Alejandro",
+      "apellido": "Lazzuri",
+      "cargo": "Manager de Mora y Gestión de Recupero (Collection Recovery Manager)",
+      "url_linkedin": "https://www.linkedin.com/in/alejandro-lazzuri-a17063145/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Manager%20Collection%20Recovery%20Naranja%20X",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/alejandro-lazzuri-a17063145/ ; https://rocketreach.co/alejandro-lazzuri-email_345356994 ; https://infonegocios.info/y-ademas/teleprom-y-naranja-x-obtienen-premio-aloic-por-su-estrategia-de-cobranzas-con-chatbot",
+      "gancho": "Recibió el premio ALOIC 2025 por ROMA, el chatbot de cobranzas por WhatsApp de NX; maneja recupero desde Córdoba.",
+      "mensajes": {
+        "invitacion": "Hola Alejandro, soy Mauro, vengo de cobranzas (Cuotitas/Banco Columbia, hoy Moovitech). Seguí el premio ALOIC por ROMA: llevar cobranzas a WhatsApp a esa escala no es menor. Me encantaría tenerte en la red y aprender de cómo lo armaron.",
+        "mensaje_1": "Alejandro, gracias por aceptar. Con ROMA resuelto el canal, la pregunta que suele quedar es a quién dejar en autogestión y a quién pasar a un humano, y cuándo. Flux Collect estima la probabilidad de pago de cada deudor a 5/10/15/20/30 días y recomienda acción, canal y franja horaria, así el bot y el call se reparten mejor la cartera. Si te sirve, hago un diagnóstico gratis sobre una muestra anonimizada en Excel, en una semana. ¿O 20 min de demo?",
+        "followup": "Alejandro, un KPI que vale la pena mirar después de digitalizar: cumplimiento de promesas de pago según el canal donde se tomó la promesa. En lo que vi, las promesas del bot y las del call no se cumplen igual y eso cambia cómo conviene asignar. En Flux sale directo. Si te interesa lo vemos con datos de muestra.",
+        "cierre": "Alejandro, no te quito más tiempo. Si en algún momento querés intercambiar sobre recupero o chatbots de cobranza, escribime cuando quieras. Felicitaciones de nuevo por ROMA."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Ualá",
+        "segmento": "Billetera con préstamos",
+        "web": "https://www.uala.com.ar",
+        "tamano": "Una de las billeteras más grandes de Argentina, con banco propio (Ualá Bank). Opera en varios países de la región.",
+        "analisis": "Préstamos personales, tarjeta de crédito y financiación dentro de la billetera. En marzo 2026 la prensa publicó cifras altas de mora; Ualá las discutió (dice ~17-18% tras migrar la mejor cartera al banco y cortar el P2P). Dolor probable: gestionar tramos temprano/intermedio/tardío/judicial con criterios consistentes y medir agencias. Ángulo: segmentación por probabilidad de pago en todos los tramos, con tacto sobre el tema mora.",
+        "score_fit": 68,
+        "score_justificacion": "Contacto exacto (Collections Manager a cargo de todos los tramos y legales) y dolor visible; baja por tamaño, equipos de data propios y exposición pública del tema (hay que entrar con cuidado).",
+        "noticias": "Mar 2026: notas sobre mora elevada en créditos de Ualá; la empresa respondió que tras depurar la información la mora está en torno al 18% (ene) y 17% (feb). Búsqueda activa de Strategy Collections Specialist regional.",
+        "fuente": "https://www.filo.news/noticia/2026/03/18/uala-en-la-mira-la-mora-expone-el-costo-del-boom-del-credito-en-la-era-milei ; https://urgente24.com/dinero/la-morosidad-uala-llega-casi-al-64-el-consumo-jaque-la-falta-pagos-n620948"
+      },
+      "nombre": "Romina",
+      "apellido": "López",
+      "cargo": "Collections Manager",
+      "url_linkedin": "https://www.linkedin.com/in/romina-l%C3%B3pez-453658b9/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Collections%20Manager%20Ual%C3%A1",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/romina-l%C3%B3pez-453658b9/ (resultado 'Romina López - Collections Manager - Ualá | LinkedIn')",
+      "gancho": "Lidera equipos de cobranza temprana, intermedia, tardía y legales en Ualá.",
+      "mensajes": {
+        "invitacion": "Hola Romina, soy Mauro, llevo años liderando equipos y agencias de cobranza (Cuotitas/Banco Columbia, hoy Moovitech). Vi que en Ualá manejás de temprana a legales: toda la cadena. Me gustaría conectar e intercambiar experiencias.",
+        "mensaje_1": "Romina, gracias por aceptar. Cuando uno lleva todos los tramos, el problema suele ser que cada uno optimiza su pedazo y nadie ve el pase de un tramo a otro. Flux Collect predice la probabilidad de pago por deudor a 5-30 días, recomienda acción, canal y horario, y muestra el roll rate entre tramos y la performance de cada agencia. Te ofrezco un diagnóstico gratis sobre un Excel anonimizado, en una semana. ¿O preferís 20 min de demo?",
+        "followup": "Romina, un número que me cambió la forma de asignar: qué porcentaje de lo que pasa a tardía o legales tenía probabilidad de pago alta 15 días antes. En carteras digitales suele ser bastante, y es plata que se recupera más barato si se gestiona antes. Flux te marca esos casos. ¿Te muestro un ejemplo?",
+        "cierre": "Romina, no te molesto más. Cuando quieras charlar de cobranza entre colegas, o comparar cómo están midiendo agencias, acá estoy. Éxitos con el equipo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Personal Pay",
+        "segmento": "Billetera con préstamos",
+        "web": "https://www.personalpay.com.ar",
+        "tamano": "Más de 3 millones de usuarios registrados y más de 36 millones de transacciones mensuales. 50% de Banco Macro desde ene-2026.",
+        "analisis": "Billetera de Telecom que ofrece préstamos y pago en cuotas con QR (1, 3 o 6 cuotas debitadas el día 10). Con Macro como socio, se espera expansión de crédito, tarjetas y préstamos. Dolor probable: escalar crédito sin haber armado todavía una cobranza de escala banco. Ángulo: armar la cobranza con predicción desde el inicio. El contacto es CEO; lo ideal es pedir derivación al responsable de crédito/cobranza.",
+        "score_fit": 60,
+        "score_justificacion": "Billetera con crédito en expansión y timing ideal (socio bancario nuevo), pero la persona encontrada es el CEO y la organización es grande; hay que buscar al líder de crédito.",
+        "noticias": "22/01/2026: Banco Macro compra el 50% de Personal Pay por US$75M; plan de sumar tarjetas, préstamos e inversiones durante 2026 (La Nación, Infobae). Oct 2024: lanza Pago en cuotas.",
+        "fuente": "https://www.lanacion.com.ar/economia/banco-macro-compra-el-50-de-personal-pay-la-billetera-digital-de-telecom-nid22012026/ ; https://www.infobae.com/economia/2026/01/22/banco-macro-compro-el-50-de-la-billetera-personal-pay-en-usd-75-millones/ ; https://www.lmneuquen.com/neuquen/personal-pay-lanza-pago-cuotas-y-profundiza-su-estrategia-prestamos-n1150258"
+      },
+      "nombre": "Martín",
+      "apellido": "Heine",
+      "cargo": "CEO de Personal Pay",
+      "url_linkedin": "https://www.linkedin.com/in/mart%C3%ADn-heine-b656188/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cr%C3%A9ditos%20Personal%20Pay",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/mart%C3%ADn-heine-b656188/ (resultado 'Martín Heine - Personal | LinkedIn') ; cargo CEO según nota de la alianza Macro-Telecom (búsqueda) ; https://www.linkedin.com/posts/mart%C3%ADn-heine-b656188_personal-pay-la-billetera-virtual-de-personal-activity-6887774868159422465-11q9",
+      "gancho": "CEO de Personal Pay en el momento de la alianza con Banco Macro (ene-2026). Contacto de entrada para pedir derivación a crédito/cobranzas.",
+      "mensajes": {
+        "invitacion": "Hola Martín, soy Mauro, vengo del mundo de la cobranza de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Seguí la alianza con Macro y lo que viene en crédito para Personal Pay; me interesa mucho cómo evoluciona. ¿Conectamos?",
+        "mensaje_1": "Martín, gracias por aceptar. Con Macro adentro y el crédito creciendo en la billetera, lo que suele quedar atrás es la cobranza: se arma tarde y con reglas fijas. Flux Collect predice la probabilidad de pago de cada cliente a 5-30 días y recomienda acción, canal y horario, y se conecta a Excel, CRM o API. Si tiene sentido, ¿me derivás con quien lleve crédito o cobranzas? Le ofrezco un diagnóstico gratis de cartera anonimizada en una semana, o 20 min de demo.",
+        "followup": "Martín, un indicador que conviene tener desde el día uno en crédito de billetera: first payment default por canal de originación (QR, préstamo en app, cuotas). Ahí se ve rápido qué producto trae clientes que no pagan la primera cuota. Flux lo muestra al cargar la cartera. Encantado de verlo con quien corresponda.",
+        "cierre": "Martín, no te molesto más. Si en algún momento el equipo de crédito quiere charlar de cobranza con alguien que la hizo en consumo masivo, pasales mi contacto. Éxitos con la integración con Macro."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Frávega",
+        "segmento": "Retail con crédito",
+        "web": "https://www.fravega.com",
+        "tamano": "Cadena nacional de electro y tecnología con financiación propia (crédito en tienda y préstamos en efectivo), gerencia de Créditos Fintech.",
+        "analisis": "Crédito para compras en sucursal/online y préstamos personales en efectivo, con portal 'Mis Créditos'. Tiene una gerencia de Créditos Fintech enfocada en originación por canal, políticas y análisis de performance. Dolor probable: conectar la decisión de originación con lo que pasa en cobranza (FPD por canal/promo). Ángulo: tablero de first payment default y roll rate por canal y política, más predicción para cobranza.",
+        "score_fit": 78,
+        "score_justificacion": "Retail grande con cartera propia en cuotas y un área de crédito que ya trabaja con KPIs; el contacto es de créditos (no cobranzas) y el cargo sale de ZoomInfo/The Org, sin URL de LinkedIn.",
+        "noticias": "Mar 2026: notas de prensa sobre el costo financiero total de los créditos en retail de electro (incluye Frávega). Sin noticias corporativas específicas con fecha encontradas.",
+        "fuente": "https://theorg.com/org/fravega/teams/risk-and-credit-management ; https://www.zoominfo.com/p/Natalia-Tortonese/2983716852 ; https://www.fravega.com/mis-creditos"
+      },
+      "nombre": "Natalia",
+      "apellido": "Tortonese",
+      "cargo": "Gerente de Créditos Fintech",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cr%C3%A9ditos%20Fintech%20Fr%C3%A1vega",
+      "verificacion": "Por verificar",
+      "fuente": "https://www.zoominfo.com/p/Natalia-Tortonese/2983716852 ; https://theorg.com/org/fravega/teams/risk-and-credit-management (no se vio URL de LinkedIn)",
+      "gancho": "Gerente de Créditos Fintech en Frávega; antes Jefa de Fraudes, Políticas y Riesgo de Crédito en La Anónima. Define políticas y KPIs de originación por canal.",
+      "mensajes": {
+        "invitacion": "Hola Natalia, soy Mauro, trabajo en cobranzas hace años (Cuotitas/Banco Columbia, hoy Moovitech). Vi tu recorrido de políticas y riesgo en La Anónima a Créditos Fintech en Frávega; me interesa mucho el cruce originación-cobranza. ¿Conectamos?",
+        "mensaje_1": "Natalia, gracias por aceptar. En retail con crédito propio, muchas veces la política se ajusta mirando aprobación y colocación, y el impacto en la cobranza aparece dos o tres meses después. Flux Collect predice la probabilidad de pago de cada cliente a 5-30 días y muestra first payment default y roll rate por canal, promo o política. Te ofrezco un diagnóstico gratis con un Excel anonimizado, en una semana. ¿O 20 min de demo?",
+        "followup": "Natalia, un análisis que suele pegar en retail: FPD por canal (sucursal vs online) y por plazo, cruzado con la promo vigente. Muchas veces una acción comercial buena en colocación es la que más carga la mora temprana. Con Flux lo ves en minutos sobre la cartera. ¿Lo miramos juntos?",
+        "cierre": "Natalia, no insisto. Si en algún momento querés intercambiar cómo están leyendo la performance de cartera o charlar de cobranza, escribime cuando quieras. Éxitos en Frávega."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "On City + Crédito Argentino",
+        "segmento": "Retail con crédito",
+        "web": "https://www.oncity.com",
+        "tamano": "Unas 200 tiendas renombradas como On City (ex Musimundo) según La Nación 2024; Crédito Argentino opera préstamos personales y crédito comercial desde 1986.",
+        "analisis": "On City Crédito (hasta 24 cuotas fijas solo con DNI) más préstamos de Crédito Argentino. Cliente de consumo masivo. En julio 2026 se mencionaron negociaciones por una posible venta de Musimundo a los dueños de On City. Dolor probable: mora temprana alta en crédito solo con DNI y posible integración de carteras nuevas. Ángulo: priorización diaria de mora temprana y promesas de pago.",
+        "score_fit": 80,
+        "score_justificacion": "Cartera propia masiva en cuotas y contacto directamente a cargo de mora temprana, perfil verificado. Posible crecimiento inorgánico agrega urgencia.",
+        "noticias": "08/07/2026: Carsa (dueña de Musimundo) pide concurso; se mencionaban negociaciones para vender Musimundo a los dueños de On City (Infobae). 03/09/2026: la Justicia decreta la quiebra de Carsa (La Nación).",
+        "fuente": "https://www.infobae.com/economia/2026/07/08/la-duena-de-una-historica-cadena-de-electrodomesticos-pidio-concurso-preventivo-de-acreedores/ ; https://www.lanacion.com.ar/economia/negocios/la-justicia-revoco-su-concurso-preventivo-carsa-y-decreto-la-quiebra-nid03092026/ ; https://www.oncity.com/on-city-credito ; https://ar.linkedin.com/company/creditoargentino"
+      },
+      "nombre": "Marcela",
+      "apellido": "Pierpauli",
+      "cargo": "Owner de Gestión de Mora Temprana",
+      "url_linkedin": "https://www.linkedin.com/in/marcela-pierpauli-824a9a119/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mora%20Temprana%20On%20City%20%2B%20Cr%C3%A9dito%20Argentino",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/marcela-pierpauli-824a9a119/ (resultado 'Marcela Pierpauli - Owner de Gestión de Mora Temprana en On City / Cred Argentino | LinkedIn')",
+      "gancho": "Es la dueña de la mora temprana en On City / Crédito Argentino; el crédito On City se da solo con DNI.",
+      "mensajes": {
+        "invitacion": "Hola Marcela, soy Mauro, vengo de cobranzas de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Vi que sos owner de mora temprana en On City y Crédito Argentino: el tramo donde se gana o se pierde todo. Me encantaría conectar.",
+        "mensaje_1": "Marcela, gracias por aceptar. En crédito que se otorga solo con DNI, la mora temprana es donde más rinde decidir bien a quién llamar primero y a quién alcanza con un WhatsApp. Flux Collect predice la probabilidad de pago de cada cliente a 5/10/15/20/30 días y recomienda acción, canal y franja horaria. Te propongo un diagnóstico gratis: Excel anonimizado y en una semana te devuelvo dónde está la recuperación que se escapa. ¿O preferís 20 min de demo?",
+        "followup": "Marcela, un KPI que siempre pido en temprana: cumplimiento de promesas de pago por día de la semana y franja en que se tomó la promesa. Suele haber diferencias grandes, y reacomodar la agenda del equipo mejora el cumplimiento sin sumar gente. Flux lo calcula solo. ¿Te lo muestro?",
+        "cierre": "Marcela, no te lleno más la bandeja. Si querés charlar de mora temprana entre colegas, o comparar cómo trabajan promesas y agencias, escribime cuando quieras. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Cetrogar",
+        "segmento": "Retail con crédito",
+        "web": "https://www.cetrogar.com.ar",
+        "tamano": "Más de 120 sucursales en 17 provincias (2026); fuerte presencia en NEA/NOA.",
+        "analisis": "Crédito Cetrogar con DNI, recibo de sueldo/jubilación y boleta de servicio. Cliente de interior, mucho jubilado y asalariado. Dolor probable: gestión de cobranza distribuida en muchas sucursales con criterios dispares, y costo de gestión en campo. Ángulo: priorización centralizada por probabilidad de pago y medición por sucursal/campaña.",
+        "score_fit": 82,
+        "score_justificacion": "Retail federal con cartera propia grande; el contacto armó créditos, cobranzas y legales en la empresa (perfil verificado). Expansión activa.",
+        "noticias": "Ene 2026: nueva sucursal en Shopping Portal Salta, dentro de su plan de expansión federal (Bank Magazine). May y sep 2026: Hot Sale y Electro Fans con cuotas.",
+        "fuente": "https://bankmagazine.com.ar/nueva-sucursal-de-cetrogar/ ; https://norteenlinea.com/cetrogar-prepara-para-el-hot-sale-2026-24-cuotas-sin-interes/ ; https://www.cetrogar.com.ar/preguntas-frecuentes-creditos-cetrogar"
+      },
+      "nombre": "Héctor",
+      "apellido": "Sedran",
+      "cargo": "Gerente del Área de Créditos",
+      "url_linkedin": "https://www.linkedin.com/in/hectorsedran/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cr%C3%A9ditos%20Cetrogar",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/hectorsedran/ (resultado 'Hector Sedran - Gerente del área de Créditos - CETROGAR SA | LinkedIn')",
+      "gancho": "Más de 22 años en Cetrogar: desarrolló las áreas de Créditos, Cobranzas y Legales y acompañó el crecimiento a 87 sucursales (hoy 120+).",
+      "mensajes": {
+        "invitacion": "Hola Héctor, soy Mauro, llevo años en cobranzas (Cuotitas/Banco Columbia, hoy Moovitech). Vi que armaste créditos, cobranzas y legales en Cetrogar mientras crecían en sucursales: eso es oficio de verdad. Me gustaría sumarte a la red.",
+        "mensaje_1": "Héctor, gracias por aceptar. Con más de 120 sucursales, imagino que el desafío es que la cobranza no dependa de cómo trabaja cada local. Flux Collect predice la probabilidad de pago de cada cliente a 5-30 días y le dice al equipo a quién gestionar, por qué canal y en qué horario, con KPIs por sucursal y campaña. Te ofrezco un diagnóstico gratis sobre un Excel anonimizado, listo en una semana. ¿O una demo de 20 min?",
+        "followup": "Héctor, un dato que suele aparecer en retail del interior: el cliente que cobra jubilación o sueldo tiene ventanas de pago muy marcadas en el mes. Gestionar en esos días y no antes mejora la promesa cumplida y baja costo. Flux detecta esa ventana por cliente. ¿Te muestro cómo queda?",
+        "cierre": "Héctor, no te molesto más. Si alguna vez querés intercambiar sobre cobranza en sucursales o legales, acá estoy, de colega a colega. Éxitos con la expansión."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "La Anónima (Tarjetas del Mar / LA Fintech)",
+        "segmento": "Retail con crédito",
+        "web": "https://www.laanonima.com.ar",
+        "tamano": "169 sucursales y más de 12.000 empleados en el grupo; tarjeta propia administrada por Tarjetas del Mar S.A.",
+        "analisis": "Tarjeta de crédito propia (Tarjeta La Anónima) y financiación en supermercados de Patagonia y otras regiones. En el ejercicio al 30/06/2026 el negocio financiero cerró con resultado operativo negativo de $41.151M; los cargos por incobrabilidad subieron 266% real. La empresa endureció criterios y avanza con refinanciaciones. Dolor clarísimo: recuperar y que las refinanciaciones se cumplan. Ángulo: predicción de cumplimiento de refis y priorización de gestión.",
+        "score_fit": 85,
+        "score_justificacion": "Dolor público y reciente, cartera propia grande, contacto senior del negocio fintech (verificado). Entrar con tacto: colega que entiende el problema, no oportunista.",
+        "noticias": "Sep 2026: La Anónima informa pérdida de $41.151M en su negocio financiero (ejercicio al 30/06/2026, aprobado el 7/9); incobrabilidad de Tarjetas del Mar sube de $13.297M a $48.675M (+266% real).",
+        "fuente": "https://www.lapoliticaonline.com/economia/la-anonima-perdio-41-000-millones-porque-sus-clientes-no-pudieron-pagar-la-tarjeta-8636/ ; https://www.elliberal.com.ar/nota/91913/2026/09/la-anonima-perdio-41000-millones-por-la-fuerte-suba-de-la-morosidad-en-su-tarjeta ; https://www.iprofesional.com/negocios/464102-la-anonima-enfrenta-una-ola-de-incobrables-por-su-tarjeta-de-credito ; https://www.bcorporation.net/en-us/find-a-b-corp/company/tarjetas-del-mar-sa/"
+      },
+      "nombre": "Facundo",
+      "apellido": "Almirón",
+      "cargo": "Director de Tarjetas del Mar S.A. / Gerente Divisional Fintech La Anónima",
+      "url_linkedin": "https://www.linkedin.com/in/facundo-almir%C3%B3n-ba2ab194/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Fintech%20La%20An%C3%B3nima%20%28Tarjetas%20del%20Mar%20/%20LA%20Fintech%29",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/facundo-almir%C3%B3n-ba2ab194/ (resultado 'Facundo Almirón - Tarjetas del Mar S.A. | LinkedIn') ; https://rocketreach.co/facundo-almiron-email_147925611 (cargo Director)",
+      "gancho": "Empezó en 1997 como auxiliar contable en Tarjetas del Mar y hoy dirige el negocio fintech; la tarjeta acaba de pasar un ejercicio muy duro en incobrabilidad.",
+      "mensajes": {
+        "invitacion": "Hola Facundo, soy Mauro, trabajo en cobranzas de consumo hace años (Cuotitas/Banco Columbia, hoy Moovitech). Me llamó la atención tu recorrido: de auxiliar contable en Tarjetas del Mar en el 97 a dirigir la fintech. ¿Conectamos?",
+        "mensaje_1": "Facundo, gracias por aceptar. Leí que endurecieron criterios y avanzan con refinanciaciones después de un ejercicio duro en incobrabilidad; lo viví de cerca en otras carteras. En ese momento la clave es saber qué refinanciación se va a cumplir y a quién gestionar primero. Flux Collect predice la probabilidad de pago de cada cliente a 5-30 días y recomienda acción, canal y horario. Te ofrezco un diagnóstico gratis con un Excel anonimizado en una semana. ¿O 20 min de demo?",
+        "followup": "Facundo, un indicador que en carteras de tarjeta refinanciadas me ordenó todo: cumplimiento de la primera y segunda cuota del refi según el tramo de mora de origen. Suele mostrar que a ciertos perfiles conviene ofrecer otro plan, o ninguno. Flux lo arma solo. ¿Lo vemos con una muestra?",
+        "cierre": "Facundo, no insisto más. Sé que es un momento de mucho laburo. Si en algún momento querés charlar de recupero o refinanciaciones con alguien que estuvo en esa trinchera, escribime. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Megatone (Electrónica Megatone)",
+        "segmento": "Retail con crédito",
+        "web": "https://www.megatone.net",
+        "tamano": "Cadena de electro con base en Santa Fe (Rafaela) y crédito propio; securitiza cartera en fideicomisos calificados por FIX.",
+        "analisis": "Préstamos personales y para compra de electrodomésticos, con sitio de autogestión de créditos. FIX destacó buena capacidad de originar y cobrar. Con la quiebra de Carsa/Musimundo, el mercado de electro con crédito propio en el litoral/norte se reacomoda. Dolor probable: sostener la cobranza con clientes que también deben a otros retailers y la calidad de cartera que respalda fideicomisos. Ángulo: predicción y KPIs de cartera para el reporting a fideicomisos.",
+        "score_fit": 72,
+        "score_justificacion": "Cartera propia en cuotas y securitizada (mucho foco en métricas); contacto del área de créditos y cobranzas, pero datos del perfil dudosos (ZoomInfo) y sin URL de LinkedIn.",
+        "noticias": "25/07/2025: informe de calificación de FIX sobre fideicomisos de Megatone (buena capacidad de originación y cobranza). Sep 2026: quiebra de Carsa (competidor directo en la región).",
+        "fuente": "https://fixscr.com/site/download?file=AqT4uZZY38ErpbI7pn3snKssQnxWV5tR.pdf ; https://www.zoominfo.com/p/Natali-Forneris/11346885361 ; https://www.megatone.net/creditosweb/"
+      },
+      "nombre": "Natali",
+      "apellido": "Forneris",
+      "cargo": "Subgerente Administrativo de Créditos y Cobranzas",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Subgerente%20de%20Cr%C3%A9ditos%20y%20Cobranzas%20Megatone%20%28Electr%C3%B3nica%20Megatone%29",
+      "verificacion": "Por verificar",
+      "fuente": "https://www.zoominfo.com/p/Natali-Forneris/11346885361 (cargo; el perfil de ZoomInfo trae datos inconsistentes) ; no se vio URL de LinkedIn",
+      "gancho": "Subgerente administrativa de créditos y cobranzas en Megatone (Rafaela); Megatone financia cartera vía fideicomisos calificados.",
+      "mensajes": {
+        "invitacion": "Hola Natali, soy Mauro, vengo de cobranzas de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Vi que llevás créditos y cobranzas en Megatone; siempre me interesa conocer cómo se trabaja la cartera en el retail del interior. ¿Conectamos?",
+        "mensaje_1": "Natali, gracias por aceptar. Cuando la cartera además respalda fideicomisos, cada punto de mora pesa doble: en la caja y en el informe. Flux Collect predice la probabilidad de pago de cada cliente a 5-30 días, recomienda acción, canal y horario, y deja listos KPIs como roll rate y first payment default. Te propongo un diagnóstico gratis sobre un Excel anonimizado, en una semana. ¿O te sirve más una demo de 20 min?",
+        "followup": "Natali, un dato que ayuda mucho con carteras securitizadas: la curva de roll rate por cohorte mensual. Te anticipa qué serie de créditos va a pedir más gestión antes de que se note en la cobranza del fideicomiso. Flux la arma al cargar el Excel. ¿La vemos con tu cartera?",
+        "cierre": "Natali, no te molesto más. Si algún día querés intercambiar sobre cobranza en retail o agencias en el litoral, escribime cuando quieras. Un saludo grande a Rafaela."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Crédito Regional Compañía Financiera",
+        "segmento": "Financiera",
+        "web": "https://www.creditoregional.com.ar",
+        "tamano": "Compañía financiera con casa central en Villa Lynch (Gral. San Martín, GBA); origen en Caja de Crédito Cuenca (1961), convertida en compañía financiera en 2018.",
+        "analisis": "Préstamos personales y créditos de consumo a sectores medios/bajos del conurbano. En 2026 fue mencionada en prensa entre las entidades no bancarias con mora de dos dígitos. Dolor probable: mora alta con estructura acotada, necesidad de eficiencia de gestión. Ángulo: priorización predictiva + KPIs listos para directorio y BCRA.",
+        "score_fit": 78,
+        "score_justificacion": "Financiera regulada, cartera de consumo en cuotas y dolor público; el contacto es número dos de la compañía (decide). Tamaño medio, venta ágil.",
+        "noticias": "Mar 2026: citada entre entidades no bancarias con mora de dos dígitos (Filo News). 2018: BCRA aprueba su transformación en compañía financiera.",
+        "fuente": "https://www.filo.news/noticia/2026/03/18/uala-en-la-mira-la-mora-expone-el-costo-del-boom-del-credito-en-la-era-milei ; https://ar.linkedin.com/company/creditoregional ; https://www.zoominfo.com/p/Gustavo-Orrit/2579372888"
+      },
+      "nombre": "Gustavo Roberto",
+      "apellido": "Orrit",
+      "cargo": "Sub Gerente General",
+      "url_linkedin": "https://www.linkedin.com/in/gustavo-roberto-orrit-11485611a/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Sub%20Gerente%20General%20Cr%C3%A9dito%20Regional%20Compa%C3%B1%C3%ADa%20Financiera",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/gustavo-roberto-orrit-11485611a/ (resultado con empresa Crédito Regional Compañía Financiera S.A.) ; https://www.zoominfo.com/p/Gustavo-Orrit/2579372888 (cargo)",
+      "gancho": "Más de 25 años en el mercado; hizo carrera desde Caja de Crédito Cuenca (Sub Gerente Comercial de Créditos de Consumo) hasta Sub Gerente General de Crédito Regional.",
+      "mensajes": {
+        "invitacion": "Hola Gustavo, soy Mauro, trabajo en cobranzas de consumo hace años (Cuotitas/Banco Columbia, hoy Moovitech). Vi tu recorrido desde Caja de Crédito Cuenca hasta Crédito Regional: pocas historias tan de consumo como esa. ¿Conectamos?",
+        "mensaje_1": "Gustavo, gracias por aceptar. En financieras del conurbano, con la mora de hogares en máximos, el tema pasa por gestionar mejor con la misma estructura. Flux Collect predice la probabilidad de pago de cada deudor a 5-30 días y le dice al equipo a quién gestionar, por qué canal y en qué horario, con KPIs como roll rate y cumplimiento de promesas listos para el directorio. Te ofrezco un diagnóstico gratis sobre un Excel anonimizado en una semana. ¿O una demo de 20 min?",
+        "followup": "Gustavo, un análisis que en financieras chicas y medianas suele liberar recursos: qué porcentaje de las gestiones del mes fue a clientes que igual iban a pagar solos. Suele ser alto, y reasignar ese esfuerzo a los indecisos mueve el recupero. Flux lo cuantifica sobre la cartera. ¿Te interesa verlo?",
+        "cierre": "Gustavo, no insisto. Si alguna vez querés intercambiar sobre recupero en el conurbano o sobre agencias, escribime tranquilo. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Montemar Compañía Financiera",
+        "segmento": "Financiera",
+        "web": "https://montemar.com.ar",
+        "tamano": "Fundada en 1957 en Mendoza; más de 10 sucursales en 5 provincias; más de 1 millón de créditos otorgados en su historia.",
+        "analisis": "Préstamos personales, adelantos de efectivo, cambio y ahorro. Líder entre compañías financieras de Cuyo/Centro. Dolor probable: mora de hogares en máximos en economías regionales; necesidad de mantener cobranza cercana pero eficiente. Ángulo: el GG viene de gestión de riesgos, lenguaje de probabilidad y escenarios le cierra.",
+        "score_fit": 76,
+        "score_justificacion": "Financiera regulada con cartera de consumo y decisor directo (GG, ex gerente de riesgos, verificado). Tamaño ideal para diagnóstico rápido.",
+        "noticias": "Nov 2025: Federico Pagano, entrevistado como referente empresario mendocino (Mendoza Today). Mar 2026: nuevo cuadro de cargos y comisiones vigente desde el 11/03/2026.",
+        "fuente": "https://www.diariouno.com.ar/emprendedores/federico-pagano-y-la-historia-montemar-una-pequena-tienda-otorgar-un-millon-creditos-n1022905 ; https://mendozatoday.com.ar/2025/11/2/federico-pagano-empresario-dolar-confia-moneda-politica/ ; https://www.memo.com.ar/poder/pagano-el-nuevo-heredero-del-centro-empresario-mendocino/ ; https://montemar.com.ar/"
+      },
+      "nombre": "Federico",
+      "apellido": "Pagano",
+      "cargo": "Gerente General",
+      "url_linkedin": "https://ar.linkedin.com/in/federico-pagano-a3114915",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20General%20Montemar%20Compa%C3%B1%C3%ADa%20Financiera",
+      "verificacion": "Verificado",
+      "fuente": "https://ar.linkedin.com/in/federico-pagano-a3114915 (resultado 'Federico Pagano - Montemar Compañía Financiera SA') ; https://www.zoominfo.com/p/Federico-Pagano/9342535464 ; https://lvdiez.com.ar/federico-pagano-gerente-gral-de-financiera-montemar/",
+      "gancho": "GG de Montemar, antes Gerente de Gestión de Riesgos; referente del empresariado mendocino. Montemar ya pasó el millón de créditos.",
+      "mensajes": {
+        "invitacion": "Hola Federico, soy Mauro, llevo años en cobranzas de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Leí la historia de Montemar, de una pequeña tienda al millón de créditos, y que venís de riesgos. Me gustaría conectar.",
+        "mensaje_1": "Federico, gracias por aceptar. Con la mora de familias en máximos, en financieras regionales el desafío es sostener la cobranza cercana sin que el costo de gestión se dispare. Flux Collect predice la probabilidad de pago de cada deudor a 5-30 días y recomienda acción, canal y horario; se carga desde Excel o se conecta por API. Como venís de riesgos, te propongo un diagnóstico gratis sobre un Excel anonimizado, en una semana. ¿O 20 min de demo?",
+        "followup": "Federico, te dejo un KPI que a un ex gerente de riesgos le va a hablar: comparar la probabilidad de pago predicha contra lo efectivamente cobrado por cohorte. Esa calibración te muestra si el score de originación sigue vigente o si la cartera cambió de comportamiento. Flux lo muestra mes a mes. ¿Lo vemos?",
+        "cierre": "Federico, no te molesto más. Si alguna vez querés charlar de cobranza y riesgo en el interior, escribime cuando quieras. Saludos a Mendoza."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Sucrédito (Valle Fértil S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.tarjetasucredito.com.ar",
+        "tamano": "Más de 30 años en el NOA (Tucumán, Jujuy y región), tarjeta y préstamos personales; en transición a Banco Sucrédito.",
+        "analisis": "Tarjeta de crédito regional, préstamos en el acto y seguros. Clientela de ingresos medios/bajos del norte. Se está consolidando como banco, lo que sube la vara de reporting y gestión. Dolor probable: operar cobranza con estándares de banco sin perder cercanía. Ángulo: KPIs estándar (roll rate, FPD, promesas) y predicción para el equipo de operaciones.",
+        "score_fit": 75,
+        "score_justificacion": "Cartera regional de consumo en cuotas, contacto de Operaciones verificado, momento de cambio (paso a banco) que abre presupuesto para herramientas.",
+        "noticias": "2026: nota de La Gaceta sobre la transformación de Sucrédito en banco. 2026: main sponsor de la Retrofiesta con tarjeta co-brandeada (Contexto Tucumán).",
+        "fuente": "https://www.lagaceta.com.ar/nota/1146788/servicios-empresas/sucredito-cuando-confianza-siempre-se-transforma-banco.html ; https://www.contextotucuman.com/nota/374729/sucredito-sera-sponsor-de-la-retrofiesta-una-tarjeta-exclusiva ; https://bancosucredito.com.ar/CV.pdf"
+      },
+      "nombre": "Valeria",
+      "apellido": "Guerrero",
+      "cargo": "Gerente de Operaciones",
+      "url_linkedin": "https://www.linkedin.com/in/valeria-guerrero-57181875/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Operaciones%20Tarjeta%20Sucr%C3%A9dito%20%28Valle%20F%C3%A9rtil%20S.A.%29",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/valeria-guerrero-57181875/ (resultado 'Valeria Guerrero - Gerente de Operaciones - Tarjeta SuCrédito (Valle Fertil S.A.) | LinkedIn')",
+      "gancho": "Gerente de Operaciones de Tarjeta Sucrédito justo cuando la marca se transforma en banco.",
+      "mensajes": {
+        "invitacion": "Hola Valeria, soy Mauro, trabajo en cobranzas de consumo hace años (Cuotitas/Banco Columbia, hoy Moovitech). Vi que Sucrédito está dando el paso a banco y que llevás operaciones: momento desafiante. Me gustaría conectar.",
+        "mensaje_1": "Valeria, gracias por aceptar. En el paso de tarjeta regional a banco, la cobranza suele tener que mostrar KPIs más finos sin perder la cercanía con el cliente del norte. Flux Collect predice la probabilidad de pago de cada cliente a 5-30 días, recomienda acción, canal y horario, y deja listos roll rate, first payment default y cumplimiento de promesas. Te ofrezco un diagnóstico gratis sobre un Excel anonimizado en una semana. ¿O 20 min de demo?",
+        "followup": "Valeria, un caso que vi en tarjetas regionales: separar a los clientes que pagan el mínimo todos los meses de los que empiezan a pagar el mínimo de golpe. Los segundos son la señal más temprana de mora y casi nunca se gestionan antes de vencer. Flux los marca solos. ¿Te muestro cómo?",
+        "cierre": "Valeria, no te lleno más la bandeja. Si en algún momento querés charlar de cobranza con alguien que la vivió en consumo masivo, escribime. Éxitos con el banco nuevo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "M23 - Asociación Mutual 23 de Septiembre",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://m23.org",
+        "tamano": "Mutual de Rosario; préstamos personales, prendarios (hasta 80% del vehículo, hasta 60 meses), ayudas económicas, cuentas de inversión y factoring.",
+        "analisis": "Mutual con perfil financiero: ayudas económicas y prendarios para asociados con difícil acceso a banca. Mezcla de cartera de personas y comercial. Dolor probable: seguimiento de cartera prendaria de plazo largo y ayudas económicas con estructura chica. Ángulo: diagnóstico de cartera y alertas tempranas, sin necesidad de integración compleja (Excel).",
+        "score_fit": 65,
+        "score_justificacion": "Cartera en cuotas (incluye prendarios), pero tamaño acotado y el contacto es responsable de área, no gerente (Por verificar). Buen candidato para diagnóstico gratis.",
+        "noticias": "Sin noticias recientes con fecha encontradas.",
+        "fuente": "https://m23.org/ ; https://ar.linkedin.com/company/m23 ; https://www.zoominfo.com/p/Gonzalo-Galloso/13671083377"
+      },
+      "nombre": "Gonzalo",
+      "apellido": "Galloso",
+      "cargo": "Responsable de Área - Depto. de Crédito y Riesgo",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Cr%C3%A9dito%20y%20Riesgo%20M23%20-%20Asociaci%C3%B3n%20Mutual%2023%20de%20Septiembre",
+      "verificacion": "Por verificar",
+      "fuente": "https://www.zoominfo.com/p/Gonzalo-Galloso/13671083377 (cargo) ; no se vio URL de LinkedIn. Alternativa: Cristian D'Anunzio, Gerente de Operaciones (https://www.zoominfo.com/p/Cristian-Danunzio/-1503558474)",
+      "gancho": "Responsable de crédito y riesgo en M23: aprueba operaciones, liquida créditos y genera ayudas económicas; define límites y parámetros de cartera activa.",
+      "mensajes": {
+        "invitacion": "Hola Gonzalo, soy Mauro, llevo años en cobranzas de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Vi que en M23 llevás crédito y riesgo, de ayudas económicas a prendarios. Me interesa mucho el mundo mutual; ¿conectamos?",
+        "mensaje_1": "Gonzalo, gracias por aceptar. En mutuales que combinan ayudas económicas y prendarios a 60 meses, el riesgo es enterarse tarde de que un asociado se está cayendo. Flux Collect predice la probabilidad de pago de cada deudor a 5-30 días y recomienda acción, canal y horario; se alimenta con un Excel, sin proyectos de sistemas. Te ofrezco un diagnóstico gratis sobre la cartera anonimizada, en una semana. ¿O 20 min de demo?",
+        "followup": "Gonzalo, un dato útil para carteras mixtas: comparar roll rate de ayudas económicas contra prendarios del mismo asociado. Cuando alguien empieza a atrasar la ayuda, el prendario suele seguir uno o dos meses después. Flux lo detecta y te avisa antes. ¿Te muestro un ejemplo?",
+        "cierre": "Gonzalo, no insisto. Si alguna vez querés intercambiar sobre crédito y cobranza en el mundo mutual, escribime tranquilo. Saludos a Rosario."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Gran Cooperativa de Crédito, Vivienda, Consumo y Servicios Sociales (Grancoop)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.grancoop.com",
+        "tamano": "Creada en 1999 (Ushuaia), sede en CABA; préstamos personales a asociados cobrados por códigos de descuento (ANSES, universidades, gobiernos); emite fideicomisos financieros Grancoop Créditos.",
+        "analisis": "Préstamos a asociados con cobro por código de descuento, comercializados por vendedores y promotores. La cartera se securitiza (FF Grancoop Créditos II/IV). Dolor probable: la cobranza fuera de código (bajas, topes, cambio de empleador) y la calidad de cartera cedida a fideicomisos. Ángulo: detectar quién va a salir del código y gestionar antes.",
+        "score_fit": 74,
+        "score_justificacion": "Cartera de consumo relevante y securitizada; el contacto es el principal ejecutivo según D&B (sin URL de LinkedIn y rol no confirmado).",
+        "noticias": "Mar 2026: Moody's Local Argentina asigna calificación al FF Grancoop Créditos IV. Abr 2025: informes de calificación del FF Grancoop Créditos II.",
+        "fuente": "https://moodyslocal.com.ar/wp-content/uploads/2026/03/ML-AR-PR-FF-Grancoop-Creditos-IV.pdf ; https://moodyslocal.com.ar/wp-content/uploads/2025/04/IR-FF-GranCoop-10.04.2025-1.pdf ; https://www.dnb.com/business-directory/company-profiles.gran_cooperativa_de_credito_vivienda_consumo_y_servicios_sociales_ltda.c52f215bbcf08cf5bf4d945bf856942e.html"
+      },
+      "nombre": "Gonzalo Agustín",
+      "apellido": "Etcheverry",
+      "cargo": "Principal ejecutivo (según D&B)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Gran%20Cooperativa%20de%20Cr%C3%A9dito%2C%20Vivienda%2C%20Consumo%20y%20Servicios%20Sociales%20%28Grancoop%29",
+      "verificacion": "Por verificar",
+      "fuente": "https://www.dnb.com/business-directory/company-profiles.gran_cooperativa_de_credito_vivienda_consumo_y_servicios_sociales_ltda.c52f215bbcf08cf5bf4d945bf856942e.html (key principal) ; no se vio URL de LinkedIn",
+      "gancho": "Grancoop cobra por código de descuento y acaba de calificar su FF Grancoop Créditos IV (mar-2026).",
+      "mensajes": {
+        "invitacion": "Hola Gonzalo, soy Mauro, trabajo en cobranzas de consumo hace años (Cuotitas/Banco Columbia, hoy Moovitech). Vi el fideicomiso Grancoop Créditos IV y el modelo de cobro por código de descuento; me interesa mucho. ¿Conectamos?",
+        "mensaje_1": "Gonzalo, gracias por aceptar. En préstamos por código de descuento la cobranza parece resuelta, hasta que el asociado se da de baja, cambia de empleador o el código no alcanza, y ahí nadie lo estaba mirando. Flux Collect predice la probabilidad de pago de cada deudor a 5-30 días y recomienda acción, canal y horario para la cobranza fuera de código. Te ofrezco un diagnóstico gratis con un Excel anonimizado, en una semana. ¿O 20 min de demo?",
+        "followup": "Gonzalo, un KPI que suele faltar en carteras por código: qué porcentaje de la cartera cedida a fideicomisos cayó fuera de código cada mes y cuánto de eso se recuperó en 30 días. Es el número que más mueve la performance del fideicomiso. Flux lo arma al cargar la cartera. ¿Lo vemos?",
+        "cierre": "Gonzalo, no te molesto más. Si alguna vez querés intercambiar sobre cobranza fuera de código o sobre fideicomisos de consumo, escribime cuando quieras. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Red Unisol (Mutual Celesol)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://redunisol.com.ar",
+        "tamano": "Red de mutuales nacida de la integración de Mutual Celesol y Empleados de FIAT; servicios compartidos para entidades mutuales; préstamos a jubilados y pensionados; socia de la Cámara Argentina Fintech.",
+        "analisis": "Ayudas económicas/préstamos a jubilados, pensionados y empleados, con estructura de servicios compartidos para varias mutuales. Dolor probable: estandarizar la cobranza y medir performance entre entidades y canales. Ángulo: Flux como capa común de predicción y KPIs para toda la red (una herramienta, varias mutuales).",
+        "score_fit": 62,
+        "score_justificacion": "Modelo de red encaja con Flux, pero el contacto es de 2019 (puede estar desactualizado) y no se encontró LinkedIn.",
+        "noticias": "Oct 2019: apertura de oficina en Pilar, discurso del gerente Mariano Balduzzi (Prensa con Opinión). Figura como empresa socia en el campus de la Cámara Argentina Fintech.",
+        "fuente": "https://prensaconopinion.com.ar/2019/10/10/la-red-unisol-abrio-sus-puertas-en-pilar/ ; https://camfintech.hiringroomcampus.com/companies/redunisolmutualcelesol ; https://redunisol.com.ar/blog/que-mutual-da-prestamos-para-jubilados-pensionados-santa-fe"
+      },
+      "nombre": "Mariano",
+      "apellido": "Balduzzi",
+      "cargo": "Gerente de Red Unisol (dato de 2019)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Red%20Unisol%20%28Mutual%20Celesol%29",
+      "verificacion": "Por verificar",
+      "fuente": "https://prensaconopinion.com.ar/2019/10/10/la-red-unisol-abrio-sus-puertas-en-pilar/ (cargo en 2019) ; no se vio URL de LinkedIn",
+      "gancho": "Red Unisol integra Mutual Celesol y Empleados de FIAT y ofrece servicios compartidos a mutuales; habló en la apertura de Pilar sobre desarrollo desde la economía solidaria.",
+      "mensajes": {
+        "invitacion": "Hola Mariano, soy Mauro, vengo de cobranzas de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Me interesó el modelo de Red Unisol, servicios compartidos para mutuales a partir de Celesol y Empleados de FIAT. Me gustaría conectar.",
+        "mensaje_1": "Mariano, gracias por aceptar. En una red que presta servicios a varias mutuales, la cobranza suele medirse distinto en cada una y cuesta ver qué funciona. Flux Collect predice la probabilidad de pago de cada asociado a 5-30 días, recomienda acción, canal y horario, y compara campañas y agencias con los mismos KPIs para toda la red. Te ofrezco un diagnóstico gratis sobre un Excel anonimizado, en una semana. ¿O 20 min de demo?",
+        "followup": "Mariano, un caso típico en préstamos a jubilados: el mes del aumento o del bono cambia por completo la capacidad de pago y la ventana ideal de contacto. Gestionar con ese calendario sube la promesa cumplida sin sumar llamadas. Flux lo detecta por asociado. ¿Te muestro cómo se ve?",
+        "cierre": "Mariano, no insisto más. Si en algún momento querés charlar de cobranza en el mundo mutual, o si hoy lo lleva otra persona en la red, avisame y le escribo. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Mercedes-Benz Compañía Financiera Argentina",
+        "segmento": "Automotor",
+        "web": "https://www.mbfonline.com.ar",
+        "tamano": "100 a 200 empleados; sede en Vicente López. Financia vehículos Mercedes-Benz (fuerte en utilitarios y comerciales) vía red de concesionarios desde 1995.",
+        "analisis": "Prendarios para autos y vehículos comerciales. Eligió la plataforma Émerix (Exélix) para gestionar mora preventiva, temprana, extrajudicial y judicial. Dolor probable: con el boom de prendarios, más volumen sobre la misma estructura; falta una capa predictiva que priorice dentro de la herramienta de gestión. Ángulo: Flux complementa (no reemplaza) a Émerix, se alimenta por Excel/API.",
+        "score_fit": 58,
+        "score_justificacion": "Contacto exacto (créditos, cobranzas y operaciones), pero ya tienen software de cobranza y la cartera es de ticket alto con menor volumen de deudores. Cargo sin URL de LinkedIn.",
+        "noticias": "Émerix anunció a Mercedes-Benz Financiera como cliente para Créditos y Cobranzas (fecha no visible). 21/09/2026: casi uno de cada dos 0 km se patentó con prendario en agosto (Infobae).",
+        "fuente": "https://www.emerix.net/post/clientes/mercedes-benz-financiera-eligio-emerix-creditos-cobranzas ; https://www.zoominfo.com/c/mercedes-benz-compan%CC%83a-financiera-argentina-sa/430264738 ; https://www.infobae.com/economia/2026/09/21/casi-uno-de-cada-dos-autos-0-km-se-patento-con-credito-prendario-en-agosto/"
+      },
+      "nombre": "Noel",
+      "apellido": "Console",
+      "cargo": "Gerente de Créditos, Cobranzas y Operaciones",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cr%C3%A9ditos%20Cobranzas%20Mercedes-Benz%20Compa%C3%B1%C3%ADa%20Financiera%20Argentina",
+      "verificacion": "Por verificar",
+      "fuente": "Nombre y cargo en resumen de búsqueda (fuentes ZoomInfo/SignalHire de la compañía); no se vio URL de LinkedIn",
+      "gancho": "Lleva créditos, cobranzas y operaciones en MB Financiera, que trabaja con Émerix en todas las etapas de mora.",
+      "mensajes": {
+        "invitacion": "Hola Noel, soy Mauro, trabajo en cobranzas hace años (Cuotitas/Banco Columbia, hoy Moovitech). Vi que en Mercedes-Benz Financiera llevás créditos, cobranzas y operaciones con Émerix en todas las etapas. Me gustaría conectar e intercambiar.",
+        "mensaje_1": "Noel, gracias por aceptar. Con los prendarios creciendo como nunca, la herramienta de gestión ordena el flujo, pero no siempre dice a quién conviene gestionar primero. Flux Collect suma esa capa: predice la probabilidad de pago de cada deudor a 5-30 días y recomienda acción, canal y horario, y se alimenta por Excel o API sin tocar Émerix. Te ofrezco un diagnóstico gratis con un Excel anonimizado en una semana. ¿O 20 min de demo?",
+        "followup": "Noel, en prendarios de vehículos comerciales vi algo recurrente: el atraso sigue la estacionalidad del negocio del cliente (transporte, agro), no la del calendario. Segmentar por esa señal cambia cuándo gestionar y cuándo esperar. Flux la detecta sola. ¿Te muestro cómo se ve?",
+        "cierre": "Noel, no te molesto más. Si en algún momento querés charlar de cobranza prendaria o comparar herramientas, escribime cuando quieras. Un saludo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Toyota Compañía Financiera de Argentina",
+        "segmento": "Automotor",
+        "web": "https://www.toyotacfa.com.ar",
+        "tamano": "Financiera de marca; créditos prendarios minoristas y líneas mayoristas para toda la red de concesionarios Toyota.",
+        "analisis": "Prendarios 0 km y usados vía concesionarios, más crédito mayorista a la red. Las financieras de marca concentraron 43,1% de los prendarios de 0 km en los primeros 8 meses de 2026. Dolor probable: crecimiento fuerte de cartera minorista con cobranza dimensionada para otro volumen. Ángulo: priorización predictiva y KPIs por concesionario de origen.",
+        "score_fit": 55,
+        "score_justificacion": "Crecimiento prendario fuerte y cartera en cuotas, pero el contacto verificado es un supervisor (no decisor) y es una corporación con procesos globales. Útil como puerta de entrada al Gerente de Créditos y Operaciones.",
+        "noticias": "21/09/2026: casi 1 de cada 2 autos 0 km se patentó con prendario en agosto; las financieras de marca lideran (Infobae).",
+        "fuente": "https://www.infobae.com/economia/2026/09/21/casi-uno-de-cada-dos-autos-0-km-se-patento-con-credito-prendario-en-agosto/ ; https://www.toyotacfa.com.ar/autoridades ; https://www.toyotacfa.com.ar/politica-transparencia/gestion-de-riesgos"
+      },
+      "nombre": "Patricio",
+      "apellido": "Goncalves",
+      "cargo": "Supervisor de Créditos Mayoristas y Minoristas",
+      "url_linkedin": "https://www.linkedin.com/in/patricio-goncalves-8a7a34130/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cr%C3%A9ditos%20y%20Operaciones%20Toyota%20Compa%C3%B1%C3%ADa%20Financiera%20de%20Argentina",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/patricio-goncalves-8a7a34130/ (resultado 'Patricio Goncalves - Supervisor de Créditos Mayoristas y Minoristas en Toyota Compañia Financiera de Argentina | LinkedIn')",
+      "gancho": "Supervisor de créditos mayoristas y minoristas; más de 15 años en banca privada; negocia líneas para toda la red de concesionarios Toyota. link_busqueda apunta al Gerente de Créditos y Operaciones (preside el Comité de Créditos).",
+      "mensajes": {
+        "invitacion": "Hola Patricio, soy Mauro, vengo de cobranzas de consumo (Cuotitas/Banco Columbia, hoy Moovitech). Vi que en Toyota CFA llevás crédito mayorista y minorista para toda la red; con el boom de prendarios debe ser un año movido. ¿Conectamos?",
+        "mensaje_1": "Patricio, gracias por aceptar. Con las financieras de marca liderando los prendarios de 0 km este año, la cartera minorista crece más rápido que la estructura de cobranza. Flux Collect predice la probabilidad de pago de cada deudor a 5-30 días, recomienda acción, canal y horario, y muestra la mora por concesionario de origen. Te ofrezco un diagnóstico gratis con un Excel anonimizado, en una semana. ¿O 20 min de demo, con vos o con quien lleve cobranzas?",
+        "followup": "Patricio, como vos ves las dos puntas, mayorista y minorista, te dejo un cruce útil: first payment default de la cartera minorista por concesionario. Suele mostrar que un par de concesionarios concentran buena parte de la mora temprana, y eso sirve también para la relación comercial. Flux lo arma solo. ¿Lo vemos?",
+        "cierre": "Patricio, no insisto más. Si en algún momento querés charlar de cobranza prendaria o me podés acercar con quien lleve cobranzas en Toyota CFA, te lo agradezco. Un abrazo."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Plan Rombo S.A. de Ahorro para Fines Determinados",
+        "segmento": "Automotor",
+        "web": "https://www.planrombo.com.ar",
+        "tamano": "Más de 50 años comercializando planes de ahorro Renault en 84/120 cuotas; la gerencia de administración y cobranzas tuvo un equipo de 16 personas.",
+        "analisis": "Planes de ahorro con cuota mensual (vence el 10) durante 7 a 10 años; los morosos quedan fuera de las adjudicaciones y hay planes de diferimiento. En 2026 el prendario superó a los planes de ahorro en 0 km, lo que presiona la retención de suscriptores. Dolor probable: mora y bajas en contratos largos, y detectar a tiempo al suscriptor que se va a caer. Ángulo: predicción de pago por suscriptor y KPIs de cumplimiento de diferimientos.",
+        "score_fit": 64,
+        "score_justificacion": "Contrato en cuotas muy largo con mora y bajas como riesgo central; el GG viene de cobranzas (verificado). Baja por ser vertical de nicho (plan de ahorro) y grupo corporativo Renault.",
+        "noticias": "13/05/2026: Facundo Alejandro Fatta figura como Director Titular de Plan Rombo S.A. 2026: el crédito prendario supera a los planes de ahorro en 0 km (Movil Quique). Planes de diferimiento vigentes en su documentación.",
+        "fuente": "https://www.planrombo.com.ar/conoce-plan-rombo ; https://www.planrombo.com.ar/informacion-util/documentacion/anexo-volver-al-ahorro-6lgxr4 ; https://movilquique.com/economia/autos-0km-credito-prendario-planes-ahorro-2026/ ; https://www.infobae.com/economia/2026/09/21/casi-uno-de-cada-dos-autos-0-km-se-patento-con-credito-prendario-en-agosto/"
+      },
+      "nombre": "Facundo",
+      "apellido": "Fatta",
+      "cargo": "Gerente General de Plan Rombo S.A.",
+      "url_linkedin": "https://www.linkedin.com/in/facundo-fatta/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20General%20Plan%20Rombo%20S.A.%20de%20Ahorro%20para%20Fines%20Determinados",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/facundo-fatta/ (resultado 'Facundo Fatta - Gerente General de Plan Rombo S.A. en Renault Argentina | LinkedIn') ; https://ar.linkedin.com/in/facundo-fatta",
+      "gancho": "Viene de la Gerencia de Administración y Cobranzas de Plan Rombo (equipo de 16) y escribió en LinkedIn que en Créditos y Cobranzas a veces son 'los malos' que ponen el freno o hacen las llamadas incómodas.",
+      "mensajes": {
+        "invitacion": "Hola Facundo, soy Mauro, llevo años en cobranzas (Cuotitas/Banco Columbia, hoy Moovitech). Leí lo que escribiste sobre que en Créditos y Cobranzas somos 'los malos' que ponen el freno: me sentí muy identificado. ¿Conectamos?",
+        "mensaje_1": "Facundo, gracias por aceptar. En un plan de 84 o 120 cuotas, el suscriptor que se cae rara vez avisa: primero atrasa una cuota, después pide diferimiento y después se va. Flux Collect predice la probabilidad de pago de cada suscriptor a 5-30 días y recomienda acción, canal y horario, para gestionar antes de que llegue a baja. Como venís de cobranzas, te propongo un diagnóstico gratis con un Excel anonimizado, en una semana. ¿O 20 min de demo?",
+        "followup": "Facundo, un KPI que en planes de ahorro dice mucho: cumplimiento de la cuota siguiente a un diferimiento o a una adjudicación. En lo que vi, ahí está la mayor fuga, y con el prendario compitiendo fuerte es la retención que más cuesta. Flux lo mide por grupo y por suscriptor. ¿Lo vemos?",
+        "cierre": "Facundo, no te molesto más. Si alguna vez querés charlar de cobranza, de ser 'los malos' o de cómo medir planes largos, escribime cuando quieras. Un abrazo."
+      }
+    }
+  ]
+}

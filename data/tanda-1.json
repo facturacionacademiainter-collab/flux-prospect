@@ -1,0 +1,482 @@
+{
+  "tanda": 1,
+  "faltantes": 3,
+  "prospectos": [
+    {
+      "empresa": {
+        "nombre": "Fértil Finanzas S.A. (Tarjeta Fértil)",
+        "segmento": "Financiera",
+        "web": "https://fertilfinanzas.com.ar",
+        "tamano": "~76 empleados (directorio de terceros), 34 sucursales, ~30.000 clientes activos",
+        "region": "Interior de Buenos Aires (casa central en Lobos; Monte, Saladillo, Navarro, Roque Pérez, Chivilcoy, Chacabuco)",
+        "analisis": "Emisora de tarjeta regional no bancaria con préstamos personales (hasta $2M) y billetera Fértil Suma. Apunta a sectores fuera del sistema bancario. Tiene gerencia de cobranzas propia. Dolor probable: equipo interno chico que cubre 34 sucursales con listados de atraso, sin scoring de cobranza; mora temprana que se trabaja en mostrador y por teléfono. Ángulo Flux: priorizar la gestión diaria por probabilidad de pago y medir el roll rate por sucursal.",
+        "score_fit": 88,
+        "score_justificacion": "Cartera de cuotas en consumo, tamaño ideal, gerente de cobranzas con perfil verificado. Su presidente también preside la cámara CERTACyC, así que un caso acá abre puertas en otras 30 tarjetas regionales.",
+        "noticias": "Campaña de primavera del 21 al 28/09/2026 en la web. Guillermo Fortunato (fundador y presidente) preside la comisión directiva 2024/2026 de CERTACyC. No encontré noticias de prensa con fecha.",
+        "fuente": "https://fertilfinanzas.com.ar/ ; http://www.certacyc.com.ar/comision.html ; https://www.zoominfo.com/c/fe%CC%81rtil-finanzas/510443790"
+      },
+      "nombre": "Fulvio",
+      "apellido": "Ivaldi",
+      "cargo": "Gerente de Cobranzas",
+      "url_linkedin": "https://ar.linkedin.com/in/fulvio-ivaldi-33122445",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Fulvio%20Ivaldi%20F%C3%A9rtil%20Finanzas",
+      "verificacion": "Verificado",
+      "fuente": "https://ar.linkedin.com/in/fulvio-ivaldi-33122445 (visto en resultados de búsqueda: 'Gerente de Cobranzas - Fertil Finanzas S.A.')",
+      "gancho": "Gerente de cobranzas de una tarjeta regional con 34 sucursales en el interior bonaerense; su presidente encabeza CERTACyC.",
+      "mensajes": {
+        "invitacion": "Hola Fulvio, soy Mauro Alegre, vengo de liderar cobranzas en Cuotitas y Banco Columbia. Vi que llevás la cobranza de Fértil, con sucursales en Lobos, Monte, Saladillo y la zona. Me interesa mucho cómo se cobra en el interior bonaerense. ¿Conectamos?",
+        "mensaje_1": "Gracias por aceptar, Fulvio. Con 34 sucursales y tarjeta propia, me imagino que buena parte de la mora temprana se resuelve en el mostrador y el resto queda en planillas y llamados. A mí lo que más me costaba era decidir a quién llamar primero cada mañana. Flux Collect resuelve justo eso: para cada cliente estima la chance de pago a 5, 10 y 30 días y te sugiere canal y horario. Si te sirve, me pasás un Excel anonimizado y en una semana te devuelvo un diagnóstico de la cartera, gratis.",
+        "followup": "Fulvio, un dato que miro primero en tarjetas regionales: el roll rate de 1-30 a 31-60 abierto por sucursal. Cuando lo abrís así aparecen dos o tres sucursales que explican la mitad del deterioro. ¿Ustedes lo siguen por sucursal o consolidado?",
+        "cierre": "Fulvio, no te quiero llenar la bandeja. Si en algún momento querés comparar números de mora con alguien que estuvo del mismo lado del mostrador, acá estoy. ¡Suerte con la campaña de primavera!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Elebar (Santa Mónica S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.elebar.com.ar",
+        "tamano": "33 sucursales en 31 ciudades; empleados no publicados (calculo 100-250); empresa familiar",
+        "region": "Centro-oeste de Buenos Aires (casa central en Tandil)",
+        "analisis": "Tarjeta regional no bancaria con préstamos, seguros y cobro de servicios. Tiene una gerencia de Créditos y Cobranzas y 25 líderes de sucursal publicados en la web. Dolor probable: la cobranza está repartida entre sucursales con criterios distintos y los datos se consolidan tarde; no hay una prioridad común para cada gestor. Ángulo Flux: una lista del día por sucursal según la probabilidad de pago, más un tablero de promesas de pago por gestor.",
+        "score_fit": 85,
+        "score_justificacion": "Tamaño justo, organigrama publicado con una responsable de cobranzas identificable y una red de sucursales que necesita priorización centralizada.",
+        "noticias": "No encontré noticias de prensa con fecha. Empresa fundada en 1989 (franquicia) y marca propia desde 1995; tuvo un fideicomiso financiero 'Elebar I' (sin fecha confirmada).",
+        "fuente": "https://elebar.com.ar/page/clientes/nuestro-equipo ; https://www.elebar.com.ar/institucional/presentacion ; https://www.elebar.com.ar/page/clientes/informacion-financiera"
+      },
+      "nombre": "María Paz",
+      "apellido": "Bernatene",
+      "cargo": "Gerente de Créditos y Cobranzas",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Mar%C3%ADa%20Paz%20Bernatene%20Elebar",
+      "verificacion": "Por verificar",
+      "fuente": "https://elebar.com.ar/page/clientes/nuestro-equipo (Créditos & Cobranzas: María Paz Bernatene)",
+      "gancho": "Lidera Créditos y Cobranzas de una tarjeta familiar de Tandil con 33 sucursales.",
+      "mensajes": {
+        "invitacion": "Hola María Paz, soy Mauro y hace años que trabajo en cobranzas (Cuotitas, Banco Columbia). Vi que llevás Créditos y Cobranzas en Elebar, con sucursales en todo el centro-oeste bonaerense desde Tandil. Me encantaría sumarte a mi red.",
+        "mensaje_1": "Gracias por conectar, María Paz. Coordinar la cobranza de 33 sucursales desde Tandil no es poca cosa: cada líder de sucursal gestiona a su manera y los datos llegan tarde. Estoy trabajando en Flux Collect, que ordena la cartera según la probabilidad de pago y le indica a cada sucursal qué cliente contactar, por qué canal y a qué hora. ¿Te interesa verlo en 20 minutos? Te muestro un caso con datos reales.",
+        "followup": "María Paz, una métrica que me cambió la cabeza: el cumplimiento de promesas de pago. En muchas carteras regionales ronda el 50% y casi nadie la mide por gestor. ¿En Elebar la tienen a mano? Si no, es de lo primero que te puedo mostrar.",
+        "cierre": "Te dejo tranquila, María Paz. Si más adelante querés charlar de mora o de cómo se gestiona en otras tarjetas del interior, escribime cuando quieras. Un saludo al equipo de Tandil."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Credipaz S.A.",
+        "segmento": "Financiera",
+        "web": "https://credipaz.com",
+        "tamano": "23 sucursales + 1 contact center + canal digital; empleados no publicados (calculo 150-300)",
+        "region": "AMBA (casa central en Ituzaingó) + Salta, Corrientes y Resistencia",
+        "analisis": "Grupo nacional que opera desde 1971 con préstamos personales, préstamos para jubilados nacionales, créditos de consumo en comercios adheridos y tarjeta. Cliente fuera del sistema bancario. Dolor probable: cartera mixta (jubilados y consumo) en varias provincias, con un contact center propio que gestiona por tramos de atraso sin distinguir quién va a pagar solo. Ángulo Flux: segmentar por probabilidad de pago para que el contact center no queme llamados en quien se regulariza solo, y medir el FPD por canal.",
+        "score_fit": 78,
+        "score_justificacion": "Buen encaje de producto y tamaño. El contacto verificado es de productos, no de cobranzas, así que probablemente haga falta una derivación interna.",
+        "noticias": "Cumplió 50 años con 25 sucursales (TotalMedios, alrededor de 2021). Inauguró la casa central de Ituzaingó en 2018. No encontré noticias de 2025-2026.",
+        "fuente": "https://credipaz.com/nosotros/ ; https://www.totalmedios.com/nota/47645/con-25-sucursales-distribuidas-por-el-pais-credipaz-cumple-50-anos ; https://ar.linkedin.com/company/credipaz"
+      },
+      "nombre": "Nereo",
+      "apellido": "Farias",
+      "cargo": "Gerente de Productos",
+      "url_linkedin": "https://ar.linkedin.com/in/nereo-farias-70774223a",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Nereo%20Farias%20Credipaz",
+      "verificacion": "Verificado",
+      "fuente": "https://ar.linkedin.com/in/nereo-farias-70774223a (visto en resultados de búsqueda: 'Gerente de productos en CREDIPAZ')",
+      "gancho": "Gerente de productos en una financiera con más de 50 años que presta a jubilados y a clientes fuera del sistema bancario.",
+      "mensajes": {
+        "invitacion": "Hola Nereo, soy Mauro Alegre y vengo del mundo de las cobranzas (Cuotitas, Banco Columbia). Credipaz lleva más de 50 años financiando a gente que queda fuera del sistema bancario y eso me interesa mucho. ¿Conectamos?",
+        "mensaje_1": "Nereo, gracias por aceptar. En créditos para jubilados y consumo en comercios, el diseño del producto y la mora van de la mano: una cuota mal calibrada después se paga en cobranzas. Flux Collect une las dos miradas: predice la probabilidad de pago de cada deudor y muestra qué productos y campañas recuperan mejor. Te propongo una demo corta de 20 minutos, o que el equipo de cobranzas me pase un Excel anonimizado y le armo un diagnóstico sin costo.",
+        "followup": "Nereo, un indicador que suele sorprender en productos nuevos es el first payment default. Cuando se mira por canal (sucursal, comercio adherido, digital) casi siempre aparece uno que duplica al resto. ¿En Credipaz lo tienen separado por canal?",
+        "cierre": "Nereo, no insisto más. Si te sirve que hable con la gente de cobranzas o querés ver el tablero algún día, me escribís y lo coordinamos. Saludos a todo el equipo de Ituzaingó."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Asociación Mutual de Venado Tuerto (AMVT)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.amvt.com.ar",
+        "tamano": "Casa central + 5 gerencias de filial; empleados no publicados (calculo 50-150)",
+        "region": "Sur de Santa Fe (Venado Tuerto y filiales)",
+        "analisis": "Mutual con ayudas económicas: créditos personales de hasta 36 cuotas, hipotecarios y agro, y préstamos ágiles de hasta 12 cuotas con débito automático y códigos de descuento municipales y provinciales. Además emite tarjeta (Cabal, según el registro del BCRA). Dolor probable: rechazos del código de descuento (topes, bajas, cambios de repartición) que pasan a cobranza manual sin priorizar, y seguimiento separado por filial. Ángulo Flux: anticipar qué asociados van a quedar fuera del descuento y ordenar la recuperación en los primeros días.",
+        "score_fit": 76,
+        "score_justificacion": "Presta con descuento por recibo en sus distintas líneas y tiene tamaño medio con gerencia general identificada. Pierde algunos puntos porque no hay un perfil de LinkedIn verificado.",
+        "noticias": "La web se actualizó en enero de 2026. No encontré noticias de prensa con fecha.",
+        "fuente": "https://www.amvt.com.ar/institucional/autoridades/ ; https://www.amvt.com.ar/servicios/ayuda-economica/ ; https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Franco Paolo",
+      "apellido": "Semprini",
+      "cargo": "Gerente General",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Franco%20Paolo%20Semprini%20Asociaci%C3%B3n%20Mutual%20de%20Venado%20Tuerto",
+      "verificacion": "Por verificar",
+      "fuente": "https://www.amvt.com.ar/institucional/autoridades/ (Gerencia General: Franco Paolo Semprini)",
+      "gancho": "Gerente general de una mutual santafesina que presta con códigos de descuento municipales y provinciales.",
+      "mensajes": {
+        "invitacion": "Hola Franco, soy Mauro Alegre, trabajo en cobranzas hace años y sigo de cerca el mutualismo santafesino. Vi que la Mutual de Venado Tuerto presta con códigos de descuento municipales y provinciales. ¿Te sumo a mi red?",
+        "mensaje_1": "Franco, gracias por conectar. En ayudas económicas con código de descuento, el riesgo aparece cuando el descuento rebota (topes, bajas, cambios de repartición) y hay que salir a cobrar por otro lado, muchas veces sin datos ordenados. Flux Collect detecta a tiempo qué asociados van a quedar fuera del descuento y propone cómo contactarlos. ¿Hacemos una videollamada de 20 minutos y te lo muestro con un ejemplo de mutual?",
+        "followup": "Franco, un número que vale la pena mirar: qué porcentaje de las cuotas rechazadas por código se recupera en los 30 días siguientes. En las carteras que vi, gestionarlas el día 1 o el día 10 cambia muchísimo. ¿Lo tienen medido por filial?",
+        "cierre": "Franco, te dejo tranquilo con esto. Si algún día querés una mirada externa sobre la cartera de ayudas económicas, contá conmigo. Saludos a las filiales."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "AMPF - Asociación Mutual de Protección Familiar",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.ampf.org.ar",
+        "tamano": "Más de 80.000 asociados, delegaciones en todo el país; empleados no publicados",
+        "region": "Nacional (sede en CABA)",
+        "analisis": "Mutual con varios servicios (salud, turismo, educación) y ayuda económica: préstamos de $10.000 a $2.000.000, de 3 a 24 cuotas, que se debitan del recibo de sueldo o de la cuenta informada. Dolor probable: los préstamos que se caen del débito o del descuento se siguen por delegación, sin una prioridad central; el crédito es un servicio entre muchos y probablemente no tenga equipo de analítica. Ángulo Flux: un semáforo por asociado y la gestión del primer rechazo en 72 horas.",
+        "score_fit": 70,
+        "score_justificacion": "Cartera con descuento de haberes y alcance nacional. El crédito no es el negocio principal, y el contacto es institucional (secretario general) y no de cobranzas.",
+        "noticias": "30/04/2026: asamblea anual que renovó autoridades (presidente Francisco José Savoini; secretario general Gastón Ricciardi). En 2026 participó del XIII Foro Internacional de Mutualismo de ODEMA.",
+        "fuente": "https://ansol.com.ar/gestion/ampf-asamblea-autoridades/ ; https://www.ampf.org.ar/ampf/servicios/ayuda-economico-financiera/prestamos/ ; https://ansol.com.ar/mundo/foro-mutualismo-2026-odema/"
+      },
+      "nombre": "Gastón",
+      "apellido": "Ricciardi",
+      "cargo": "Secretario General (antes Gerente General)",
+      "url_linkedin": "https://ar.linkedin.com/in/gast%C3%B3n-ricciardi-4507a813",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gast%C3%B3n%20Ricciardi%20AMPF",
+      "verificacion": "Por verificar",
+      "fuente": "https://ansol.com.ar/gestion/ampf-asamblea-autoridades/ (secretario general, 30/04/2026); https://ar.linkedin.com/in/gast%C3%B3n-ricciardi-4507a813 (visto en resultados de búsqueda asociado a AMPF, sin cargo visible)",
+      "gancho": "Secretario general reelecto en la asamblea de abril de 2026 de una mutual con más de 80.000 asociados.",
+      "mensajes": {
+        "invitacion": "Hola Gastón, soy Mauro Alegre y vengo de las cobranzas en Cuotitas y Banco Columbia. Vi la asamblea de AMPF de abril y el trabajo con ODEMA. Me interesa cómo gestionan la ayuda económica las mutuales grandes. ¿Conectamos?",
+        "mensaje_1": "Gastón, gracias por aceptar. Con más de 80.000 asociados y préstamos que se debitan del recibo o de la cuenta, el desafío suele estar en los que se caen del débito: ahí se arma la mora, y cada delegación la sigue a su manera. Flux Collect arma un semáforo por asociado con la chance de pago a 10, 20 y 30 días y sugiere el contacto justo. ¿Lo vemos en una llamada corta? Si preferís, primero les hago un diagnóstico gratuito sobre una muestra anonimizada.",
+        "followup": "Gastón, un dato de campo: en préstamos con débito automático, el primer rechazo anticipa muy bien la mora a 60 días. Si se gestiona en las primeras 72 horas, la recuperación cambia mucho. ¿Hoy AMPF lo trabaja centralizado o por delegación?",
+        "cierre": "Gastón, cierro acá para no molestar. Cuando haya un momento para hablar de la ayuda económica de AMPF, acá voy a estar. ¡Felicitaciones por los 25 años del Balance Social!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Libgot Fintech Group (Anticipo)",
+        "segmento": "Fintech de crédito",
+        "web": "https://libgot.com",
+        "tamano": "Fintech fundada en 2020; empleados no publicados (calculo 30-100)",
+        "region": "CABA, con operación en Argentina y Colombia",
+        "analisis": "Microcréditos digitales sin historial crediticio previo (marca Anticipo). En resultados públicos de LinkedIn aparecen analistas de cobranzas y back office propios. Dolor probable: tickets chicos que no aguantan una gestión cara, cobranza digital masiva con mensajes iguales para todos y dos países con comportamientos distintos. Ángulo Flux: priorizar y elegir horario por deudor para bajar el costo de cada peso recuperado.",
+        "score_fit": 74,
+        "score_justificacion": "Crédito de consumo puro con cobranza interna y el CEO fundador verificado. Es chica y probablemente tenga modelos propios, lo que puede generar la objeción de 'lo hacemos in-house'.",
+        "noticias": "08/01/2026: Anticipo desembarca en Colombia con microcréditos digitales (Colombia Fintech). Libgot se sumó a Colombia Fintech.",
+        "fuente": "https://colombiafintech.co/2026/01/08/anticipo-irrumpe-en-colombia-microcreditos-digitales-para-la-inclusion-financiera/ ; https://www.cbinsights.com/company/libgot ; https://www.zoominfo.com/p/Diego-Wolfsohn/7550382271"
+      },
+      "nombre": "Diego",
+      "apellido": "Wolfsohn",
+      "cargo": "Founder & CEO",
+      "url_linkedin": "https://www.linkedin.com/in/diego-wolfsohn/",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Diego%20Wolfsohn%20Libgot",
+      "verificacion": "Verificado",
+      "fuente": "https://www.linkedin.com/in/diego-wolfsohn/ (visto en resultados: 'Diego Wolfsohn - Libgot'); cargo según ZoomInfo y Colombia Fintech",
+      "gancho": "Fundador de una fintech argentina de microcrédito que en 2026 salió a Colombia con Anticipo.",
+      "mensajes": {
+        "invitacion": "Hola Diego, soy Mauro Alegre y lidero cobranzas hace años (Cuotitas, Banco Columbia, hoy Moovitech). Vi que Anticipo desembarcó en Colombia este año. Me gusta ver fintechs argentinas saliendo afuera. ¿Conectamos?",
+        "mensaje_1": "Diego, gracias por conectar. Con microcréditos sin historial y dos países en operación, la cobranza temprana tiene que ser casi quirúrgica: los tickets chicos no aguantan una gestión cara. Flux Collect prioriza a cada deudor según su probabilidad de pago y recomienda canal y horario, para gastar contacto solo donde mueve la aguja. ¿Te interesa que lo veamos 20 minutos? También puedo correr un diagnóstico gratis sobre un Excel anonimizado de Argentina.",
+        "followup": "Diego, en microcrédito digital el horario pesa más de lo que parece: vi carteras donde el mismo mensaje rinde el doble a las 19 que a las 10. ¿En Anticipo ya segmentan el horario por perfil o todavía sale igual para todos?",
+        "cierre": "Diego, no quiero sumar ruido a tu semana. Si más adelante querés comparar números de roll rate entre Argentina y Colombia, me encantaría. ¡Mucha suerte con la expansión!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Creditech S.A. (Grupo Corven)",
+        "segmento": "Automotor",
+        "web": "",
+        "tamano": "Proveedor no financiero de crédito (PNFC) creado en 2017; el FF Serie VI tiene 13.107 préstamos por ARS 18.058 millones; empleados no publicados (calculo 30-100)",
+        "region": "CABA, con originación en comercios de todo el país",
+        "analisis": "Préstamos personales originados en comercios adheridos para la compra de motos (Corven, Mondial, etc.) y electrodomésticos, con scoring propio. Según Moody's, alrededor del 80% de la cobranza entra por Pago Fácil y Rapipago; la mora temprana se trabaja con campañas automáticas de mail y SMS, entre 30 y 90 días hay gestión telefónica de técnicos de cobranzas, y después de 90 días se deriva a estudios externos. Dolor probable: el tramo de 30 a 90 días, manual y sin priorizar, y la dependencia de estudios para la mora tardía. Ángulo Flux: priorizar ese tramo y medir la mora por comercio de origen.",
+        "score_fit": 80,
+        "score_justificacion": "Cartera en cuotas grande y securitizada, con procesos de cobranza documentados que muestran dónde aporta Flux. El contacto verificado es comercial.",
+        "noticias": "18/06/2026: calificación de Moody's al FF Creditech Serie VII. 13/02/2026: calificación del FF Creditech Serie VI.",
+        "fuente": "https://moodyslocal.com.ar/wp-content/uploads/2026/02/IR-FF-Creditech-VI-20260213.pdf ; https://www.valo.ar/wp-content/uploads/2026/07/Creditech-Serie-VII-Informe-de-Calificacion-Moodys.pdf ; https://www.bnamericas.com/es/perfil-empresa/creditech-sa"
+      },
+      "nombre": "Christian",
+      "apellido": "Chelini",
+      "cargo": "Gerente Comercial",
+      "url_linkedin": "https://ar.linkedin.com/in/christian-chelini-01491a17b",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Christian%20Chelini%20Creditech",
+      "verificacion": "Verificado",
+      "fuente": "https://ar.linkedin.com/in/christian-chelini-01491a17b (visto en resultados: 'Gerente Comercial - Creditech S.A.')",
+      "gancho": "Gerente comercial de la financiera de motos del Grupo Corven, que ya lleva siete series de fideicomisos.",
+      "mensajes": {
+        "invitacion": "Christian, ¿qué tal? Mauro Alegre, ex responsable de recupero en Banco Columbia. Vengo siguiendo las series de fideicomisos de Creditech: siete emisiones financiando motos en comercios no es poca cosa. Me gustaría tenerte en mi red.",
+        "mensaje_1": "Christian, gracias por aceptar. En el informe de Moody's del fideicomiso leí que casi toda la cobranza de Creditech entra por Pago Fácil y Rapipago, con campañas automáticas al principio y derivación a estudios después de los 90 días. El tramo de 30 a 90 es donde más se gana o se pierde. Flux Collect ordena ese tramo por probabilidad de pago y avisa qué deudor conviene llamar hoy. ¿Me presentás a quien lleve cobranzas, o lo vemos juntos 20 minutos?",
+        "followup": "Christian, pensando en los comercios adheridos: medir la mora por comercio de origen suele mostrar dos o tres puntos de venta que originan mucho peor que el resto. Eso le sirve tanto a riesgo como a comercial. ¿Hoy lo tienen a la vista?",
+        "cierre": "Christian, te dejo por acá. Si en algún momento el área de cobranzas quiere una segunda mirada sobre la cartera de motos, avisame y lo armamos. ¡Éxitos con la Serie VII!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Argenpesos (Argencred S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.argenpesos.com.ar",
+        "tamano": "20 a 26 sucursales (según la fuente) y más de 400 comercializadores; opera desde 2005; empleados no publicados (calculo 150-300)",
+        "region": "AMBA: CABA (Liniers) y zonas norte, oeste y sur del conurbano",
+        "analisis": "Préstamos personales de $30.000 a $3.000.000, de 6 a 15 cuotas fijas, para trabajadores, jubilados y pensionados, más financiación de pequeños electrodomésticos (ArgenCompras). Dolor probable: cartera de alto riesgo (TNA del 215% al 379%) repartida entre sucursales y comercializadores externos con calidad de originación muy distinta; mora de primera cuota alta. Ángulo Flux: FPD por comercializador y priorización diaria por probabilidad de pago.",
+        "score_fit": 77,
+        "score_justificacion": "Encaje de producto y tamaño muy bueno y expansión activa. No encontré a ninguna persona con cargo actual.",
+        "noticias": "24/04/2026: abrió su segunda sucursal en San Miguel, el local número 20 (Cosas de Barrio). También abrió locales en Merlo y Monte Grande (Avellaneda Hoy, sin fecha confirmada).",
+        "fuente": "https://cosasdebarrioweb.com.ar/2026/04/24/argenpesos-inauguro-su-segunda-sucursal-en-san-miguel/ ; https://www.argenpesos.com.ar/institucional ; https://avellanedahoy.com.ar/nota/22095/argenpesos-expande-su-presencia-con-dos-nuevos-locales-uno-en-merlo-y-otro-en-monte-grande/"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente de Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20de%20Cobranzas%20Argenpesos",
+      "verificacion": "Sin perfil",
+      "fuente": "Ninguna persona encontrada en fuentes públicas",
+      "gancho": "Financiera del conurbano en expansión: abrió su local número 20 en abril de 2026.",
+      "mensajes": {
+        "invitacion": "Hola, ¿qué tal? Me llamo Mauro y me formé gestionando mora en el conurbano con Cuotitas. Leí que Argenpesos abrió en abril su segunda sucursal en San Miguel, la número 20. Busco conectar con quien esté a cargo del recupero.",
+        "mensaje_1": "Gracias por conectar. Con más de 20 sucursales en el conurbano y cientos de comercializadores, una cartera de trabajadores y jubilados se vuelve difícil de priorizar solo con listados de atraso. Flux Collect toma esa cartera, estima quién va a pagar en los próximos 5 a 30 días y sugiere qué hacer con cada uno. Les ofrezco algo sin compromiso: me mandan un Excel anonimizado y en una semana les devuelvo un diagnóstico.",
+        "followup": "Un número para pensar: en carteras con comercializadores externos, la mora de primera cuota suele variar tres o cuatro veces entre uno y otro. Medirla por comercializador ayuda a cobranzas y también a originación. ¿La tienen abierta así?",
+        "cierre": "Cierro por acá para no insistir. Si más adelante quieren charlar de mora con alguien que la gestionó desde adentro, escríbanme. ¡Éxitos con las nuevas sucursales!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Única (Única Cía. de Crédito S.A.)",
+        "segmento": "Financiera",
+        "web": "https://unica.com.ar",
+        "tamano": "Sucursales en Santiago del Estero, Tucumán y Salta; empleados no publicados (calculo 50-150)",
+        "region": "NOA (casa central en Santiago del Estero)",
+        "analisis": "Tarjeta de crédito regional lanzada el 01/06/2008 a partir de MaxiCash, la financiación del retailer de electrodomésticos MaxiHogar. En los resultados de búsqueda de LinkedIn aparece un aviso para 'Supervisor/a de Mora y Cobranzas' de Tarjeta Única, lo que indica un equipo propio de cobranzas. Dolor probable: equipo en formación, gestión por tramos sin scoring y clientes con ingresos atados a la fecha de cobro de haberes. Ángulo Flux: una lista diaria priorizada y recordatorios alineados con la fecha de cobro.",
+        "score_fit": 70,
+        "score_justificacion": "Buena señal de cobranza interna y tamaño adecuado. No encontré a ninguna persona.",
+        "noticias": "No encontré noticias con fecha. Aviso de LinkedIn para Supervisor/a de Mora y Cobranzas visto en resultados de búsqueda (fecha no confirmada).",
+        "fuente": "https://unica.com.ar/institucional-quienes-somos ; https://ar.linkedin.com/company/tarjeta-unica ; https://ar.linkedin.com/jobs/view/supervisor-a-de-mora-y-cobranzas-at-tarjeta-unica-4206029880"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Responsable de Mora y Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Cobranzas%20Tarjeta%20%C3%9Anica",
+      "verificacion": "Sin perfil",
+      "fuente": "Ninguna persona encontrada en fuentes públicas",
+      "gancho": "Tarjeta del NOA que salió a buscar un supervisor de mora y cobranzas.",
+      "mensajes": {
+        "invitacion": "Hola. Mauro Alegre, colega de gestión de mora; pasé por Cuotitas y Banco Columbia. Tarjeta Única viene creciendo en Santiago del Estero, Tucumán y Salta desde 2008, y me encantaría conocer al equipo que sigue los atrasos.",
+        "mensaje_1": "Gracias por aceptar. Vi que Tarjeta Única buscó un supervisor de mora y cobranzas, así que me imagino un equipo propio creciendo en Santiago y Tucumán. En esa etapa lo que más ayuda es saber a quién gestionar primero. Flux Collect se carga con un Excel o con el sistema que ya usen y le arma al equipo la lista del día con el canal y el horario sugeridos. ¿Coordinamos una demo de 20 minutos con quien lidere cobranzas?",
+        "followup": "En tarjetas del NOA vi algo que se repite: los resúmenes que vencen cerca del cobro de haberes se pagan mucho mejor. Ajustar los recordatorios a la fecha de cobro de cada cliente puede mover varios puntos de mora temprana. ¿Hoy lo tienen en cuenta?",
+        "cierre": "No quiero ser pesado. Si en algún momento el equipo de cobranzas quiere intercambiar experiencias, acá estoy. Saludos a todos en Santiago."
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Fiel (Visión S.A.)",
+        "segmento": "Financiera",
+        "web": "https://tarjetafiel.com",
+        "tamano": "Oficina y call center en San Juan; empleados no publicados (calculo 30-100)",
+        "region": "San Juan",
+        "analisis": "Tarjeta regional con compras en cuotas fijas en pesos, adelantos de efectivo, débito automático y app. Es socia de CERTACyC. Dolor probable: el conocimiento del cliente está en la cabeza de los gestores y no en datos; call center propio chico sin scoring de cobranza. Ángulo Flux: dejar de gestionar a los que se regularizan solos antes del día 10 y enfocar el call center.",
+        "score_fit": 66,
+        "score_justificacion": "Tamaño y producto correctos, pero es una operación chica de una sola provincia y no hay contacto identificado.",
+        "noticias": "No encontré noticias con fecha. Opera desde mayo de 2000; la web tiene fecha de actualización del portal de pagos en septiembre de 2026.",
+        "fuente": "https://tarjetafiel.com/ ; https://tarjetafiel.com/usuarios-financieros.html ; https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente General o Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Tarjeta%20Fiel",
+      "verificacion": "Sin perfil",
+      "fuente": "Ninguna persona encontrada en fuentes públicas",
+      "gancho": "Tarjeta sanjuanina con más de 25 años y call center propio.",
+      "mensajes": {
+        "invitacion": "Hola, soy Mauro Alegre y hace años que trabajo en cobranzas (Cuotitas, Banco Columbia). Tarjeta Fiel acompaña a las familias sanjuaninas desde el 2000 y me gustaría conectar con quien lleve la cartera.",
+        "mensaje_1": "Gracias por aceptar. Una tarjeta con más de 25 años en San Juan conoce a sus clientes como nadie, pero ese conocimiento suele estar en la cabeza de los que cobran y no en un sistema. Flux Collect lo convierte en dato: calcula la probabilidad de pago de cada cliente y sugiere cuándo y por dónde contactarlo. Si quieren, les hago gratis un diagnóstico de la cartera a partir de un Excel anonimizado.",
+        "followup": "Una pregunta de colega: ¿cuánto de la mora de Fiel se regulariza sola antes de los 10 días? En tarjetas regionales suele ser una parte grande, y dejar de gestionarla libera tiempo para los casos que de verdad lo necesitan.",
+        "cierre": "Me despido por ahora. Si les interesa ver cómo miden la mora otras tarjetas del interior, me avisan y lo charlamos sin compromiso. ¡Saludos a San Juan!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Titanio S.A.",
+        "segmento": "Financiera",
+        "web": "https://www.tarjetatitanio.com.ar",
+        "tamano": "2 oficinas (casa central y local en el Hipermercado Libertad); empresa familiar; empleados no publicados (calculo 10-40)",
+        "region": "San Miguel de Tucumán",
+        "analisis": "Tarjeta de crédito regional con adelantos de efectivo y financiaciones, de una familia comercial tucumana. Es la más chica de la tanda. Dolor probable: cobranza en Excel y por teléfono a cargo de pocas personas, sin métricas. Ángulo Flux: entrada simple desde un Excel y recordatorios preventivos antes del vencimiento.",
+        "score_fit": 55,
+        "score_justificacion": "Encaja en el perfil (chica y regional), pero su tamaño limita el ticket, y el contacto tiene un cargo desconocido.",
+        "noticias": "No encontré noticias con fecha. Tiene actividad en redes en diciembre de 2025.",
+        "fuente": "https://www.tarjetatitanio.com.ar/v2/empresa/ ; https://www.sucursales24.com.ar/tucuman/tarjeta-titanio/"
+      },
+      "nombre": "Fernando José",
+      "apellido": "Espeche",
+      "cargo": "Cargo no visible (figura en Tarjeta Titanio S.A.)",
+      "url_linkedin": "https://ar.linkedin.com/in/fernando-jose-espeche-bb449b40",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Fernando%20Jos%C3%A9%20Espeche%20Tarjeta%20Titanio",
+      "verificacion": "Por verificar",
+      "fuente": "https://ar.linkedin.com/in/fernando-jose-espeche-bb449b40 (visto en resultados: 'Fernando Jose Espeche - Tarjeta Titanio S.A.', sin cargo)",
+      "gancho": "Trabaja en una tarjeta familiar tucumana con casa central en calle San Martín y un local en el Libertad.",
+      "mensajes": {
+        "invitacion": "Fernando, buenas. Te escribe Mauro, un colega de la mora con pasado en Banco Columbia. Me topé con tu perfil en Tarjeta Titanio y me dio curiosidad cómo se maneja una tarjeta familiar tucumana. Si te parece, quedamos en contacto.",
+        "mensaje_1": "Fernando, gracias por conectar. Con la casa central en San Martín y el local del Libertad, Titanio es un equipo chico donde cada cuota recuperada pesa. En estructuras así la cobranza suele vivir en Excel y en el teléfono. Flux Collect arranca justamente de ese Excel: devuelve la probabilidad de pago de cada cliente y qué conviene hacer con él. ¿Me decís quién ve cobranzas y le propongo 20 minutos?",
+        "followup": "Fernando, un dato simple que suelo mirar primero: cuántos de los clientes que pagan después del vencimiento lo hacen en la misma semana. Si son muchos, un recordatorio bien puesto antes del vencimiento ahorra buena parte de la gestión.",
+        "cierre": "Fernando, no te molesto más. Si en algún momento en Titanio quieren mirar la cartera con otros ojos, me escribís. ¡Saludos a Tucumán!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Credi Guía (Cooperativa Guía Ltda.)",
+        "segmento": "Mutual/Cooperativa",
+        "web": "https://www.crediguia.com.ar",
+        "tamano": "Más de 3.000 comercios adheridos; cantidad de sucursales no publicada; empleados no publicados (calculo 50-150)",
+        "region": "Neuquén y Río Negro (casa central en Neuquén capital)",
+        "analisis": "Cooperativa de servicios de administración de ventas a crédito que emite la tarjeta regional Credi Guía, con app propia. Dolor probable: el cliente que se atrasa deja de consumir en la red de comercios y la cobranza se gestiona separada de lo comercial; es probable que no tenga scoring de comportamiento. Ángulo Flux: anticipar el atraso y medir cuántos clientes recuperados vuelven a consumir.",
+        "score_fit": 68,
+        "score_justificacion": "Aporta el segmento cooperativo con cartera de consumo en cuotas. El contacto verificado es comercial, no de cobranzas.",
+        "noticias": "No encontré noticias con fecha.",
+        "fuente": "https://www.crediguia.com.ar/ ; https://www.crediguia.com.ar/informacion-al-usuario-financiero/ ; https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "Rodolfo",
+      "apellido": "Juarez",
+      "cargo": "Comercial",
+      "url_linkedin": "https://ar.linkedin.com/in/rodolfo-juarez-14686455",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Rodolfo%20Juarez%20Credi%20Gu%C3%ADa",
+      "verificacion": "Verificado",
+      "fuente": "https://ar.linkedin.com/in/rodolfo-juarez-14686455 (visto en resultados: 'Rodolfo Juarez - Comercial - Credi Guia')",
+      "gancho": "Área comercial de una tarjeta cooperativa patagónica con más de 3.000 comercios adheridos.",
+      "mensajes": {
+        "invitacion": "Hola Rodolfo, soy Mauro Alegre y vengo de las cobranzas (Cuotitas, Banco Columbia). Credi Guía tiene más de 3.000 comercios adheridos en Neuquén y Río Negro, y me parece un caso muy interesante. ¿Conectamos?",
+        "mensaje_1": "Rodolfo, gracias por aceptar. En una cooperativa con tarjeta propia, lo comercial y la cobranza se tocan: el cliente que se atrasa deja de comprar en los comercios adheridos. Flux Collect anticipa quién se va a atrasar y sugiere cómo contactarlo antes de que corte el consumo. ¿Me presentarías a quien lleve la mora en la cooperativa? Les puedo ofrecer un diagnóstico sin cargo con datos anonimizados.",
+        "followup": "Rodolfo, algo que vi en otras tarjetas: el cliente con un atraso corto bien gestionado vuelve a comprar mucho más rápido. Medir cuántos recuperados reactivan el consumo es un indicador que le sirve tanto a comercial como a cobranzas.",
+        "cierre": "Rodolfo, hasta acá llego con los mensajes. Si en algún momento en Credi Guía quieren ver esto con datos propios, avisame y lo coordinamos. ¡Saludos a Neuquén!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Pampeana S.A.",
+        "segmento": "Financiera",
+        "web": "https://www.tarjetapampeana.com.ar",
+        "tamano": "Presencia en más de 50 localidades; empleados no publicados (calculo 30-120)",
+        "region": "La Pampa y bordes de Buenos Aires, Córdoba y Santa Fe (casa central en Macachín)",
+        "analisis": "Tarjeta regional no bancaria con app propia y clientes en pueblos agrícolas. Dolor probable: ingresos estacionales atados al campo, clientes dispersos en muchas localidades y pocos gestores; la cobranza reacciona al atraso en lugar de anticiparlo. Ángulo Flux: estacionalidad de la mora por localidad y contacto en el momento de mayor probabilidad de pago.",
+        "score_fit": 65,
+        "score_justificacion": "Encaja bien en producto y región. No tengo un contacto confirmado: un buscador mencionó directores, pero no pude verificar la fuente.",
+        "noticias": "No encontré noticias con fecha.",
+        "fuente": "https://www.tarjetapampeana.com.ar/nosotros ; https://indicadores.ar/empresa/30714527483 ; https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente General o Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Tarjeta%20Pampeana",
+      "verificacion": "Sin perfil",
+      "fuente": "Ninguna persona verificable en fuentes públicas",
+      "gancho": "Tarjeta pampeana que desde Macachín llega a más de 50 localidades.",
+      "mensajes": {
+        "invitacion": "Buen día. Mauro Alegre acá, dediqué mi carrera a recuperar cuotas atrasadas. Que una tarjeta de Macachín llegue a más de 50 pueblos de cuatro provincias me pareció admirable, y quería sumar a la red a quien lleve esa cartera.",
+        "mensaje_1": "Gracias por conectar. Cubrir más de 50 localidades de La Pampa, Buenos Aires, Córdoba y Santa Fe trae un desafío claro en mora: mucho cliente rural, ingresos atados a la cosecha y pocos gestores. Flux Collect mira el comportamiento de cada cliente y estima cuándo es más probable que pague, para no gastar llamados en el momento equivocado. ¿Les sirve una llamada de 20 minutos para verlo?",
+        "followup": "Una idea que suele funcionar en tarjetas con clientela del agro: comparar la mora por localidad y por mes del año. La estacionalidad aparece clarísima y permite planificar campañas antes de que crezca el atraso.",
+        "cierre": "Paro acá con los mensajes. Si en algún momento quieren intercambiar experiencias de cobranza en el interior, cuenten conmigo. ¡Saludos a Macachín!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Cliper (Contar S.A.)",
+        "segmento": "Financiera",
+        "web": "https://www.tarjetacliper.com",
+        "tamano": "Casa central en Mar del Plata; empleados no publicados (calculo 30-120)",
+        "region": "Mar del Plata y zona (General Pueyrredón)",
+        "analisis": "Tarjeta de crédito regional marplatense con versión Cabal, administrada por Contar S.A. (con Tartan S.A.). Dolor probable: ingresos de los clientes muy estacionales (temporada de verano) y la misma estrategia de cobranza todo el año; mora que sube en invierno. Ángulo Flux: priorización que aprende la estacionalidad por cliente.",
+        "score_fit": 62,
+        "score_justificacion": "Buen encaje de producto y el ángulo estacional es claro. Solo encontré responsables de atención al usuario, no personas de decisión.",
+        "noticias": "No encontré noticias con fecha.",
+        "fuente": "https://www.tarjetacliper.com/usuarios-financieros-contar.php ; https://www.tarjetacliper.com/tarjetas-tarjeta-cliper.php"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente General o Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Tarjeta%20Cliper",
+      "verificacion": "Sin perfil",
+      "fuente": "Ningún decisor encontrado (la web solo publica a las responsables de atención al usuario)",
+      "gancho": "Tarjeta marplatense cuya cartera sigue el ritmo de la temporada.",
+      "mensajes": {
+        "invitacion": "Buenas, ¿cómo va? Soy Mauro y llevo años trabajando la morosidad de carteras de consumo. Cliper es una marca muy marplatense, y en una ciudad de temporada la cobranza tiene su propia lógica. ¿Te parece si conectamos?",
+        "mensaje_1": "Gracias por aceptar. En Mar del Plata la temporada cambia todo: muchos clientes cobran fuerte en verano y se atrasan en invierno, y una misma estrategia de cobranza no sirve todo el año. Flux Collect aprende ese patrón para cada cliente y ajusta la prioridad de gestión mes a mes. Si les interesa, me pasan un Excel anonimizado y en una semana les muestro qué encontramos, sin costo.",
+        "followup": "Pensando en la temporada: ¿cuánto sube el roll rate de Cliper entre mayo y agosto? En carteras con ingreso estacional, anticipar la gestión uno o dos meses suele achicar ese salto de forma visible.",
+        "cierre": "No quiero ocupar más espacio en tu bandeja. Si más adelante quieren charlar de cobranza en ciudades con temporada, me escriben. ¡Saludos a Mar del Plata!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Albano Electrónica",
+        "segmento": "Retail con crédito",
+        "web": "https://www.albanoelectronica.com.ar",
+        "tamano": "4 locales (3 en Corrientes capital y 1 en Curuzú Cuatiá); unos 2 años de trayectoria; empleados no publicados (calculo 10-40)",
+        "region": "Corrientes",
+        "analisis": "Retail de electrodomésticos con créditos personales a sola firma: solo DNI, sin recibo de sueldo y con aprobación en minutos. Dolor probable: originación laxa y crecimiento rápido, con la cobranza a cargo de vendedores y por WhatsApp, sin métricas de FPD. Ángulo Flux: entrada desde un Excel, FPD por vendedor o local y una lista semanal de prioridades.",
+        "score_fit": 50,
+        "score_justificacion": "Es el retail más chico y el perfil encaja, pero es muy joven, la cartera probablemente sea chica y no hay contacto.",
+        "noticias": "No encontré noticias con fecha. La web anuncia una tienda online próxima.",
+        "fuente": "https://www.albanoelectronica.com.ar/"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Dueño / Gerencia (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Albano%20Electr%C3%B3nica%20Corrientes",
+      "verificacion": "Sin perfil",
+      "fuente": "Ninguna persona encontrada en fuentes públicas",
+      "gancho": "Casa de electrodomésticos correntina que da créditos a sola firma con solo el DNI.",
+      "mensajes": {
+        "invitacion": "¡Hola! Mauro, del palo de las cobranzas (armé equipos grandes en Cuotitas). Me llamó la atención que Albano preste a sola firma, solo con el DNI, en sus locales de Corrientes y Curuzú Cuatiá. Encantado de conectar.",
+        "mensaje_1": "Gracias por conectar. Dar crédito a sola firma con solo el DNI es una apuesta fuerte que crece rápido; lo que suele pasar después es que la cobranza queda en manos de los vendedores y del WhatsApp. Flux Collect ordena esa cartera: dice qué cliente tiene más chances de pagar esta semana y cuál necesita un llamado ya. ¿Te interesa una demo de 20 minutos? Arrancamos con el Excel que ya tengan.",
+        "followup": "Un indicador que recomiendo a los comercios que financian: la mora de primera cuota por vendedor o por local. Con cuatro locales ya se ven diferencias que ayudan a ajustar la aprobación sin frenar las ventas.",
+        "cierre": "Última nota de mi parte. Si Albano sigue creciendo en crédito y quieren ordenar la cobranza, cuenten conmigo. ¡Éxitos en Corrientes!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Zaro (Zharo S.A.)",
+        "segmento": "Automotor",
+        "web": "https://zaro.ar",
+        "tamano": "Red de más de 3.000 agencias en 11 provincias; empleados no publicados (calculo 20-80)",
+        "region": "CABA, con alcance nacional (Santa Fe, Chaco, Córdoba, Mendoza, Neuquén, entre otras)",
+        "analisis": "Créditos prendarios para autos desde modelos 2011 hasta 0 km, con tasa fija o UVA. Precalifica en agencias con solo el DNI y tiene alianzas con bancos (Supervielle, Santander, ICBC). Dolor probable: calidad de originación muy dispar entre miles de agencias y FPD concentrado en pocas. Hay que confirmar si administran la cobranza o si la llevan los bancos fondeadores. Ángulo Flux: FPD por agencia y seguimiento desde la primera cuota.",
+        "score_fit": 52,
+        "score_justificacion": "Es un segmento prendario útil para la mezcla, pero no está claro que la cobranza sea propia y el contacto tiene un cargo desconocido.",
+        "noticias": "No encontré noticias con fecha.",
+        "fuente": "https://zaro.ar/"
+      },
+      "nombre": "Paula",
+      "apellido": "Benitez",
+      "cargo": "Cargo no visible (figura en Zaro Créditos Prendarios)",
+      "url_linkedin": "https://ar.linkedin.com/in/paula-benitez-5ba67259",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Paula%20Benitez%20Zaro",
+      "verificacion": "Por verificar",
+      "fuente": "https://ar.linkedin.com/in/paula-benitez-5ba67259 (visto en resultados: 'Paula Benitez - zaro creditos prendarios', sin cargo)",
+      "gancho": "Trabaja en una plataforma prendaria que conecta a más de 3.000 agencias con crédito para autos.",
+      "mensajes": {
+        "invitacion": "Paula, hola. Me presento: Mauro, gestioné carteras morosas durante años y hoy estoy en Moovitech. Zaro trabajando con más de 3.000 agencias en prendarios me pareció un caso muy interesante. ¿Conectamos?",
+        "mensaje_1": "Paula, gracias por aceptar. En prendarios de usados el primer pago dice mucho, y con miles de agencias originando, la calidad cambia bastante de una a otra. Flux Collect sigue cada crédito desde la primera cuota, estima su probabilidad de pago y muestra qué agencias originan mejor. ¿Me contás quién ve cobranzas en Zaro? Me gustaría proponerle una charla de 20 minutos.",
+        "followup": "Paula, en prendarios hay una métrica que mueve la conversación con las agencias: el first payment default por agencia. Cuando se comparte, las que originan peor corrigen solas. ¿Hoy lo miden así?",
+        "cierre": "Paula, doy por cerrado el hilo por ahora. Si en algún momento quieren una mirada de cobranzas sobre la cartera prendaria, avisame. ¡Saludos!"
+      }
+    },
+    {
+      "empresa": {
+        "nombre": "Tarjeta Grupar S.A.",
+        "segmento": "Retail con crédito",
+        "web": "",
+        "tamano": "Tarjeta cerrada nacida de una red de comercios; empleados no publicados (calculo 20-80)",
+        "region": "Córdoba (capital e interior)",
+        "analisis": "Tarjeta de compra y crédito cerrada, lanzada en abril de 2008 por la Red Grupar (red de comercios creada en 2004), con sede en la peatonal de Córdoba. Tercerizó parte de la cobranza, según un perfil público que menciona gestión de deuda para el cliente 'Tarjeta Grupar'. Dolor probable: dependencia de una agencia externa y falta de datos de comportamiento cruzados con el consumo. Ángulo Flux: señales tempranas de consumo más ranking de agencias.",
+        "score_fit": 50,
+        "score_justificacion": "El modelo encaja (cuotas en comercios y tamaño chico), pero no pude confirmar su nivel de actividad en 2026 y no hay contacto.",
+        "noticias": "No encontré noticias recientes. En 2013 anunció un plan de crecimiento en barrios e interior de Córdoba (fecha de la fuente no confirmada).",
+        "fuente": "https://ar.linkedin.com/company/grupar ; https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/Emisora_tarjetas.pdf"
+      },
+      "nombre": "",
+      "apellido": "",
+      "cargo": "Gerente General o Cobranzas (a identificar)",
+      "url_linkedin": "",
+      "link_busqueda": "https://www.linkedin.com/search/results/people/?keywords=Gerente%20Tarjeta%20Grupar",
+      "verificacion": "Sin perfil",
+      "fuente": "Ninguna persona encontrada en fuentes públicas",
+      "gancho": "Tarjeta cerrada cordobesa nacida en 2008 de una red de comercios.",
+      "mensajes": {
+        "invitacion": "Qué tal. Mi nombre es Mauro Alegre; lideré equipos de recupero y hoy estoy en Moovitech. La historia de Grupar, una tarjeta cerrada que salió en 2008 de una red de comercios cordobeses, me parece un modelo muy lindo. Me gustaría estar en contacto.",
+        "mensaje_1": "Gracias por conectar. Una tarjeta cerrada que nace de una red de comercios tiene una ventaja enorme: conoce el consumo real del cliente. Bien usados, esos datos predicen la mora antes que cualquier informe. Flux Collect aprovecha la historia de la cartera para estimar la chance de pago de cada tarjetahabiente y sugerir cuándo contactarlo. ¿Les hago un diagnóstico gratuito con una muestra anonimizada?",
+        "followup": "Una pregunta de colega: ¿cuántos tarjetahabientes de Grupar dejan de comprar un mes antes de atrasarse? En tarjetas cerradas esa señal aparece seguido y da tiempo para actuar antes del vencimiento.",
+        "cierre": "Hasta aquí mi insistencia, prometido. Si alguna vez quieren charlar de cobranza con alguien que estuvo del lado operativo, me escriben. ¡Saludos a Córdoba!"
+      }
+    }
+  ]
+}
